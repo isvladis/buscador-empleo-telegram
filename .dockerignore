@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.vscode/
+*.md
+reporte_ofertas.html
+data/
+
+# SECRETOS Y COPIAS (MP10, 05-11-2026). Los patrones de este fichero valen solo desde la raíz del
+# contexto: «config.json» no quita «backups/<fecha>/config.json». Hasta hoy no estaban, y como el
+# Dockerfile hace `COPY . .`, cada imagen construida en el Toshiba llevaba dentro su `.env` (el token
+# del bot y los chat_id) y todo `backups/`: 436 MB de copias de data/, con los perfiles.db de cada
+# despliegue y, desde el 05-11, los datos de otra persona. Además de mandarlos al demonio de Docker
+# en cada construcción, en un Atom con el disco que ya falló el 21-10. `pruebas/test_secretos.py`
+# comprueba estas rutas con las reglas de Docker y falla con el fichero de antes.
+.env
+.env.*
+backups/
+backups_ui/
+backups_toshiba/
+API keys/
+.claude/
+*.bak-*
+**/*.bak-*
+
+# Datos personales: no hace falta hornearlos en la imagen. JOBSPY_DATA_DIR
+# (ver Dockerfile) los guarda en /app/data, que docker-compose.yml monta como
+# volumen persistente; el código ya sabe arrancar sin ellos (ver almacen._leer_json
+# y buscador.cargar_config).
+perfiles.db*
+*.pre-mp1*
+ofertas.json
+estado.json
+config.json
+geocode_cache.json
+modelo_relevancia.json

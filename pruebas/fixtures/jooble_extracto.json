@@ -1,0 +1,65 @@
+{
+ "_nota": "Extracto de una respuesta REAL de la API de Jooble (26-10-2026): 5 ofertas con los resúmenes recortados. Solo para probar el formato.",
+ "totalCount": 619,
+ "jobs": [
+  {
+   "title": "Técnico/a HelpDesk IT — Soporte Remoto",
+   "location": "Barcelona",
+   "snippet": "&nbsp;...COMSA Corporación busca incorporar técnicos/as de <b>Helpdesk </b>para su Centro ",
+   "salary": "",
+   "source": "jobleads.com",
+   "type": "",
+   "link": "https://es.jooble.org/jdp/-714360973389266313",
+   "company": "Bampfa",
+   "updated": "2026-10-21T00:00:00.0000000",
+   "id": -714360973389266313
+  },
+  {
+   "title": "Técnico/a Helpdesk (Cliente Final)",
+   "location": "Barcelona",
+   "snippet": " En BETWEEN apostamos por ofrecerte las mejores oportunidades dentro del área tecnológica.",
+   "salary": "de 30000 a 35000 €/año",
+   "source": "jobleads.com",
+   "type": "",
+   "link": "https://es.jooble.org/jdp/-211870911811656640",
+   "company": "Between Technology",
+   "updated": "2026-10-25T14:00:59.3430000",
+   "id": -211870911811656640
+  },
+  {
+   "title": "Técnico/a de Soporte Informático aplicaciones, hibrido",
+   "location": "Barcelona",
+   "snippet": "Técnico/a de Soporte Informático aplicaciones\r\nEn SOSMATIC buscamos incorporar un/a Técnic",
+   "salary": "18000 €/año",
+   "source": "fitly.work",
+   "type": "Completa",
+   "link": "https://es.jooble.org/jdp/-8867700122919559478",
+   "company": "Sosmatic",
+   "updated": "2026-10-02T00:00:00.0000000",
+   "id": -8867700122919559478
+  },
+  {
+   "title": "Técnico/a Helpdesk Nivel 2",
+   "location": "Barcelona",
+   "snippet": "&nbsp;...seguro y sostenible, apoyando el desarrollo científico y tecnológico a nivel mund",
+   "salary": "",
+   "source": "fitly.work",
+   "type": "",
+   "link": "https://es.jooble.org/jdp/-6399486240402593295",
+   "updated": "2026-10-20T00:00:00.0000000",
+   "id": -6399486240402593295
+  },
+  {
+   "title": "German-Speaking Customer Service Advisor",
+   "location": "Barcelona",
+   "snippet": "&nbsp;...C1 level for training and internal communication \r\n Previous experience in custom",
+   "salary": "1300 €/mensuales",
+   "source": "jobleads.com",
+   "type": "",
+   "link": "https://es.jooble.org/jdp/-2885315720641363226",
+   "company": "WW Talents",
+   "updated": "2026-10-23T00:00:00.0000000",
+   "id": -2885315720641363226
+  }
+ ]
+}

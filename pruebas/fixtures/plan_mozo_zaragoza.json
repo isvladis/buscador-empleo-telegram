@@ -1,0 +1,43 @@
+{
+  "v": 1,
+  "puestos": [
+    {
+      "id": "logistica.mozo",
+      "nombre": "mozo/a de almacén",
+      "nucleo": "moz[oa](?:/a)? de almac[ée]n|operari[oa](?:/a)? de almac[ée]n|preparador\\w*(?:/a)? de pedidos|picking|carretiller\\w*",
+      "senales": [
+        {"nombre": "carretilla", "peso": 1.0, "patron": "carretill"},
+        {"nombre": "logística", "peso": 0.5, "patron": "log[ií]stic"}
+      ],
+      "negativos": [
+        {"nombre": "repartidor autónomo", "peso": -3.0, "patron": "aut[óo]nomo|repartidor"}
+      ]
+    }
+  ],
+  "descartes": [],
+  "terminos": ["mozo de almacén", "operario de almacén", "preparador de pedidos"],
+  "ambitos": {
+    "local": {
+      "etiqueta": "Zaragoza (hasta 25 km)",
+      "activo": true,
+      "sitios": ["indeed", "linkedin", "eures"],
+      "location": "Zaragoza, Spain",
+      "usar_distancia": true,
+      "is_remote": false,
+      "usar_country_indeed": true
+    }
+  },
+  "area": {"modo": "distancia", "nombre": "Zaragoza", "lat": 41.65, "lon": -0.89, "radio_km": 25},
+  "experiencia_anos": 0,
+  "experiencia_max_exigida": 1,
+  "experiencia_estricta": true,
+  "practicas": true,
+  "idiomas_permitidos": ["es"],
+  "ingles": null,
+  "jornada": [],
+  "salario_min": null,
+  "claves_mas": ["carretilla"],
+  "claves_menos": [],
+  "empresas_excluidas": [],
+  "umbral": 5.0
+}

@@ -1,0 +1,6890 @@
+{
+ "it.soporte": {
+  "si": [
+   {
+    "titulo": "Service Desk Technician (Remote)"
+   },
+   {
+    "titulo": "IT Support Specialist (m/f/d)"
+   },
+   {
+    "titulo": "Técnico de Soporte N1 - Helpdesk"
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Técnico/a de Soporte N1 (Teletrabajo)"
+   },
+   {
+    "titulo": "Onsite Technician"
+   },
+   {
+    "titulo": "IT Desktop Support Technician 2nd shift"
+   },
+   {
+    "titulo": "IT Support Specialist L1"
+   },
+   {
+    "titulo": "Técnico/a de Soporte Digital N1"
+   },
+   {
+    "titulo": "plaça de Tècnic Helpdesk/Endpoint al Campus UPC Barcelona CIDO"
+   },
+   {
+    "titulo": "TÈCNIC/A INFORMÀTIC/A DE SUPORT AL LLOC DE TREBALL ? ÀMBIT SANITARI"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Gerocultor/a - Jornada Completa. Mañanas y tardes (Barcelona, Barcelona)"
+   },
+   {
+    "titulo": "Vigilante de Seguridad (Barcelona)"
+   },
+   {
+    "titulo": "Customer Success Advisor"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Desarrollador/a Java | Sector Salud | Sevilla Híbrido"
+   },
+   {
+    "titulo": "Delineante"
+   },
+   {
+    "titulo": "Técnico de nóminas"
+   },
+   {
+    "titulo": "Camarero/a de sala",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Técnico/a de soporte preventa",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Soporte N3",
+    "sintetico": true
+   }
+  ]
+ },
+ "it.sistemas": {
+  "si": [
+   {
+    "titulo": "Administrador de sistemas"
+   },
+   {
+    "titulo": "Técnico/a Sistemas"
+   },
+   {
+    "titulo": "Systems Administrator (VMware & Windows Server)"
+   },
+   {
+    "titulo": "Técnico de sistemas y redes Junior"
+   },
+   {
+    "titulo": "Network Engineer (F5)"
+   },
+   {
+    "titulo": "Técnico Redes"
+   },
+   {
+    "titulo": "Corporate IT Systems Administrator"
+   },
+   {
+    "titulo": "Administrador/a de Sistemas Junior 24x7 – Barcelona"
+   },
+   {
+    "titulo": "TÈCNIC/A DE SISTEMES, XARXES I CIBERSEGURETAT"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de Soporte N1 (Teletrabajo)"
+   },
+   {
+    "titulo": "Desarrollador/a Python, Linux & Bash"
+   },
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "SOC Specialist II"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Delineante"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   }
+  ]
+ },
+ "it.ciber": {
+  "si": [
+   {
+    "titulo": "Security Operations Analyst"
+   },
+   {
+    "titulo": "Blue Team Analyst N1"
+   },
+   {
+    "titulo": "Cybersecurity Analyst (Hybrid in Barcelona)"
+   },
+   {
+    "titulo": "SIEM Analyst (Barcelona presencial)"
+   },
+   {
+    "titulo": "Operador/a Ciberseguridad"
+   },
+   {
+    "titulo": "Junior Penetration Tester"
+   },
+   {
+    "titulo": "Ciberseguridad. Analista respuesta a incidentes"
+   },
+   {
+    "titulo": "Ingeniero de Ciberseguridad"
+   },
+   {
+    "titulo": "Consultor/a Junior GRC + IA | Ciberseguridad"
+   },
+   {
+    "titulo": "Analista de Ciberseguridad N2 – SOC ( Hibrido) Madrid 02CC"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Vigilante de Seguridad (Barcelona)"
+   },
+   {
+    "titulo": "Técnico/a Prevención de Riesgos Laborales"
+   },
+   {
+    "titulo": "Security Supervisor - Hotel Arts Barcelona"
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Administrador de sistemas"
+   },
+   {
+    "titulo": "Técnico/a de Seguridad Alimentaria"
+   },
+   {
+    "titulo": "Auxiliar de seguridad para centro comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico de sistemas de seguridad electrónica (CCTV)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Calidad y Seguridad (HSEQ)"
+   }
+  ]
+ },
+ "it.desarrollo": {
+  "si": [
+   {
+    "titulo": "Fullstack Java developer"
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Desarrollador/a SharePoint Online / Microsoft 365"
+   },
+   {
+    "titulo": "Analista programador/a"
+   },
+   {
+    "titulo": "Ingeniero/a Software"
+   },
+   {
+    "titulo": "Software Engineer - Backend Platform"
+   },
+   {
+    "titulo": "Odoo Developer (Python)"
+   },
+   {
+    "titulo": "Desarrollador/a Java | Sector Salud | Sevilla Híbrido"
+   },
+   {
+    "titulo": "Programador/a PEGA - 100% Remoto (Madrid, España)"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "QA Engineer"
+   },
+   {
+    "titulo": "Junior Graphic Designer"
+   },
+   {
+    "titulo": "Técnico de desarrollo de negocio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Business Development Representative"
+   },
+   {
+    "titulo": "Técnico/a de Formación Subvencionada"
+   },
+   {
+    "titulo": "Administrador de sistemas"
+   },
+   {
+    "titulo": "Desarrollo de producto textil (técnica)",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Desarrollador/a de negocio",
+    "sintetico": true
+   },
+   {
+    "titulo": "SOPORTE N1 SHAREPOINT, MICROSOFT 365  ITIL INGLES B2/ HIBRIDO MADRID/H/M/X"
+   }
+  ]
+ },
+ "it.datos": {
+  "si": [
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "Associate Data Analyst, Barcelona"
+   },
+   {
+    "titulo": "ANALISTA BI"
+   },
+   {
+    "titulo": "Junior BI Analyst"
+   },
+   {
+    "titulo": "Ingeniero de datos"
+   },
+   {
+    "titulo": "Tableau Specialist"
+   },
+   {
+    "titulo": "Analista de datos y automatización - Barcelona"
+   },
+   {
+    "titulo": "AI Engineer Junior"
+   },
+   {
+    "titulo": "Analista de dades i recerca social aplicada"
+   },
+   {
+    "titulo": "Marketing Data Analyst"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Grabador/a de datos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de protección de datos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Administrador de sistemas"
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Controller"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Analista logístico"
+   }
+  ]
+ },
+ "it.qa": {
+  "si": [
+   {
+    "titulo": "QA / Test Engineer"
+   },
+   {
+    "titulo": "QA Engineer (Manual)"
+   },
+   {
+    "titulo": "Junior QA Engineer"
+   },
+   {
+    "titulo": "Junior Test Engineer"
+   },
+   {
+    "titulo": "Manual QA Tester ES"
+   },
+   {
+    "titulo": "SWQA TESTER JUNIOR"
+   },
+   {
+    "titulo": "Quality Assurance Analyst ES"
+   },
+   {
+    "titulo": "Test Analyst - 100% Remote, Portugal"
+   },
+   {
+    "titulo": "QA Automation hybrid Barcelona. International Project."
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Pentester Junior"
+   },
+   {
+    "titulo": "Junior Penetration Tester"
+   },
+   {
+    "titulo": "Web-Penetration-Tester (m/w/d) - 100 % Home-Office möglich"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Inspector/a de calidad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Técnico/a de Control de Calidad Visual"
+   },
+   {
+    "titulo": "Técnico/a de Seguridad Alimentaria"
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "QA en planta farmacéutica (GMP)",
+    "sintetico": true
+   }
+  ]
+ },
+ "it.cloud": {
+  "si": [
+   {
+    "titulo": "DevOps Engineer AWS"
+   },
+   {
+    "titulo": "Site Reliability Engineer"
+   },
+   {
+    "titulo": "Platform Engineer"
+   },
+   {
+    "titulo": "Junior Cloud Engineer (gn)"
+   },
+   {
+    "titulo": "DevOps / SRE Engineer"
+   },
+   {
+    "titulo": "AWS Cloud Engineer (Teletrabajo 100%)"
+   },
+   {
+    "titulo": "Analista DevOps (Remoto)"
+   },
+   {
+    "titulo": "Técnico/a de Sistemas OpenShift | Kubernetes, Cloud y DevOps | Remoto"
+   },
+   {
+    "titulo": "Cloud Operations Graduate - Barcelona"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Administrador de sistemas"
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "Cloud Marketplace and Process Analyst"
+   },
+   {
+    "titulo": "Ingeniero/a de Telecomunicación Junior (Barcelona)"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "SOC Specialist II"
+   }
+  ]
+ },
+ "it.telecom": {
+  "si": [
+   {
+    "titulo": "NOC Operator"
+   },
+   {
+    "titulo": "Técnico/a de Monitorización (24x7) Remoto"
+   },
+   {
+    "titulo": "Técnico de Redes (NOC)"
+   },
+   {
+    "titulo": "NOC L1 Engineer"
+   },
+   {
+    "titulo": "Ingeniero/a de Telecomunicación Junior (Barcelona)"
+   },
+   {
+    "titulo": "TECNICO/A DE MONITORIZACION (PRESENCIAL)"
+   },
+   {
+    "titulo": "Técnico de Observabilidad y Monitorización"
+   },
+   {
+    "titulo": "NOC Technician (CCNA Certified)"
+   },
+   {
+    "titulo": "Técnico/a de fibra óptica",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "AML Transaction Monitoring Analyst"
+   },
+   {
+    "titulo": "Associate Clinical Programmer - Clinical Study Data, Risk based Quality Management & Monitoring"
+   },
+   {
+    "titulo": "Instaladores/as de Telecomunicaciones"
+   },
+   {
+    "titulo": "Monitor de Natación y Aquagym en Pechina"
+   },
+   {
+    "titulo": "Monitor/a de comedor escolar",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Comercial de telecomunicaciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico de Comunicación"
+   },
+   {
+    "titulo": "Administrador de sistemas"
+   }
+  ]
+ },
+ "admin.administrativo": {
+  "si": [
+   {
+    "titulo": "Técnico/a Administrativo/a"
+   },
+   {
+    "titulo": "ADMINISTRATIU/A COMPTABLE"
+   },
+   {
+    "titulo": "Administratiu/va de personal. Barcelona"
+   },
+   {
+    "titulo": "Personal técnico de administrativo-contable"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "ADMINISTRATIVA",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a de compras (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Office Administrator",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrative Assistant",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Administrador de sistemas"
+   },
+   {
+    "titulo": "Administrador/a de fincas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de administración de sistemas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Back office bancario",
+    "sintetico": true
+   },
+   {
+    "titulo": "Secretaria de dirección",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de pedidos",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Abogado/a contencioso-administrativo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a comercial",
+    "sintetico": true
+   }
+  ]
+ },
+ "admin.auxiliar": {
+  "si": [
+   {
+    "titulo": "Auxiliar Administrativo Help Desk con Certificado de Discapacidad"
+   },
+   {
+    "titulo": "Auxiliar administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "AUXILIAR ADMINISTRATIVA",
+    "sintetico": true
+   },
+   {
+    "titulo": "Aux. administrativo para clínica",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de oficina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrative Clerk",
+    "sintetico": true
+   },
+   {
+    "titulo": "Office Assistant",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar Administratiu/va",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante administrativo/a",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de geriatría",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de farmacia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de vuelo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de servicios",
+    "sintetico": true
+   }
+  ]
+ },
+ "admin.recepcion": {
+  "si": [
+   {
+    "titulo": "Ayudante Recepción"
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista clínica dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista para gimnasio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Receptionist (English)",
+    "sintetico": true
+   },
+   {
+    "titulo": "RECEPCIONISTA (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Front desk (oficinas centrales)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista centro médico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal de acogida y recepción",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conserje",
+    "sintetico": true
+   },
+   {
+    "titulo": "Azafata de congresos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de oficina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Secretaria de dirección",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Recepción de mercancías (almacén)",
+    "sintetico": true
+   }
+  ]
+ },
+ "admin.direccion": {
+  "si": [
+   {
+    "titulo": "Executive Assistant"
+   },
+   {
+    "titulo": "Asistente de dirección",
+    "sintetico": true
+   },
+   {
+    "titulo": "Secretaria de dirección (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Secretario/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal Assistant to the CEO",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asistente ejecutiva bilingüe",
+    "sintetico": true
+   },
+   {
+    "titulo": "Secretària de direcció",
+    "sintetico": true
+   },
+   {
+    "titulo": "Office Manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "PA to Managing Director",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Director/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de RRHH",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dirección de obra",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asistente de ventas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Coordinador/a de eventos",
+    "sintetico": true
+   }
+  ]
+ },
+ "admin.backoffice": {
+  "si": [
+   {
+    "titulo": "Back Office Representative"
+   },
+   {
+    "titulo": "Técnico/a de Gestión Documental"
+   },
+   {
+    "titulo": "Middle Office Analyst – International Operations (f/m/x)"
+   },
+   {
+    "titulo": "Grabador/a de datos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Data Entry Clerk",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Back-office bancario",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operador/a de datos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestión documental y archivo",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Front Office Sales Support"
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Back-end developer (Node)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de pedidos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   }
+  ]
+ },
+ "admin.comercial": {
+  "si": [
+   {
+    "titulo": "Front Office Sales Support"
+   },
+   {
+    "titulo": "Inside Sales Support"
+   },
+   {
+    "titulo": "Técnico/a Soporte Comercial B2B"
+   },
+   {
+    "titulo": "Administrativo/a comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo de ventas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de pedidos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestión de pedidos y atención a clientes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Sales Administrator",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a de exportación",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Técnico comercial"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Teleoperador/a de ventas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Back Office Representative"
+   },
+   {
+    "titulo": "Asesor/a comercial de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   }
+  ]
+ },
+ "atencion.teleoperador": {
+  "si": [
+   {
+    "titulo": "Teleoperadora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a sin experiencia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente telefónico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención telefónica para aseguradora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente Call Center",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contact Center Agent",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a de emisión",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a para aseguradora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de contact center (inbound)",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Agente de atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Televenta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de telecomunicaciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Azafata de información",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar administrativo/a",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Helpdesk / jornada parcial (Teleoperador/a)"
+   },
+   {
+    "titulo": "TELEOPERADOR SOPORTE TÉCNICO (H/M)"
+   }
+  ]
+ },
+ "atencion.agente": {
+  "si": [
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Customer Support Specialist"
+   },
+   {
+    "titulo": "AGENT D'ATENCIÓ AL CLIENT"
+   },
+   {
+    "titulo": "Customer Care Specialist - LATAM Market"
+   },
+   {
+    "titulo": "Asesor de Servicio al Cliente - Mercado Español AD03"
+   },
+   {
+    "titulo": "Agente de atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención al cliente (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Customer Advisor German"
+   },
+   {
+    "titulo": "Gestor/a de clientes",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Customer Success Advisor"
+   },
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención al público en museo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de reclamaciones",
+    "sintetico": true
+   }
+  ]
+ },
+ "atencion.idiomas": {
+  "si": [
+   {
+    "titulo": "Customer Service Representative (Spanish and English)"
+   },
+   {
+    "titulo": "Technical Customer Support Specialist | French | Remote"
+   },
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Basque-speaking Customer Advisor (on-site)"
+   },
+   {
+    "titulo": "Customer Advisor Dutch"
+   },
+   {
+    "titulo": "Atención al cliente con inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "German speaking customer service agent",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente con francés para atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Customer care representative (Italian)",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Multilingual Training Administrator"
+   },
+   {
+    "titulo": "Engineering roles abroad – Eaton is hiring multilingual talent"
+   },
+   {
+    "titulo": "Agente de atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Traductor/a inglés-español",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   }
+  ]
+ },
+ "atencion.postventa": {
+  "si": [
+   {
+    "titulo": "Gestor/a de incidencias Alquileres"
+   },
+   {
+    "titulo": "Gestor/a de reclamaciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención postventa e-commerce",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tramitador/a de siniestros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Claims Handler",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestión de devoluciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Departamento de reclamaciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención postventa (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de incidencias de clientes",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Técnico/a de Soporte IT"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Técnico/a de Automatización Postventa"
+   },
+   {
+    "titulo": "Aftersales Engineer Coordinator"
+   },
+   {
+    "titulo": "Gestor/a de incidencias informáticas"
+   }
+  ]
+ },
+ "atencion.publico": {
+  "si": [
+   {
+    "titulo": "Atención al público",
+    "sintetico": true
+   },
+   {
+    "titulo": "Azafata de congresos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Informador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal de información en museo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Taquillero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de información",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atenció ciutadana",
+    "sintetico": true
+   },
+   {
+    "titulo": "Hostess para eventos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Acomodador/a de teatro",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Vigilante de Seguridad (Barcelona)"
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "comercial.campo": {
+  "si": [
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Técnico comercial"
+   },
+   {
+    "titulo": "TÉCNICO/A COMERCIAL - EFICIENCIA ENERGÉTICA"
+   },
+   {
+    "titulo": "Comercial técnico"
+   },
+   {
+    "titulo": "Técnico/a Comercial Acabados - Cerámicas"
+   },
+   {
+    "titulo": "Delegado/a comercial zona norte",
+    "sintetico": true
+   },
+   {
+    "titulo": "Sales Representative",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial interno/a B2B – Soluciones tecnológicas"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Vigilante de Seguridad Centros Comerciales (Barcelona)"
+   },
+   {
+    "titulo": "Comercial de Tienda"
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Televenta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Business Development Representative"
+   }
+  ]
+ },
+ "comercial.televenta": {
+  "si": [
+   {
+    "titulo": "Sales Support - Televenta"
+   },
+   {
+    "titulo": "Televenta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teleoperador/a de ventas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Televendedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de televenta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Telemarketing (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Venta telefónica",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial telefónico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Captación telefónica de socios",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Atención telefónica",
+    "sintetico": true
+   },
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de seguros",
+    "sintetico": true
+   }
+  ]
+ },
+ "comercial.inside": {
+  "si": [
+   {
+    "titulo": "Sales Development Representative"
+   },
+   {
+    "titulo": "Business Development Representative"
+   },
+   {
+    "titulo": "Sales Development Representative - English-speaking markets"
+   },
+   {
+    "titulo": "Inside Sales Support"
+   },
+   {
+    "titulo": "SDR (Spanish market)",
+    "sintetico": true
+   },
+   {
+    "titulo": "BDR - SaaS",
+    "sintetico": true
+   },
+   {
+    "titulo": "Lead Generation Specialist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Desarrollo de negocio junior",
+    "sintetico": true
+   },
+   {
+    "titulo": "Inside Sales Representative",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Televenta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recruiter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico comercial"
+   },
+   {
+    "titulo": "Customer Success Advisor"
+   }
+  ]
+ },
+ "comercial.cuentas": {
+  "si": [
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Account Executive - Enterprise Sales"
+   },
+   {
+    "titulo": "Customer Success Advisor"
+   },
+   {
+    "titulo": "Account Management Intern"
+   },
+   {
+    "titulo": "KAM Servicios Gestionados y Ciberseguridad"
+   },
+   {
+    "titulo": "Key Account Manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de cuentas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ejecutivo/a de cuentas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Account Manager (SaaS)",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Accountant",
+    "sintetico": true
+   },
+   {
+    "titulo": "Accounts Payable Specialist"
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Sales Development Representative"
+   },
+   {
+    "titulo": "Customer Service Representative"
+   },
+   {
+    "titulo": "Accounting Business Analyst – Treasury Systems (Remoto)"
+   },
+   {
+    "titulo": "Televenta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico comercial"
+   }
+  ]
+ },
+ "comercial.inmobiliario": {
+  "si": [
+   {
+    "titulo": "Agente inmobiliario/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor/a inmobiliario",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial inmobiliario",
+    "sintetico": true
+   },
+   {
+    "titulo": "Captador/a inmobiliario",
+    "sintetico": true
+   },
+   {
+    "titulo": "Real Estate Agent",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de la propiedad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial de obra nueva",
+    "sintetico": true
+   },
+   {
+    "titulo": "Assessor/a immobiliari",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor/a de vivienda",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Administrador/a de fincas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Arquitecto/a técnico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Retail Facility Management"
+   },
+   {
+    "titulo": "Albañil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   }
+  ]
+ },
+ "comercial.asesor": {
+  "si": [
+   {
+    "titulo": "Asesor/a Comercial - Atención telefónica"
+   },
+   {
+    "titulo": "Asesor/a comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor energético",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial de energía",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente exclusivo de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial de telecomunicaciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a comercial banca",
+    "sintetico": true
+   },
+   {
+    "titulo": "Insurance Sales Advisor",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Asesor/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor de Ventas [ comfort zone ] – Madrid"
+   },
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tramitador/a de siniestros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de climatización",
+    "sintetico": true
+   }
+  ]
+ },
+ "marketing.digital": {
+  "si": [
+   {
+    "titulo": "Marketing Data Analyst"
+   },
+   {
+    "titulo": "Tècnic/a SEO i SEM (Àrea de Màrqueting)"
+   },
+   {
+    "titulo": "Técnico/a de marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Marketing junior",
+    "sintetico": true
+   },
+   {
+    "titulo": "Digital Marketing Specialist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Especialista en marketing",
+    "sintetico": true
+   },
+   {
+    "titulo": "Trade marketing",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asistente de marketing",
+    "sintetico": true
+   },
+   {
+    "titulo": "Growth Marketer",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Telemarketing (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Community manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Diseñador/a gráfico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Redactor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "SEO/GEO Specialist Junior - Presencial en Barcelona"
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Técnico de Comunicación"
+   },
+   {
+    "titulo": "Junior E-commerce Specialist"
+   }
+  ]
+ },
+ "marketing.social": {
+  "si": [
+   {
+    "titulo": "SOCIAL MEDIA JUNIOR"
+   },
+   {
+    "titulo": "Content & Social Media Specialist"
+   },
+   {
+    "titulo": "Junior Content Creator"
+   },
+   {
+    "titulo": "Community Manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Social Media & Online Reputation Analyst | MeMe Barcelona"
+   },
+   {
+    "titulo": "Gestor/a de redes sociales",
+    "sintetico": true
+   },
+   {
+    "titulo": "CREADOR/A DE CONTENIDO JUNIOR"
+   },
+   {
+    "titulo": "Especialista en TikTok",
+    "sintetico": true
+   },
+   {
+    "titulo": "Social Ads Specialist",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Trabajador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Social Insights Analyst"
+   },
+   {
+    "titulo": "Marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Redactor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Content Quality Analyst"
+   },
+   {
+    "titulo": "Técnico de Comunicación"
+   },
+   {
+    "titulo": "Diseñador/a gráfico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Telemarketing (H/M)",
+    "sintetico": true
+   }
+  ]
+ },
+ "marketing.seo": {
+  "si": [
+   {
+    "titulo": "Paid Media Specialist - Barcelona"
+   },
+   {
+    "titulo": "Programmatic Specialist"
+   },
+   {
+    "titulo": "PRÀCTIQUES A PAID MEDIA I SEO"
+   },
+   {
+    "titulo": "Junior Media Buyer"
+   },
+   {
+    "titulo": "Paid Media Junior"
+   },
+   {
+    "titulo": "SEO/GEO Specialist Junior - Presencial en Barcelona"
+   },
+   {
+    "titulo": "Technical SEO & AI Growth Builder"
+   },
+   {
+    "titulo": "Especialista SEM / Google Ads",
+    "sintetico": true
+   },
+   {
+    "titulo": "Traffic manager",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Security Research Engineering Technical Leader"
+   },
+   {
+    "titulo": "Junior Research Engineer for Generative AI in Biomedicine (RE1)"
+   },
+   {
+    "titulo": "Sea freight coordinator",
+    "sintetico": true
+   },
+   {
+    "titulo": "Marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Community manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Redactor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Buyer"
+   },
+   {
+    "titulo": "Técnico de Comunicación"
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   }
+  ]
+ },
+ "marketing.contenidos": {
+  "si": [
+   {
+    "titulo": "EDITOR DE CONTENIDOS - Canarias"
+   },
+   {
+    "titulo": "Junior Content Creator"
+   },
+   {
+    "titulo": "Redactor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Copywriter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Redactora SEO",
+    "sintetico": true
+   },
+   {
+    "titulo": "Content Writer (English)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Guionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Corrector/a de textos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Technical Writer",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Content Quality Analyst"
+   },
+   {
+    "titulo": "Moderador/a de contenidos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Community manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico de Comunicación"
+   },
+   {
+    "titulo": "Diseñador/a gráfico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Traductor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Periodista deportivo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de lengua",
+    "sintetico": true
+   }
+  ]
+ },
+ "marketing.comunicacion": {
+  "si": [
+   {
+    "titulo": "Técnico de Comunicación"
+   },
+   {
+    "titulo": "Especialista en Comunicación (empresa multinacional)"
+   },
+   {
+    "titulo": "Periodista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gabinete de prensa",
+    "sintetico": true
+   },
+   {
+    "titulo": "Communications Officer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Relaciones públicas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a de comunicació",
+    "sintetico": true
+   },
+   {
+    "titulo": "Internal Communications Specialist",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Ingeniero/a de Telecomunicación Junior (Barcelona)"
+   },
+   {
+    "titulo": "Ingeniero/a Comunicaciones, Electrónica y Software"
+   },
+   {
+    "titulo": "Network Engineer N2 / Técnico de Comunicaciones"
+   },
+   {
+    "titulo": "Instaladores/as de Telecomunicaciones"
+   },
+   {
+    "titulo": "Community manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Redactor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial de telecomunicaciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de telecomunicaciones",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Infrastructure Security Communication Specialist"
+   },
+   {
+    "titulo": "Operario/a de prensa",
+    "sintetico": true
+   }
+  ]
+ },
+ "marketing.diseno": {
+  "si": [
+   {
+    "titulo": "Junior UI/UX Designer"
+   },
+   {
+    "titulo": "UX/UI Designer Junior"
+   },
+   {
+    "titulo": "Product Designer"
+   },
+   {
+    "titulo": "Junior Graphic Designer"
+   },
+   {
+    "titulo": "Diseñador Gráfico Junior"
+   },
+   {
+    "titulo": "Web Designer | Based in Europe"
+   },
+   {
+    "titulo": "Motion Designer, Stripe Identity"
+   },
+   {
+    "titulo": "Diseñador/a web",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ilustrador/a",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Diseñador/a Técnico/a - Soporte a Dirección"
+   },
+   {
+    "titulo": "Diseñador/a Civil -Fotovoltaico (Remoto) - PVCase"
+   },
+   {
+    "titulo": "Delineante"
+   },
+   {
+    "titulo": "Design Engineer - EU"
+   },
+   {
+    "titulo": "Diseñador/a industrial de moldes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Community manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Instructional designer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visual merchandiser",
+    "sintetico": true
+   }
+  ]
+ },
+ "marketing.ecommerce": {
+  "si": [
+   {
+    "titulo": "ECOMMERCE PERFORMANCE SPECIALIST"
+   },
+   {
+    "titulo": "Junior E-commerce Specialist"
+   },
+   {
+    "titulo": "Técnico/a de ecommerce",
+    "sintetico": true
+   },
+   {
+    "titulo": "Responsable tienda online",
+    "sintetico": true
+   },
+   {
+    "titulo": "Marketplace Specialist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Amazon Account Manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Especialista Shopify",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercio electrónico (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "E-commerce Assistant",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Cloud Marketplace and Process Analyst"
+   },
+   {
+    "titulo": "Marketing digital",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Backend Developer [Python]"
+   },
+   {
+    "titulo": "Community manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de atención al cliente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "marketing.traduccion": {
+  "si": [
+   {
+    "titulo": "Traductor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Traductora jurada inglés-español",
+    "sintetico": true
+   },
+   {
+    "titulo": "Intérprete de lengua de signos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Translator (English > Spanish)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Interpreter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Localization Specialist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Revisor/a lingüístico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Subtitulador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Linguist (Spanish)",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Interpretación de planos (técnico de taller)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de localización de averías",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Customer Service Representative (Spanish and English)"
+   },
+   {
+    "titulo": "Redactor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial con inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico de Comunicación"
+   },
+   {
+    "titulo": "Auxiliar de conversación",
+    "sintetico": true
+   }
+  ]
+ },
+ "finanzas.contable": {
+  "si": [
+   {
+    "titulo": "Técnico/a contable"
+   },
+   {
+    "titulo": "Contable - Sant Cugat del Vallès"
+   },
+   {
+    "titulo": "Comptable"
+   },
+   {
+    "titulo": "ADMINISTRATIU/A COMPTABLE"
+   },
+   {
+    "titulo": "Accountant | $55/hr Remote"
+   },
+   {
+    "titulo": "TÉCNICO/A CONTABILIDAD (HMX)"
+   },
+   {
+    "titulo": "Auxiliar contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Bookkeeper",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a Junior de Finanzas y Contabilidad"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Accounts Payable Specialist"
+   },
+   {
+    "titulo": "Asesor/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Controller"
+   },
+   {
+    "titulo": "Auditor/a junior"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Account Management Intern"
+   },
+   {
+    "titulo": "Técnico de nóminas"
+   },
+   {
+    "titulo": "Accounting Business Analyst – Treasury Systems (Remoto)"
+   }
+  ]
+ },
+ "finanzas.fiscal": {
+  "si": [
+   {
+    "titulo": "Tax Analyst"
+   },
+   {
+    "titulo": "Asesor/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fiscalista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestoría - departamento fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor/a contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tax Associate",
+    "sintetico": true
+   },
+   {
+    "titulo": "Assessor/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a tributario/a",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Controller"
+   },
+   {
+    "titulo": "Auditor/a junior"
+   },
+   {
+    "titulo": "Asesor/a comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico de nóminas"
+   },
+   {
+    "titulo": "Accountant",
+    "sintetico": true
+   },
+   {
+    "titulo": "Abogado/a mercantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor/a de ventas",
+    "sintetico": true
+   }
+  ]
+ },
+ "finanzas.apar": {
+  "si": [
+   {
+    "titulo": "Accounts Payable Specialist"
+   },
+   {
+    "titulo": "Analyst, Accounts Receivable"
+   },
+   {
+    "titulo": "General Accounts Payable Officer"
+   },
+   {
+    "titulo": "Collections Specialist with Latvian"
+   },
+   {
+    "titulo": "Facturación (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de cuentas a pagar",
+    "sintetico": true
+   },
+   {
+    "titulo": "Credit Controller",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestión de cobros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Purchase to pay master data Analyst"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Business Analyst - Utilities (Billing & Customer Platforms) (100% remote within Spain)"
+   },
+   {
+    "titulo": "Account Executive"
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Controller"
+   },
+   {
+    "titulo": "Technical Customer Success & QA Coordinator"
+   },
+   {
+    "titulo": "Teleoperador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auditor/a junior"
+   },
+   {
+    "titulo": "Comprador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "finanzas.control": {
+  "si": [
+   {
+    "titulo": "Controller"
+   },
+   {
+    "titulo": "Controller Junior and Data Analyst"
+   },
+   {
+    "titulo": "Junior Controller (m/w/d)"
+   },
+   {
+    "titulo": "Controlling - Young Talent"
+   },
+   {
+    "titulo": "Técnico/a de Tesorería (Part-time)"
+   },
+   {
+    "titulo": "Cost Controller - Hyatt Regency Barcelona Tower"
+   },
+   {
+    "titulo": "Analista financiero",
+    "sintetico": true
+   },
+   {
+    "titulo": "Financial Analyst",
+    "sintetico": true
+   },
+   {
+    "titulo": "Control de gestión",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Soporte Técnico Financiero SaaS para Asesorías"
+   },
+   {
+    "titulo": "Controls Engineer"
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auditor/a junior"
+   },
+   {
+    "titulo": "Asesor/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "Finance Systems Specialist to Sweco IT Helsinki"
+   },
+   {
+    "titulo": "Accounts Payable Specialist"
+   }
+  ]
+ },
+ "finanzas.auditoria": {
+  "si": [
+   {
+    "titulo": "Auditor/a junior"
+   },
+   {
+    "titulo": "Junior Auditoría recién graduado/a"
+   },
+   {
+    "titulo": "Auditor/a de cuentas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Audit Associate",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auditoría financiera junior",
+    "sintetico": true
+   },
+   {
+    "titulo": "Revisor/a de cuentas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auditor/a interno/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Assurance Associate",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Controller"
+   },
+   {
+    "titulo": "Asesor/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Técnico/a Prevención de Riesgos Laborales"
+   },
+   {
+    "titulo": "Consultor/a de ciberseguridad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Analista financiero",
+    "sintetico": true
+   },
+   {
+    "titulo": "Inspector/a de calidad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Accounts Payable Specialist"
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Assurance | Auditor IT junior 2025 Barcelona"
+   },
+   {
+    "titulo": "Auditor Hacking Ético (Barcelona)"
+   },
+   {
+    "titulo": "Night Auditor (hotel)",
+    "sintetico": true
+   }
+  ]
+ },
+ "rrhh.seleccion": {
+  "si": [
+   {
+    "titulo": "Talent Acquisition IT / Recruiting Tech (Perfil Técnico)"
+   },
+   {
+    "titulo": "Técnico/a de Selección y Formación"
+   },
+   {
+    "titulo": "Recruiter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de selección",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reclutador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Consultor/a de selección",
+    "sintetico": true
+   },
+   {
+    "titulo": "Headhunter IT",
+    "sintetico": true
+   },
+   {
+    "titulo": "Talent Sourcer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a de selecció",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Programa Talento Joven - Ciberseguridad"
+   },
+   {
+    "titulo": "Talent Community: Field Clinical Specialist, Electrophysiology (Spain)"
+   },
+   {
+    "titulo": "Técnico/a RRHH"
+   },
+   {
+    "titulo": "Técnico de nóminas"
+   },
+   {
+    "titulo": "Comercial de ETT",
+    "sintetico": true
+   },
+   {
+    "titulo": "Captador/a de socios ONG",
+    "sintetico": true
+   },
+   {
+    "titulo": "Orientador/a Laboral"
+   },
+   {
+    "titulo": "Técnico/a de Formación Subvencionada"
+   },
+   {
+    "titulo": "Selección de materiales (técnico de calidad)",
+    "sintetico": true
+   }
+  ]
+ },
+ "rrhh.personal": {
+  "si": [
+   {
+    "titulo": "Payroll Analyst"
+   },
+   {
+    "titulo": "Técnico de nóminas"
+   },
+   {
+    "titulo": "Técnico/a de Administración de Personal (RRHH) - Sector Cultural - Barcelona"
+   },
+   {
+    "titulo": "Técnico/a Laboral con catalán"
+   },
+   {
+    "titulo": "Técnico/a de administración laboral y nóminas"
+   },
+   {
+    "titulo": "Graduado/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico RRHH - HR Payroll"
+   },
+   {
+    "titulo": "Asesor/a laboral",
+    "sintetico": true
+   },
+   {
+    "titulo": "Compensation & Benefits Analyst",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a RRHH"
+   },
+   {
+    "titulo": "Recruiter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor/a fiscal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de selección",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Abogado/a laboral",
+    "sintetico": true
+   },
+   {
+    "titulo": "Controller"
+   },
+   {
+    "titulo": "Orientador/a Laboral"
+   }
+  ]
+ },
+ "rrhh.generalista": {
+  "si": [
+   {
+    "titulo": "HR Generalist"
+   },
+   {
+    "titulo": "Técnico/a RRHH"
+   },
+   {
+    "titulo": "TÉCNICO/A DE RRHH (HMX)"
+   },
+   {
+    "titulo": "Regional HR Business Partner - Americas"
+   },
+   {
+    "titulo": "HR Operations Specialist, Spain"
+   },
+   {
+    "titulo": "HR Analyst (12-Month Fixed-Term Contract)"
+   },
+   {
+    "titulo": "Técnico/a de recursos humanos",
+    "sintetico": true
+   },
+   {
+    "titulo": "People Partner",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a de recursos humans",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Business Analyst (Excel) | $60/hr Remote"
+   },
+   {
+    "titulo": "Accountant | $55/hr Remote"
+   },
+   {
+    "titulo": "Cyber Security Specialist | 45/hr Remote"
+   },
+   {
+    "titulo": "AI Personalization Analyst (Japanese) | $15/hr Remote"
+   },
+   {
+    "titulo": "Recruiter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico de nóminas"
+   },
+   {
+    "titulo": "Orientador/a Laboral"
+   },
+   {
+    "titulo": "Técnico/a de Formación Subvencionada"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Technical Product Support Analyst (HR Talent)"
+   }
+  ]
+ },
+ "rrhh.formacion": {
+  "si": [
+   {
+    "titulo": "Técnico/a de Formación Subvencionada"
+   },
+   {
+    "titulo": "Junior Instructional Designer"
+   },
+   {
+    "titulo": "Learning & Development Specialist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Coordinador/a de formación",
+    "sintetico": true
+   },
+   {
+    "titulo": "Training Coordinator",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a de formació",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de formación",
+    "sintetico": true
+   },
+   {
+    "titulo": "L&D Partner",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Formador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Trainee de finanzas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a RRHH"
+   },
+   {
+    "titulo": "Recruiter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Orientador/a Laboral"
+   },
+   {
+    "titulo": "Monitor/a de comedor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal trainer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Técnico/a de Formación (FUNDAE) y Comercial"
+   }
+  ]
+ },
+ "rrhh.orientacion": {
+  "si": [
+   {
+    "titulo": "Orientador/a Laboral"
+   },
+   {
+    "titulo": "Técnico/a de empleo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de inserción laboral",
+    "sintetico": true
+   },
+   {
+    "titulo": "Prospector/a de empresas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Job coach",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de empleo y desarrollo local",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a d'ocupació",
+    "sintetico": true
+   },
+   {
+    "titulo": "Orientador/a sociolaboral",
+    "sintetico": true
+   },
+   {
+    "titulo": "Preparador/a laboral",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Recruiter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a RRHH"
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Preparador/a de pedidos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico de nóminas"
+   },
+   {
+    "titulo": "Formador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Trabajador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de tiempo libre",
+    "sintetico": true
+   }
+  ]
+ },
+ "sanidad.enfermeria": {
+  "si": [
+   {
+    "titulo": "Tècnic/a Sanitari/a (Grau en Infermeria o titulació equivalent. Colegiació.)."
+   },
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Enfermera de quirófano",
+    "sintetico": true
+   },
+   {
+    "titulo": "ENFERMERO/A UCI",
+    "sintetico": true
+   },
+   {
+    "titulo": "Graduado/a en Enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Infermer/a d'atenció primària",
+    "sintetico": true
+   },
+   {
+    "titulo": "Nurse (Spain)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Matrona",
+    "sintetico": true
+   },
+   {
+    "titulo": "Enfermería - residencia",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Aux. enfermería TCAE tardes- Centro Médico Quironsalud Aribau"
+   },
+   {
+    "titulo": "CONVOCATÒRIA INTERNA/EXTERNA 4 LLOCS DE TREBALL DE TÈCNIC/A EN CURES AUXILIARS D'INFERMERIA PER A L'HOSPITAL D'ATENCIÓ INTERMÈDIA DEL PARC SANITARI PERE VIRGILI"
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gerocultor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a en cuidados auxiliares de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapeuta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Due Diligence Analyst",
+    "sintetico": true
+   },
+   {
+    "titulo": "Médico/a de familia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Farmacéutico/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "sanidad.tcae": {
+  "si": [
+   {
+    "titulo": "Aux. enfermería TCAE tardes- Centro Médico Quironsalud Aribau"
+   },
+   {
+    "titulo": "CONVOCATÒRIA INTERNA/EXTERNA 4 LLOCS DE TREBALL DE TÈCNIC/A EN CURES AUXILIARS D'INFERMERIA PER A L'HOSPITAL D'ATENCIÓ INTERMÈDIA DEL PARC SANITARI PERE VIRGILI"
+   },
+   {
+    "titulo": "TCAE",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a en cuidados auxiliares de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "TCAI",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar d'infermeria",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de clínica",
+    "sintetico": true
+   },
+   {
+    "titulo": "Nursing Assistant",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gerocultor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de geriatría",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar administrativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de farmacia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Celador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Higienista dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapeuta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de ayuda a domicilio",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Auxiliar de clínica dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de clínica veterinaria",
+    "sintetico": true
+   }
+  ]
+ },
+ "sanidad.gerocultor": {
+  "si": [
+   {
+    "titulo": "Gerocultor/a - Jornada Completa. Mañanas y tardes (Barcelona, Barcelona)"
+   },
+   {
+    "titulo": "Auxiliar de Geriatria - Esplugues"
+   },
+   {
+    "titulo": "Gerocultor/A Centre De Serveis De Torrelavit"
+   },
+   {
+    "titulo": "Personal Gerocultor"
+   },
+   {
+    "titulo": "A) 2 Gerocultors/Es Jornada Completa (Torn Matí) I B) 1 Gerocultor/A Jornada Completa (Torn Tarda) (26_123_Ipv_Sgg_Ger)"
+   },
+   {
+    "titulo": "Gerocultora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de residencia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a en atención sociosanitaria",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cuidador/a de residencia",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnicos/as TASOC/TAFAD y Monitores/as para Centros de Mayores"
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de ayuda a domicilio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapeuta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Animador/a sociocultural",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cocinero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Celador/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "sanidad.domicilio": {
+  "si": [
+   {
+    "titulo": "Coordinador/a de Servicio de Ayuda a Domicilio SAD Sant Just Desvern"
+   },
+   {
+    "titulo": "Auxiliar de ayuda a domicilio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cuidadora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cuidador/a de personas mayores",
+    "sintetico": true
+   },
+   {
+    "titulo": "Treballador/a familiar",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asistente personal (diversidad funcional)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Interna para cuidado de persona mayor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar SAD",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención domiciliaria",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Gerocultor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Niñera",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapeuta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auditor/a interno/a de calidad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Cuidador/a de perros",
+    "sintetico": true
+   }
+  ]
+ },
+ "sanidad.farmacia": {
+  "si": [
+   {
+    "titulo": "Clinical Informatics Analyst - Pharmacist"
+   },
+   {
+    "titulo": "Técnico/a de farmacia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de farmacia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Farmacéutico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a de farmàcia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pharmacy Technician",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a de parafarmacia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Farmacéutico/a adjunto/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Farmacia hospitalaria",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de laboratorio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visitador/a médico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapeuta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Químico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Higienista dental",
+    "sintetico": true
+   }
+  ]
+ },
+ "sanidad.fisio": {
+  "si": [
+   {
+    "titulo": "Fisioterapeuta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapeuta deportivo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Physiotherapist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapia a domicilio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Osteópata",
+    "sintetico": true
+   },
+   {
+    "titulo": "Readaptador/a físico",
+    "sintetico": true
+   },
+   {
+    "titulo": "FISIOTERAPEUTA (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Physical Therapist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisio para clínica",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de natación",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal trainer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Masajista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de farmacia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Terapeuta ocupacional",
+    "sintetico": true
+   },
+   {
+    "titulo": "Logopeda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Médico/a rehabilitador/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "sanidad.tecnicos": {
+  "si": [
+   {
+    "titulo": "Técnico/a Laboratorio (52,14%) - Centro Médico Boreal"
+   },
+   {
+    "titulo": "Tècnic superior Imatge"
+   },
+   {
+    "titulo": "Técnico/a Superior de Laboratorio, Ref. S39-2026"
+   },
+   {
+    "titulo": "Técnico/a de radiodiagnóstico",
+    "sintetico": true
+   },
+   {
+    "titulo": "TSID",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de rayos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de anatomía patológica",
+    "sintetico": true
+   },
+   {
+    "titulo": "Radiographer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Flebotomista",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Research Laboratory Technician (Diabetes and Metabolism Research Group)"
+   },
+   {
+    "titulo": "Analista de Laboratorio"
+   },
+   {
+    "titulo": "Químico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Farmacéutico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Analista químico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Laboratory Technician"
+   }
+  ]
+ },
+ "sanidad.dental": {
+  "si": [
+   {
+    "titulo": "Protésico Dental (Inglés) -  Trainer & Technical Support Internacional (CAD/CAM)"
+   },
+   {
+    "titulo": "Auxiliar de clínica dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Higienista dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Odontólogo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dentista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista clínica dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a en higiene bucodental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ortodoncista",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Higienista industrial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de enfermería",
+    "sintetico": true
+   },
+   {
+    "titulo": "TCAE",
+    "sintetico": true
+   },
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fisioterapeuta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de farmacia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de laboratorio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   }
+  ]
+ },
+ "educacion.profesor": {
+  "si": [
+   {
+    "titulo": "Docente de Ciberseguridad"
+   },
+   {
+    "titulo": "Profesor/a de matemáticas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de FP",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesora de secundaria",
+    "sintetico": true
+   },
+   {
+    "titulo": "Docente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Teacher (Primary)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Professor/a de música",
+    "sintetico": true
+   },
+   {
+    "titulo": "Maestro/a de primaria",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de academia",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Candidaturas espontáneas - Personal no docente - Colegio Internacional La Miranda"
+   },
+   {
+    "titulo": "Formador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de comedor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Orientador/a Laboral"
+   },
+   {
+    "titulo": "Técnico/a de Formación Subvencionada"
+   },
+   {
+    "titulo": "Personal trainer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial de formación",
+    "sintetico": true
+   }
+  ]
+ },
+ "educacion.infantil": {
+  "si": [
+   {
+    "titulo": "Educador/a infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educadora infantil 0-3",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a superior en educación infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Maestra de educación infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Escola bressol - educadora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de educación infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Guardería: educador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a d'educació infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Early Years Teacher",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Niñera",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de comedor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de matemáticas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Canguro",
+    "sintetico": true
+   },
+   {
+    "titulo": "Au pair",
+    "sintetico": true
+   },
+   {
+    "titulo": "Formador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cuidadora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Maestro/a de primaria",
+    "sintetico": true
+   }
+  ]
+ },
+ "educacion.idiomas": {
+  "si": [
+   {
+    "titulo": "Profesor/a de inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "English Teacher",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a nativo/a de inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Professor/a d'anglès",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de francés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de conversación",
+    "sintetico": true
+   },
+   {
+    "titulo": "TEFL Teacher",
+    "sintetico": true
+   },
+   {
+    "titulo": "Language Teacher (Spanish)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de español (ELE)",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Customer Service Representative (Spanish and English)"
+   },
+   {
+    "titulo": "Traductor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de matemáticas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Docente",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención al cliente con inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Formador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Intérprete",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista bilingüe",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial con inglés",
+    "sintetico": true
+   }
+  ]
+ },
+ "educacion.formador": {
+  "si": [
+   {
+    "titulo": "Formador/a de sistemas de alarmas en Barcelona"
+   },
+   {
+    "titulo": "Formador/a – Instalador/a PMS"
+   },
+   {
+    "titulo": "Protésico Dental (Inglés) -  Trainer & Technical Support Internacional (CAD/CAM)"
+   },
+   {
+    "titulo": "Formador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Formadora de certificados de profesionalidad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Instructor/a de autoescuela",
+    "sintetico": true
+   },
+   {
+    "titulo": "Docente de formación para el empleo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Facilitador/a de talleres",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de Formación Subvencionada"
+   },
+   {
+    "titulo": "Profesor/a de matemáticas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Trainee de finanzas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de comedor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Coach ejecutivo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Orientador/a Laboral"
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recruiter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Training of a model (data annotator)",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Trainer (Sales)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal trainer",
+    "sintetico": true
+   }
+  ]
+ },
+ "educacion.monitor": {
+  "si": [
+   {
+    "titulo": "Técnicos/as TASOC/TAFAD y Monitores/as para Centros de Mayores"
+   },
+   {
+    "titulo": "Monitor/a de comedor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de tiempo libre",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitora de menjador",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de colonias",
+    "sintetico": true
+   },
+   {
+    "titulo": "Animador/a sociocultural",
+    "sintetico": true
+   },
+   {
+    "titulo": "Director/a de tiempo libre",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de comedor escolar",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de Monitorización (24x7) Remoto"
+   },
+   {
+    "titulo": "Information Security Functional Monitoring (m/f/d)"
+   },
+   {
+    "titulo": "Application Security Monitoring"
+   },
+   {
+    "titulo": "Técnico de sistemas monitorización"
+   },
+   {
+    "titulo": "Educador/a infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de matemáticas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal trainer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Socorrista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Niñera",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Monitor de Natación y Aquagym en Pechina"
+   },
+   {
+    "titulo": "Monitor/a de sistemas 24x7",
+    "sintetico": true
+   }
+  ]
+ },
+ "educacion.social": {
+  "si": [
+   {
+    "titulo": "TREBALLADOR/A SOCIAL - SERVEI BARNAHUS - BARCELONA"
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Integrador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a en integración social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Trabajador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Vetllador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar técnico/a educativo/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a de centro de menores",
+    "sintetico": true
+   },
+   {
+    "titulo": "Psicopedagogo/a",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Community manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Social media",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de comedor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Orientador/a Laboral"
+   },
+   {
+    "titulo": "Agente cívico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de matemáticas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gerocultor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Social Insights Analyst"
+   }
+  ]
+ },
+ "educacion.civico": {
+  "si": [
+   {
+    "titulo": "Agente cívico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agentes cívicos para convivencia nocturna",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agent/a cívic/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a de calle",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mediador/a comunitario/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mediador/a intercultural",
+    "sintetico": true
+   },
+   {
+    "titulo": "Informador/a cívico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de convivencia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agentes de movilidad",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Mediador/a de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Vigilante de seguridad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Educador/a social",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Informador/a turístico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conserje",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de servicios",
+    "sintetico": true
+   }
+  ]
+ },
+ "educacion.ninera": {
+  "si": [
+   {
+    "titulo": "Niñera",
+    "sintetico": true
+   },
+   {
+    "titulo": "Niñero/a para tardes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Canguro",
+    "sintetico": true
+   },
+   {
+    "titulo": "Au pair",
+    "sintetico": true
+   },
+   {
+    "titulo": "Nanny (English speaking)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Babysitter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cuidadora de niños",
+    "sintetico": true
+   },
+   {
+    "titulo": "Interna con niños",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cangur per a les tardes",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Educador/a infantil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cuidadora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Monitor/a de comedor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesor/a de inglés",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gerocultor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de ayuda a domicilio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Empleada de hogar",
+    "sintetico": true
+   },
+   {
+    "titulo": "Maestra de educación infantil",
+    "sintetico": true
+   }
+  ]
+ },
+ "hosteleria.camarero": {
+  "si": [
+   {
+    "titulo": "Waiter/Waitress"
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "CAMARERA",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a de sala",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cambrer/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a extra fines de semana",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante de camarero",
+    "sintetico": true
+   },
+   {
+    "titulo": "Bartender",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camareros/as para terraza",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Camarera de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cambrera de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cocinero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista de hotel",
+    "sintetico": true
+   },
+   {
+    "titulo": "Barista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Steward de vuelo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gobernanta",
+    "sintetico": true
+   }
+  ]
+ },
+ "hosteleria.cocinero": {
+  "si": [
+   {
+    "titulo": "Sous Chef"
+   },
+   {
+    "titulo": "Junior & Sous Chef (H/M)"
+   },
+   {
+    "titulo": "Cocinero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "COCINERA",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cuiner/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Jefe/a de partida",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cook",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pizzero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cocinero/a de colectividades",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Ayudante de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Montador/a de cocinas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial de cocinas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Friegaplatos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pastelero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Diseñador/a de cocinas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a de cafetería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Commis de cocina",
+    "sintetico": true
+   }
+  ]
+ },
+ "hosteleria.ayudante": {
+  "si": [
+   {
+    "titulo": "Ayudante de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Friegaplatos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pinche de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Kitchen Porter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ajudant/a de cuina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal de office",
+    "sintetico": true
+   },
+   {
+    "titulo": "Commis de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Manipulador/a de alimentos",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Cocinero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante de camarero",
+    "sintetico": true
+   },
+   {
+    "titulo": "Montador/a de cocinas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de producción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Barista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Steward de vuelo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante electricista",
+    "sintetico": true
+   }
+  ]
+ },
+ "hosteleria.recepcion": {
+  "si": [
+   {
+    "titulo": "Guest Experience Agent - Hotel Arts Barcelona"
+   },
+   {
+    "titulo": "Recepcionista de hotel",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista nocturno/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Front Desk Agent",
+    "sintetico": true
+   },
+   {
+    "titulo": "Night Auditor",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepción de hotel 4*",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista d'hotel",
+    "sintetico": true
+   },
+   {
+    "titulo": "Concierge",
+    "sintetico": true
+   },
+   {
+    "titulo": "Jefe/a de recepción",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista clínica dental",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarera de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Security Supervisor - Hotel Arts Barcelona"
+   },
+   {
+    "titulo": "Técnico/a de Soporte – Software Hotelero (PMS Cloud)"
+   },
+   {
+    "titulo": "TÉCNICO/A JUNIOR DE GDS - RESERVAS Y DISTRIBUCIÓN HOTELERA"
+   },
+   {
+    "titulo": "Front Office Sales Support"
+   },
+   {
+    "titulo": "Conserje",
+    "sintetico": true
+   }
+  ]
+ },
+ "hosteleria.pisos": {
+  "si": [
+   {
+    "titulo": "Camarera de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cambrera de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gobernanta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Housekeeping Attendant",
+    "sintetico": true
+   },
+   {
+    "titulo": "Room Attendant",
+    "sintetico": true
+   },
+   {
+    "titulo": "Valet de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a de habitaciones",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista de hotel",
+    "sintetico": true
+   },
+   {
+    "titulo": "Housekeeper (familia)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependienta de lencería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cocinero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conserje",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   }
+  ]
+ },
+ "hosteleria.cafeteria": {
+  "si": [
+   {
+    "titulo": "Barista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a de cafetería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Equipo de restaurante (comida rápida)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Team member restaurante",
+    "sintetico": true
+   },
+   {
+    "titulo": "Restauración rápida - personal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Empleado/a de cafetería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Heladero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de restauración",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fast food crew",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cocinero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cabin crew",
+    "sintetico": true
+   },
+   {
+    "titulo": "Panadero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante de cocina",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Miembro del equipo de ciberseguridad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "hosteleria.turismo": {
+  "si": [
+   {
+    "titulo": "Agente de Viajes en Remoto/Híbrido con experiencia"
+   },
+   {
+    "titulo": "B2B Travel Advisor Support (French Speaker)"
+   },
+   {
+    "titulo": "TÉCNICO/A JUNIOR DE GDS - RESERVAS Y DISTRIBUCIÓN HOTELERA"
+   },
+   {
+    "titulo": "Agente de viajes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Guía turístico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Informador/a turístico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tour Leader",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de turismo",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agent/a de viatges",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Technology Risk IT Auditor - French Speaker Junior -  EY GDS Spain - Hybrid"
+   },
+   {
+    "titulo": "Recepcionista de hotel",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Atención al público",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de seguros",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente cívico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor de autocar",
+    "sintetico": true
+   },
+   {
+    "titulo": "Azafata de congresos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Customer Service Representative"
+   }
+  ]
+ },
+ "comercio.dependiente": {
+  "si": [
+   {
+    "titulo": "Asesor de Ventas [ comfort zone ] – Madrid"
+   },
+   {
+    "titulo": "Comercial de Tienda"
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependienta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependent/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Vendedor/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Sales Assistant (retail)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Beauty Advisor",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Atención a personas dependientes",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Asesor/a comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visual merchandiser",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente de atención al cliente",
+    "sintetico": true
+   }
+  ]
+ },
+ "comercio.cajero": {
+  "si": [
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajera",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajero/a reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Caixer/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cashier",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal de caja",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajeros/as supermercado",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de caja",
+    "sintetico": true
+   },
+   {
+    "titulo": "CAJERA (H/M)",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de cajeros automáticos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tesorería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajero automático - mantenimiento",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   }
+  ]
+ },
+ "comercio.reponedor": {
+  "si": [
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reponedora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de supermercado",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reposador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Merchandiser",
+    "sintetico": true
+   },
+   {
+    "titulo": "Promotor/a de punto de venta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal de supermercado",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reposición de lineales",
+    "sintetico": true
+   },
+   {
+    "titulo": "Stock Associate",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Visual merchandiser",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Preparador/a de pedidos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carretillero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "comercio.frescos": {
+  "si": [
+   {
+    "titulo": "Carnicero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pescadero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Charcutero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Panadero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Profesional de frescos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carnisser/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Forner/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Frutero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Sección de frescos - dependiente/a",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cocinero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de producción cárnica",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Seguridad Alimentaria"
+   }
+  ]
+ },
+ "comercio.encargado": {
+  "si": [
+   {
+    "titulo": "Encargado/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Responsable de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Subdirector/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Store Manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Assistant Store Manager",
+    "sintetico": true
+   },
+   {
+    "titulo": "Jefe/a de sección",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encarregat/da de botiga",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de turno",
+    "sintetico": true
+   },
+   {
+    "titulo": "Supervisor/a de tienda",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visual merchandiser",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de obra",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de mantenimiento",
+    "sintetico": true
+   },
+   {
+    "titulo": "Área de tienda online",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   }
+  ]
+ },
+ "comercio.visual": {
+  "si": [
+   {
+    "titulo": "Visual merchandiser",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visual Merchandising Specialist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Escaparatista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Aparadorista",
+    "sintetico": true
+   },
+   {
+    "titulo": "VM Coordinator",
+    "sintetico": true
+   },
+   {
+    "titulo": "Montaje de escaparates",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visual Merchandiser (moda)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Merchandising visual",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visual coordinator retail",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de Control de Calidad Visual"
+   },
+   {
+    "titulo": "Visual Basic for Appliactions (VBA) - 100% REMOTE, Spain"
+   },
+   {
+    "titulo": "Merchandiser",
+    "sintetico": true
+   },
+   {
+    "titulo": "Diseñador/a gráfico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encargado/a de tienda",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Visual designer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fotógrafo/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "logistica.mozo": {
+  "si": [
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo de almacén sin experiencia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Preparador/a de pedidos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Picking",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mosso/a de magatzem",
+    "sintetico": true
+   },
+   {
+    "titulo": "Warehouse Operative",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo de carga y descarga",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Administrador/a de Almacenamiento SAN/NAS (Nivel 2)"
+   },
+   {
+    "titulo": "Gestion de Almacén y Logística"
+   },
+   {
+    "titulo": "SAP Functional Consultant - Warehouse"
+   },
+   {
+    "titulo": "Carretillero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Logística"
+   },
+   {
+    "titulo": "Conductor/a de camión",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a de almacén",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Mozo de almacén autónomo",
+    "sintetico": true
+   }
+  ]
+ },
+ "logistica.carretillero": {
+  "si": [
+   {
+    "titulo": "Carretillero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carretillera",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carretillero/a frontal",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operador/a de carretilla elevadora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Forklift Driver",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carretoner/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Transpaletista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a de carretilla",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reach truck operator",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a de camión",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de producción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gruista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Logística"
+   },
+   {
+    "titulo": "Preparador/a de pedidos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mecánico/a de automoción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Peón de obra",
+    "sintetico": true
+   }
+  ]
+ },
+ "logistica.conductor": {
+  "si": [
+   {
+    "titulo": "Conductor/a de camión",
+    "sintetico": true
+   },
+   {
+    "titulo": "Chófer C+E",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a carnet C",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camionero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Truck Driver",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a de tráiler",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a de autobús",
+    "sintetico": true
+   },
+   {
+    "titulo": "Xofer de camió",
+    "sintetico": true
+   },
+   {
+    "titulo": "Transportista nacional",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico de Control de Transporte  (H/M)"
+   },
+   {
+    "titulo": "Analista de Optimización de transporte (H/M)"
+   },
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a de línea (fábrica)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carretillero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Logística"
+   },
+   {
+    "titulo": "Mecánico/a de automoción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor eléctrico (cable)",
+    "sintetico": true
+   }
+  ]
+ },
+ "logistica.reparto": {
+  "si": [
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartidora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartidor/a con furgoneta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a de reparto",
+    "sintetico": true
+   },
+   {
+    "titulo": "Delivery Driver",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mensajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Rider",
+    "sintetico": true
+   },
+   {
+    "titulo": "Courier",
+    "sintetico": true
+   },
+   {
+    "titulo": "Reparto de última milla",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Conductor/a de camión",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carretillero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Logística"
+   },
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartición de tareas (coordinador)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Dependiente/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "logistica.tecnico": {
+  "si": [
+   {
+    "titulo": "Técnico/a de Logística"
+   },
+   {
+    "titulo": "Técnico de Control de Transporte  (H/M)"
+   },
+   {
+    "titulo": "Analista logístico"
+   },
+   {
+    "titulo": "Analista de Optimización de transporte (H/M)"
+   },
+   {
+    "titulo": "Técnico de logística y administración junior"
+   },
+   {
+    "titulo": "Especialista en Gestión de Pedidos y Logística"
+   },
+   {
+    "titulo": "Logistics Coordinator",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de tráfico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Administrativo/a de logística",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Logistics IT Systems Specialist"
+   },
+   {
+    "titulo": "Consultor/a Junior SAP Logistica"
+   },
+   {
+    "titulo": "Digitalización y BI - Logística"
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor/a de camión",
+    "sintetico": true
+   },
+   {
+    "titulo": "Repartidor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carretillero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comprador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestion de Almacén y Logística"
+   }
+  ]
+ },
+ "logistica.compras": {
+  "si": [
+   {
+    "titulo": "Buyer"
+   },
+   {
+    "titulo": "Técnico de Compras"
+   },
+   {
+    "titulo": "Técnico de Compras de Instalaciones Industriales."
+   },
+   {
+    "titulo": "Comprador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Purchasing Assistant",
+    "sintetico": true
+   },
+   {
+    "titulo": "Procurement Specialist",
+    "sintetico": true
+   },
+   {
+    "titulo": "Aprovisionamiento (H/M)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gestor/a de compras",
+    "sintetico": true
+   },
+   {
+    "titulo": "Tècnic/a de compres",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Junior Media Buyer"
+   },
+   {
+    "titulo": "Técnico/a de Logística"
+   },
+   {
+    "titulo": "Contable",
+    "sintetico": true
+   },
+   {
+    "titulo": "Accounts Payable Specialist"
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial junior"
+   },
+   {
+    "titulo": "Cajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Purchase to pay master data Analyst"
+   },
+   {
+    "titulo": "Administrativo/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "industria.operario": {
+  "si": [
+   {
+    "titulo": "Operario/a de Producción"
+   },
+   {
+    "titulo": "Operario/a de producción de impresión"
+   },
+   {
+    "titulo": "Operador/a de Producción"
+   },
+   {
+    "titulo": "Operaria de producción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Peón industrial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de línea de envasado",
+    "sintetico": true
+   },
+   {
+    "titulo": "Soldador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Production Operator",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operari/ària de producció",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Operario/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/A Mantenimiento Industrial"
+   },
+   {
+    "titulo": "Production Process Engineer"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de limpieza",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operador/a de CRA",
+    "sintetico": true
+   },
+   {
+    "titulo": "Peón de obra",
+    "sintetico": true
+   }
+  ]
+ },
+ "industria.calidad": {
+  "si": [
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Técnico/a de Control de Calidad Visual"
+   },
+   {
+    "titulo": "Técnico/a de Seguridad Alimentaria"
+   },
+   {
+    "titulo": "Inspector/a de calidad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a Calidad y Medio Ambiente."
+   },
+   {
+    "titulo": "Quality Specialist"
+   },
+   {
+    "titulo": "Técnico de Validaciones Junior"
+   },
+   {
+    "titulo": "Tècnic/a de qualitat",
+    "sintetico": true
+   },
+   {
+    "titulo": "Packaging Quality Control"
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Content Quality Analyst"
+   },
+   {
+    "titulo": "Agente de Calidad de Contact Center (QA)"
+   },
+   {
+    "titulo": "QA Engineer"
+   },
+   {
+    "titulo": "Técnico/a Prevención de Riesgos Laborales"
+   },
+   {
+    "titulo": "Auditor/a junior"
+   },
+   {
+    "titulo": "Operario/a de Producción"
+   },
+   {
+    "titulo": "Técnico/a de laboratorio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Analista de calidad de llamadas",
+    "sintetico": true
+   }
+  ]
+ },
+ "industria.mantenimiento": {
+  "si": [
+   {
+    "titulo": "Técnico/a de mantenimiento industrial"
+   },
+   {
+    "titulo": "Técnico/a de Mantenimiento Eléctrico y Electrónica"
+   },
+   {
+    "titulo": "Operario/A Mantenimiento Industrial"
+   },
+   {
+    "titulo": "Mecánico/a de Mantenimiento de Maquinaria y Equipos Industriales"
+   },
+   {
+    "titulo": "Técnico de FP Mecánica o Mecatrónica Industrial (Elevación y Mecánica)"
+   },
+   {
+    "titulo": "AUTOMATISTAS Y ROBÓTICOS -SERVICIO MANTENIMIENTO INDUSTRIAL - ZONA FRANCA"
+   },
+   {
+    "titulo": "Electromecánico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Maintenance Engineer",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de automatismos",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de mantenimiento - Hoteles Yurbban"
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Oficial Mantenimiento"
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento informático",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mecanico oficial de 1a"
+   },
+   {
+    "titulo": "Electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de Producción"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   }
+  ]
+ },
+ "industria.ingenieria": {
+  "si": [
+   {
+    "titulo": "Process Engineer"
+   },
+   {
+    "titulo": "Production Process Engineer"
+   },
+   {
+    "titulo": "Manufacturing Engineer"
+   },
+   {
+    "titulo": "Controls Engineer"
+   },
+   {
+    "titulo": "Ingeniero/a Eléctrico/a Junior"
+   },
+   {
+    "titulo": "Ingeniero/a de automatización"
+   },
+   {
+    "titulo": "Técnico/a de Mejora Continua y Excelencia Operacional"
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a industrial",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "AI Automation Engineer"
+   },
+   {
+    "titulo": "Junior Fortinet Automation Engineer | Terraform | Python | 100% Remoto"
+   },
+   {
+    "titulo": "Android Test Automation Engineer (Native App)"
+   },
+   {
+    "titulo": "Ingeniero/a de Telecomunicación Junior (Barcelona)"
+   },
+   {
+    "titulo": "Ingeniero/a Civil Junior"
+   },
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "Delineante"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Operario/a de Producción"
+   }
+  ]
+ },
+ "industria.oficina_tecnica": {
+  "si": [
+   {
+    "titulo": "Delineante"
+   },
+   {
+    "titulo": "Ingeniero/a de Oficina Técnica"
+   },
+   {
+    "titulo": "Técnico/a Junior de presupuestos y oficina técnica"
+   },
+   {
+    "titulo": "Diseñador/a Técnico/a - Soporte a Dirección"
+   },
+   {
+    "titulo": "Proyectista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Dibujante CAD",
+    "sintetico": true
+   },
+   {
+    "titulo": "Modelador/a BIM",
+    "sintetico": true
+   },
+   {
+    "titulo": "CAD Technician",
+    "sintetico": true
+   },
+   {
+    "titulo": "Delineant",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Diseñador/a gráfico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Junior UI/UX Designer"
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Topógrafo"
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Arquitecto/a técnico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Diseñador/a web",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a Civil Junior"
+   },
+   {
+    "titulo": "Instructional designer",
+    "sintetico": true
+   }
+  ]
+ },
+ "industria.prl": {
+  "si": [
+   {
+    "titulo": "Técnico de PRL (They/She/He)"
+   },
+   {
+    "titulo": "Técnico/a Prevención de Riesgos Laborales"
+   },
+   {
+    "titulo": "HSE Specialist"
+   },
+   {
+    "titulo": "Junior Health & Safety Technician"
+   },
+   {
+    "titulo": "Técnico/a de Medioambiente"
+   },
+   {
+    "titulo": "Recurso Preventivo - Seguridad en Obra"
+   },
+   {
+    "titulo": "COORDINADOR/A DE SEGURIDAD Y SALUD - OBRA INDUSTRIAL"
+   },
+   {
+    "titulo": "Becario/a Técnico de PRL"
+   },
+   {
+    "titulo": "Higienista industrial",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Vigilante de Seguridad (Barcelona)"
+   },
+   {
+    "titulo": "Técnico/a de ciberseguridad",
+    "sintetico": true
+   },
+   {
+    "titulo": "Security Operations Analyst"
+   },
+   {
+    "titulo": "Técnico/a de Seguridad Alimentaria"
+   },
+   {
+    "titulo": "Médico/a de familia",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Sostenibilidad Audiovisual"
+   },
+   {
+    "titulo": "Auditor/a junior"
+   },
+   {
+    "titulo": "Higienista dental",
+    "sintetico": true
+   }
+  ]
+ },
+ "industria.laboratorio": {
+  "si": [
+   {
+    "titulo": "Research Laboratory Technician (Diabetes and Metabolism Research Group)"
+   },
+   {
+    "titulo": "Laboratory Technician"
+   },
+   {
+    "titulo": "Analista de Laboratorio"
+   },
+   {
+    "titulo": "Técnico/a de Laboratorio"
+   },
+   {
+    "titulo": "Técnico de Microbiología Ambiental (Turno de tarde)"
+   },
+   {
+    "titulo": "Químico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de I+D cosmética",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de laboratorio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Analista químico/a",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de radiodiagnóstico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Biomedical Sciences Graduate – Research Project Support (Immunology/Neuromuscular Disorders)"
+   },
+   {
+    "titulo": "Farmacéutico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Enfermero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de Producción"
+   },
+   {
+    "titulo": "Data Engineer"
+   },
+   {
+    "titulo": "Flebotomista",
+    "sintetico": true
+   }
+  ],
+  "rebajadas": [
+   {
+    "titulo": "Técnico/a de laboratorio clínico",
+    "sintetico": true
+   }
+  ]
+ },
+ "industria.civil": {
+  "si": [
+   {
+    "titulo": "Ingeniero/a Civil Junior"
+   },
+   {
+    "titulo": "2026 Spain Graduate Civil & Structural Engineering Career Path"
+   },
+   {
+    "titulo": "Topógrafo"
+   },
+   {
+    "titulo": "Topógrafo/a de Campo Túnel Rubí"
+   },
+   {
+    "titulo": "Diseñador/a Civil -Fotovoltaico (Remoto) - PVCase"
+   },
+   {
+    "titulo": "TÉCNICO/A DE OBRA Y ESTUDIOS JUNIOR"
+   },
+   {
+    "titulo": "Ingeniero/a de caminos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Arquitecto/a técnico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a técnico/a de obras públicas",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Guardia civil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de protección civil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Abogado/a civil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Seguro de responsabilidad civil - comercial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Peón de obra",
+    "sintetico": true
+   },
+   {
+    "titulo": "Albañil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Delineante"
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Aviación civil: auxiliar de vuelo",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.electricista": {
+  "si": [
+   {
+    "titulo": "Electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Oficial electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Oficial de 1ª electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Electrician",
+    "sintetico": true
+   },
+   {
+    "titulo": "Instalador/a eléctrico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de instalaciones eléctricas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Montador/a eléctrico",
+    "sintetico": true
+   },
+   {
+    "titulo": "ELECTRICISTA (H/M)",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Ingeniero/a Eléctrico/a Junior"
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Fontanero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de telecomunicaciones",
+    "sintetico": true
+   },
+   {
+    "titulo": "Instaladores/as de Telecomunicaciones"
+   },
+   {
+    "titulo": "Técnico/a de climatización",
+    "sintetico": true
+   },
+   {
+    "titulo": "Albañil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mecánico/a de automoción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conductor eléctrico (cable)",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.fontaneria": {
+  "si": [
+   {
+    "titulo": "TÈCNIC / TÈCNICA MANTENIMENT_ CALEFACTOR"
+   },
+   {
+    "titulo": "Fontanero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Lampista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de climatización",
+    "sintetico": true
+   },
+   {
+    "titulo": "Frigorista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Instalador/a de calefacción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de calderas",
+    "sintetico": true
+   },
+   {
+    "titulo": "HVAC Technician",
+    "sintetico": true
+   },
+   {
+    "titulo": "Oficial de fontanería",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Albañil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Asesor energético",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pintor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de Calidad"
+   },
+   {
+    "titulo": "Mecánico/a de automoción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.mantenimiento": {
+  "si": [
+   {
+    "titulo": "Técnico/a de mantenimiento - Hoteles Yurbban"
+   },
+   {
+    "titulo": "5* Hotel Técnico/a de mantenimiento - Grand Hotel Central Barcelona"
+   },
+   {
+    "titulo": "Oficial Mantenimiento"
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento polivalente"
+   },
+   {
+    "titulo": "Maintenance Technician - W Barcelona"
+   },
+   {
+    "titulo": "Técnico/a Mantenimiento Ascensores"
+   },
+   {
+    "titulo": "Oficial de Mantenimiento Royal Fira"
+   },
+   {
+    "titulo": "Técnico de Mantenimiento"
+   },
+   {
+    "titulo": "Mantenimiento de edificios",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Técnico/a de mantenimiento industrial"
+   },
+   {
+    "titulo": "Operario/A Mantenimiento Industrial"
+   },
+   {
+    "titulo": "Técnico de Mantenimiento Industrial"
+   },
+   {
+    "titulo": "Electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fontanero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conserje",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mecánico/a de Mantenimiento de Maquinaria y Equipos Industriales"
+   },
+   {
+    "titulo": "Ingeniero/a de procesos",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.construccion": {
+  "si": [
+   {
+    "titulo": "Albañil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Peón de obra",
+    "sintetico": true
+   },
+   {
+    "titulo": "Oficial de primera albañilería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Paleta",
+    "sintetico": true
+   },
+   {
+    "titulo": "Encofrador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ferrallista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de construcción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Peón de la construcción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Gruista",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Ingeniero/a Civil Junior"
+   },
+   {
+    "titulo": "Arquitecto/a técnico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pintor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fontanero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Jefe/a de obra",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a Prevención Riesgos Laborales Construcción"
+   },
+   {
+    "titulo": "Topógrafo"
+   },
+   {
+    "titulo": "Carpintero/a",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.acabados": {
+  "si": [
+   {
+    "titulo": "Pintor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pladurista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Carpintero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ebanista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Montador/a de muebles",
+    "sintetico": true
+   },
+   {
+    "titulo": "Instalador/a de ventanas de aluminio",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fuster/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cerrajero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Parquetista",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Albañil",
+    "sintetico": true
+   },
+   {
+    "titulo": "Electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Fontanero/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Chapista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Diseñador/a gráfico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Delineante"
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Montador/a industrial",
+    "sintetico": true
+   },
+   {
+    "titulo": "Interiorista",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.mecanico": {
+  "si": [
+   {
+    "titulo": "Mecánico/a de Campo"
+   },
+   {
+    "titulo": "Técnico/a de automoción, Badalona"
+   },
+   {
+    "titulo": "Mecanico oficial de 1a"
+   },
+   {
+    "titulo": "Mecánico/a de automoción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Chapista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Pintor/a de carrocería",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mecánico/a de vehículos industriales",
+    "sintetico": true
+   },
+   {
+    "titulo": "Electromecánico/a de automoción",
+    "sintetico": true
+   },
+   {
+    "titulo": "Car Mechanic",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Mecánico/a de Mantenimiento de Maquinaria y Equipos Industriales"
+   },
+   {
+    "titulo": "Técnico/a de Montaje de Escaleras Mecánicas. Barcelona (M/F/D)"
+   },
+   {
+    "titulo": "Técnico de FP Mecánica o Mecatrónica Industrial (Elevación y Mecánica)"
+   },
+   {
+    "titulo": "Ingeniero/a mecánico/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Electricista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Garage Support Representative (m/f/d) - Especialista en Soporte Técnico de Automoción"
+   },
+   {
+    "titulo": "Conductor/a de camión",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Comercial de automoción",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.limpieza": {
+  "si": [
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiadora",
+    "sintetico": true
+   },
+   {
+    "titulo": "Personal de limpieza",
+    "sintetico": true
+   },
+   {
+    "titulo": "Operario/a de limpieza",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpieza de oficinas",
+    "sintetico": true
+   },
+   {
+    "titulo": "Netejador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Empleada de hogar",
+    "sintetico": true
+   },
+   {
+    "titulo": "Cleaner",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de limpieza",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Limpieza de datos (data cleaning)",
+    "sintetico": true
+   },
+   {
+    "titulo": "Data cleansing analyst",
+    "sintetico": true
+   },
+   {
+    "titulo": "Camarera de pisos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Conserje",
+    "sintetico": true
+   },
+   {
+    "titulo": "Mozo/a de almacén",
+    "sintetico": true
+   },
+   {
+    "titulo": "Técnico/a de mantenimiento"
+   },
+   {
+    "titulo": "Reponedor/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "Comercial de productos de limpieza",
+    "sintetico": true
+   },
+   {
+    "titulo": "Ayudante de cocina",
+    "sintetico": true
+   }
+  ]
+ },
+ "oficios.vigilancia": {
+  "si": [
+   {
+    "titulo": "Vigilante de Seguridad (Vic)"
+   },
+   {
+    "titulo": "Vigilante de Seguridad en Barcelona (H/M/D)"
+   },
+   {
+    "titulo": "Security Supervisor - Hotel Arts Barcelona"
+   },
+   {
+    "titulo": "Conserje",
+    "sintetico": true
+   },
+   {
+    "titulo": "Auxiliar de servicios",
+    "sintetico": true
+   },
+   {
+    "titulo": "Controlador/a de accesos",
+    "sintetico": true
+   },
+   {
+    "titulo": "Vigilant/a de seguretat",
+    "sintetico": true
+   },
+   {
+    "titulo": "Security Guard",
+    "sintetico": true
+   },
+   {
+    "titulo": "Portero/a de discoteca",
+    "sintetico": true
+   }
+  ],
+  "no": [
+   {
+    "titulo": "Information System Security Officer (Cybersecurity Assessment & Authorization)"
+   },
+   {
+    "titulo": "Security Operations Analyst"
+   },
+   {
+    "titulo": "Técnico/a de Sistemas de Seguridad  (Barcelona)"
+   },
+   {
+    "titulo": "Técnico/a Prevención de Riesgos Laborales"
+   },
+   {
+    "titulo": "Kitchen Porter",
+    "sintetico": true
+   },
+   {
+    "titulo": "Agente cívico",
+    "sintetico": true
+   },
+   {
+    "titulo": "Recepcionista",
+    "sintetico": true
+   },
+   {
+    "titulo": "Limpiador/a",
+    "sintetico": true
+   },
+   {
+    "titulo": "IT Security Officer",
+    "sintetico": true
+   }
+  ]
+ }
+}

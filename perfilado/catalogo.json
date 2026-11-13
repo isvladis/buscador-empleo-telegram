@@ -1,0 +1,5066 @@
+{
+ "v": 1,
+ "fuente": "perfilado/fuente.py (no se edita el JSON a mano: python -m perfilado.construir)",
+ "familias": [
+  {
+   "id": "it",
+   "emoji": "💻",
+   "nombre": "Informática y telecom",
+   "otro": {
+    "id": "it.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "it.soporte",
+     "nombre": "soporte / helpdesk",
+     "terminos": {
+      "es": [
+       "técnico soporte informático",
+       "helpdesk",
+       "técnico informático",
+       "service desk"
+      ],
+      "en": [
+       "IT support",
+       "service desk"
+      ],
+      "ca": [
+       "tècnic informàtic"
+      ]
+     },
+     "terminos_junior": [
+      "junior it support",
+      "técnico soporte n1"
+     ],
+     "nucleo": "help ?desk|service ?desk|mesa de ayuda|\\bcau\\b|microinform|\\b(?:it|ti|tic|inform[áàa]tic\\w*|technical|t[éèe]cnic\\w*(?:/a)?|desktop|end[- ]user|workplace|euc|systems?|sistemas|sistemes)\\W+(?:\\w+\\W+)?(?:support|soporte|suport)\\b|\\b(?:support|soporte|suport)\\W+(?:\\w+\\W+){0,2}(?:it|ti|tic|inform[áàa]tic\\w*|t[éèe]cnico|usuari\\w*|sistemas|sistemes|n1|n2|l1|l2|level ?[12]|nivel ?[12])\\b|\\bit (?:technician|support|helpdesk|specialist)\\b|\\bsupport (?:technician|specialist)\\b|t[éèe]cnic\\w*(?:/a)? (?:j[úu]nior )?(?:de |d'|en |d’)?(?:soporte|suport|sistemas|sistemes|inform[áàa]tic\\w*|microinform\\w*|helpdesk|it\\b|ti\\b|redes|xarxes|linux|windows)|administrador\\w*(?:/a)? (?:de )?sistemas|sysadmin|systems? administrator|operador\\w*(?:/a)? de sistemas|on-?site (?:technician|support|engineer)|field (?:it|technician)|endpoint|workplace (?:administrator|technician|specialist|engineer)|microsoft 365|\\bm365\\b|\\bintune\\b|t[éèe]cnic\\w*(?:/a)? sat inform",
+     "senales": [
+      {
+       "nombre": "helpdesk o soporte",
+       "peso": 1.0,
+       "patron": "help ?desk|service desk|\\bcau\\b|soporte|support|\\bsuport\\b"
+      },
+      {
+       "nombre": "nivel 1",
+       "peso": 1.0,
+       "patron": "\\bn1\\b|nivel 1|\\bl1\\b|level 1|tier ?1"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "preventa, comercial o fraude",
+       "peso": -3.0,
+       "patron": "preventa|pre-?sales|comercial|\\bfraude?\\b|\\bfraud\\b",
+       "choca_con": [
+        "comercial",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "desarrollo de software",
+       "peso": -2.0,
+       "patron": "developer|desarrollador|programador",
+       "choca_con": [
+        "it.desarrollo"
+       ]
+      },
+      {
+       "nombre": "nivel 3",
+       "peso": -2.0,
+       "patron": "\\bn3\\b|nivel 3|\\bl3\\b|level 3|n2/n3|n2-n3"
+      }
+     ],
+     "descartes": [
+      {
+       "nombre": "Oficios no técnicos (sanidad, obra, PRL…)",
+       "activa": true,
+       "patron": "enfermer[ií]a|\\btcae\\b|auxiliar de cl[ií]nica|sanitari[oa]|gesti[óo]n sanitaria|hematolog|farmac[ié]|veterinari|fisioterap|odontolog|psicolog|aparcamiento|conductor|repartidor|camarer[oa]|cociner[oa]|limpieza|ascensor|fontaner|electricist|alba[ñn]il|soldador|carpinter|climatizaci[óo]n|refrigeraci[óo]n|calefacci[óo]n|obra civil|delineante|prevenci[óo]n de riesgos|\\bprl\\b|\\bcae\\b|nataci[óo]n|aquagym|monitor deportiv|socorrist|entrenador|peluquer|est[ée]tic|dependient[ae]|cajer[oa]|inmobiliari|real estate|estaciones de servicio|centros de mayores|\\btasoc\\b|\\btafad\\b|t[ée]cnic[oa][/ ]?a? de campo|t[ée]cnic[oa] itinerante|electromec[áa]nic|\\bclaims?\\b|siniestros?|suscripci[óo]n|underwrit|p[óo]lizas?|\\bsettlement\\b|liquidaci[óo]n|tesorer[ií]a|book ?keep|maintenance engineer|equipment service|sistemas de seguridad|seguridad electr[óo]nica|\\bcctv\\b|videovigilancia|alarmas|control de accesos|vigilante|fotovoltaic|\\bsolar\\b|renovable|guiado|maquinaria|topograf|bodeguer|baja it\\b|\\btpv\\b|\\bpos\\b",
+       "excepcion": "inform[áa]tic|software|\\bit\\b|helpdesk|help desk|service desk|ciber|cyber|\\bsoc\\b|\\berp\\b|sistemas inform",
+       "choca_con": [
+        "admin",
+        "atencion",
+        "comercial",
+        "marketing",
+        "finanzas",
+        "rrhh",
+        "sanidad",
+        "educacion",
+        "hosteleria",
+        "comercio",
+        "logistica",
+        "industria",
+        "oficios"
+       ]
+      },
+      {
+       "nombre": "Falsos amigos de IT (baja IT, preventa)",
+       "activa": true,
+       "patron": "bodeguer|baja it\\b|sustituci[óo]n baja|preventa|pre-?sales\\b|presales",
+       "excepcion": null,
+       "choca_con": [
+        "comercial",
+        "hosteleria"
+       ]
+      },
+      {
+       "nombre": "Investigación académica",
+       "activa": true,
+       "patron": "research engineer|researcher|\\bphd\\b|postdoc|investigador|doctorand",
+       "excepcion": null
+      }
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    },
+    {
+     "id": "it.sistemas",
+     "nombre": "sistemas y redes",
+     "terminos": {
+      "es": [
+       "técnico de sistemas",
+       "administrador de sistemas",
+       "técnico de redes"
+      ],
+      "en": [
+       "system administrator",
+       "network engineer"
+      ],
+      "ca": [
+       "tècnic de sistemes"
+      ]
+     },
+     "terminos_junior": [
+      "técnico de sistemas junior"
+     ],
+     "nucleo": "administrador\\w*(?:/a)? (?:de )?sistemas|sysadmin|systems? administrator|t[éèe]cnic\\w*(?:/a)? (?:j[úu]nior )?(?:de |d'|en )?(?:sistemas|sistemes|redes|xarxes|infraestructura|comunicaciones)\\b|administrador\\w*(?:/a)? (?:de )?(?:redes|sistemes|infraestructura)|systems? engineer|network (?:administrator|engineer|technician|specialist)|ingenier\\w*(?:/a)? de (?:sistemas|redes)|operador\\w*(?:/a)? de sistemas|windows server|\\bvmware\\b|infrastructure (?:engineer|technician)|sistemas (?:y|e) redes|especialista (?:en |de )?(?:sistemas|redes)",
+     "senales": [
+      {
+       "nombre": "redes",
+       "peso": 0.5,
+       "patron": "redes|network|xarxes|cisco|fortinet"
+      },
+      {
+       "nombre": "Windows o Linux",
+       "peso": 0.5,
+       "patron": "windows|linux|vmware|active directory|microsoft 365"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "preventa, comercial o fraude",
+       "peso": -3.0,
+       "patron": "preventa|pre-?sales|comercial|\\bfraude?\\b|\\bfraud\\b",
+       "choca_con": [
+        "comercial",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "desarrollo de software",
+       "peso": -2.0,
+       "patron": "developer|desarrollador|programador",
+       "choca_con": [
+        "it.desarrollo"
+       ]
+      },
+      {
+       "nombre": "nivel 3",
+       "peso": -2.0,
+       "patron": "\\bn3\\b|nivel 3|\\bl3\\b|level 3|n2/n3|n2-n3"
+      }
+     ],
+     "descartes": [
+      {
+       "nombre": "Oficios no técnicos (sanidad, obra, PRL…)",
+       "activa": true,
+       "patron": "enfermer[ií]a|\\btcae\\b|auxiliar de cl[ií]nica|sanitari[oa]|gesti[óo]n sanitaria|hematolog|farmac[ié]|veterinari|fisioterap|odontolog|psicolog|aparcamiento|conductor|repartidor|camarer[oa]|cociner[oa]|limpieza|ascensor|fontaner|electricist|alba[ñn]il|soldador|carpinter|climatizaci[óo]n|refrigeraci[óo]n|calefacci[óo]n|obra civil|delineante|prevenci[óo]n de riesgos|\\bprl\\b|\\bcae\\b|nataci[óo]n|aquagym|monitor deportiv|socorrist|entrenador|peluquer|est[ée]tic|dependient[ae]|cajer[oa]|inmobiliari|real estate|estaciones de servicio|centros de mayores|\\btasoc\\b|\\btafad\\b|t[ée]cnic[oa][/ ]?a? de campo|t[ée]cnic[oa] itinerante|electromec[áa]nic|\\bclaims?\\b|siniestros?|suscripci[óo]n|underwrit|p[óo]lizas?|\\bsettlement\\b|liquidaci[óo]n|tesorer[ií]a|book ?keep|maintenance engineer|equipment service|sistemas de seguridad|seguridad electr[óo]nica|\\bcctv\\b|videovigilancia|alarmas|control de accesos|vigilante|fotovoltaic|\\bsolar\\b|renovable|guiado|maquinaria|topograf|bodeguer|baja it\\b|\\btpv\\b|\\bpos\\b",
+       "excepcion": "inform[áa]tic|software|\\bit\\b|helpdesk|help desk|service desk|ciber|cyber|\\bsoc\\b|\\berp\\b|sistemas inform",
+       "choca_con": [
+        "admin",
+        "atencion",
+        "comercial",
+        "marketing",
+        "finanzas",
+        "rrhh",
+        "sanidad",
+        "educacion",
+        "hosteleria",
+        "comercio",
+        "logistica",
+        "industria",
+        "oficios"
+       ]
+      },
+      {
+       "nombre": "Falsos amigos de IT (baja IT, preventa)",
+       "activa": true,
+       "patron": "bodeguer|baja it\\b|sustituci[óo]n baja|preventa|pre-?sales\\b|presales",
+       "excepcion": null,
+       "choca_con": [
+        "comercial",
+        "hosteleria"
+       ]
+      },
+      {
+       "nombre": "Investigación académica",
+       "activa": true,
+       "patron": "research engineer|researcher|\\bphd\\b|postdoc|investigador|doctorand",
+       "excepcion": null
+      }
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    },
+    {
+     "id": "it.ciber",
+     "nombre": "ciberseguridad",
+     "terminos": {
+      "es": [
+       "analista ciberseguridad",
+       "técnico ciberseguridad",
+       "analista soc"
+      ],
+      "en": [
+       "cybersecurity analyst",
+       "soc analyst"
+      ],
+      "ca": [
+       "ciberseguretat"
+      ]
+     },
+     "terminos_junior": [
+      "junior soc",
+      "junior cybersecurity"
+     ],
+     "nucleo": "\\bsoc\\b|cybersoc|security operations|(?<!dev)secops|\\bsiem\\b|\\bsoar\\b|blue team|\\bedr\\b|\\bxdr\\b|\\bmdr\\b|incident (?:handler|responder)|threat (?:detection|monitoring)|analistas? (?:de )?seguridad|(?:analista|analyst|t[éèe]cnic\\w*(?:/a)?|operador\\w*(?:/a)?|operator|specialist|especialista)\\W+(?:\\w+\\W+){0,2}(?:ciberseguridad|ciberseguretat|cybersecurity|cyber security|seguridad inform\\w*)|(?:security|cybersecurity|cyber security|ciberseguridad|seguridad inform\\w*) (?:analyst|analista|operator|operador|technician|specialist)|\\bdfir\\b|forens\\w*|\\bmalware\\b|ciberinteligencia|inteligencia de amenazas|threat (?:intel\\w*|hunt\\w*|analy\\w*|response|investigat\\w*)|incident response|respuesta a incidentes|security incident|(?:analistas?|analyst|t[éèe]cnic\\w*(?:/a)?|technician|operador\\w*(?:/a)?|operator|specialist|especialista|auxiliar|\\bjunior\\b|j[úu]nior|\\bjr\\b|\\bn1\\b|trainee|becari\\w*|\\bbecas?\\b|pr[áa]cticas|\\bintern\\b|internship|apprentice\\w*|graduate)\\W+(?:\\w+\\W+){0,5}(?:ciberseguridad|ciberseguretat|cybersecurity|cyber security|\\bciber\\b|\\bcyber\\b|seguridad inform\\w*|seguridad (?:it|ti)\\b|it security|information security|seguridad de (?:la )?(?:informaci[óo]n|redes)|redes y seguridad|network security|seguridad perimetral|vulnerabilidades)|(?:ciberseguridad|ciberseguretat|cybersecurity|cyber security|\\bciber\\b|\\bcyber\\b|seguridad inform\\w*|seguridad (?:it|ti)\\b|it security|information security|seguridad de (?:la )?(?:informaci[óo]n|redes)|redes y seguridad|network security|seguridad perimetral|vulnerabilidades)\\W+(?:\\w+\\W+){0,3}(?:analistas?|analyst|t[éèe]cnic\\w*(?:/a)?|technician|operador\\w*(?:/a)?|operator|specialist|especialista|auxiliar|\\bjunior\\b|j[úu]nior|\\bjr\\b|\\bn1\\b|trainee|becari\\w*|\\bbecas?\\b|pr[áa]cticas|\\bintern\\b|internship|apprentice\\w*|graduate|\\bmonitoring\\b|monitoriz\\w*)|pentest\\w*|penetration test\\w*|ethical hack\\w*|hacking [ée]tico|red team|\\bgrc\\b|appsec|application security|(?:cyber ?security|security|seguridad) engineer|ingenier\\w*(?:/a)? (?:de |en )?(?:ciberseguridad|seguridad inform\\w*)|consultor\\w*(?:/a)? (?:de |en )?ciberseguridad|cybersecurity (?:consultant|specialist)|information security officer|\\bciso\\b|seguridad ofensiva|offensive security",
+     "senales": [
+      {
+       "nombre": "SOC / SIEM",
+       "peso": 1.5,
+       "patron": "\\bsoc\\b|cybersoc|\\bsiem\\b|\\bsoar\\b|(?<!dev)secops|security operations|blue team"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "seguridad física o electrónica",
+       "peso": -4.0,
+       "patron": "vigilante|seguridad privada|seguridad electr[óo]nica|\\bcctv\\b|videovigilancia|alarmas|control de accesos|security guard|escolta",
+       "choca_con": [
+        "oficios.vigilancia"
+       ]
+      },
+      {
+       "nombre": "prevención de riesgos laborales",
+       "peso": -4.0,
+       "patron": "\\bprl\\b|prevenci[óo]n de riesgos|seguridad (?:y salud|laboral|e higiene)|\\bhse\\b|\\behs\\b|health (?:and|&) safety",
+       "choca_con": [
+        "industria.prl"
+       ]
+      },
+      {
+       "nombre": "preventa, comercial o fraude",
+       "peso": -3.0,
+       "patron": "preventa|pre-?sales|comercial|\\bfraude?\\b|\\bfraud\\b",
+       "choca_con": [
+        "comercial",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [
+      {
+       "nombre": "Investigación académica",
+       "activa": true,
+       "patron": "research engineer|researcher|\\bphd\\b|postdoc|investigador|doctorand",
+       "excepcion": null
+      }
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    },
+    {
+     "id": "it.desarrollo",
+     "nombre": "desarrollo",
+     "terminos": {
+      "es": [
+       "desarrollador",
+       "programador"
+      ],
+      "en": [
+       "software developer",
+       "backend developer",
+       "frontend developer"
+      ],
+      "ca": [
+       "desenvolupador"
+      ]
+     },
+     "terminos_junior": [
+      "desarrollador junior",
+      "junior developer"
+     ],
+     "nucleo": "developer|desarrollador|programador|programuotojas|software engineer|fullstack|full[- ]stack|back[- ]?end|front[- ]?end|\\bsharepoint\\b|ingenier\\w*(?:/a)? (?:de )?software|desenvolupador\\w*|maquetador\\w*|web developer|programmer|desarrollo (?:web|de software|de aplicaciones)\\b",
+     "senales": [
+      {
+       "nombre": "lenguaje o stack",
+       "peso": 1.0,
+       "patron": "\\bjava\\b|python|javascript|typescript|react|angular|\\.net\\b|\\bc#|\\bphp\\b|node|kotlin|swift|golang"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "desarrollo de negocio",
+       "peso": -4.0,
+       "patron": "(?:desarrollador\\w*(?:/a)?|developer)\\W+(?:\\w+\\W+){0,2}(?:negocio|business|comercial)|business developer",
+       "choca_con": [
+        "comercial.inside",
+        "comercial.cuentas"
+       ]
+      },
+      {
+       "nombre": "soporte, no desarrollo",
+       "peso": -2.0,
+       "patron": "soporte|support|help ?desk|service desk",
+       "choca_con": [
+        "it.soporte"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    },
+    {
+     "id": "it.datos",
+     "nombre": "datos y BI",
+     "terminos": {
+      "es": [
+       "analista de datos",
+       "ingeniero de datos"
+      ],
+      "en": [
+       "data analyst",
+       "data engineer",
+       "business intelligence"
+      ],
+      "ca": [
+       "analista de dades"
+      ]
+     },
+     "terminos_junior": [
+      "data analyst junior"
+     ],
+     "nucleo": "data (?:scientist|engineer|architect|governance|analyst)|machine learning|big data|business intelligence|\\bpower bi\\b|databricks|\\betl\\b|\\banalytics\\b|database (?:administrator|reliability)|analista de (?:datos|dades)|ingenier\\w*(?:/a)? de datos|cient[íi]fic\\w*(?:/a)? de datos|\\bbi (?:analyst|developer|consultant|engineer)|analista bi\\b|tableau|\\b(?:ml|ai) engineer|ingenier\\w*(?:/a)? (?:de )?(?:machine learning|inteligencia artificial|ia)\\b",
+     "senales": [
+      {
+       "nombre": "SQL o Python",
+       "peso": 1.0,
+       "patron": "\\bsql\\b|python|\\bdbt\\b|snowflake|spark"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "grabación de datos",
+       "peso": -4.0,
+       "patron": "data entry|grabaci[óo]n de datos|grabador\\w*",
+       "choca_con": [
+        "admin.backoffice"
+       ]
+      },
+      {
+       "nombre": "protección de datos (legal)",
+       "peso": -3.0,
+       "patron": "protecci[óo]n de datos|\\bdpo\\b|data protection|privacy|privacidad"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    },
+    {
+     "id": "it.qa",
+     "nombre": "QA / testing",
+     "terminos": {
+      "es": [
+       "tester",
+       "qa"
+      ],
+      "en": [
+       "qa engineer",
+       "software tester"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [
+      "qa junior",
+      "tester junior"
+     ],
+     "nucleo": "(?<!pen)(?<!penetration )(?<!penetration-)(?:\\bqa\\b|tester|testing)|quality assurance|\\bqe\\b|test (?:engineer|analyst|automation|lead|manager)|automatizaci[óo]n de pruebas|pruebas de software|analista de pruebas|\\bsdet\\b",
+     "senales": [
+      {
+       "nombre": "automatización de pruebas",
+       "peso": 1.0,
+       "patron": "automati\\w*|selenium|cypress|playwright|appium"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "pentest",
+       "peso": -3.0,
+       "patron": "pen(?:etration)?[ -]?test|pentest|ethical hack",
+       "choca_con": [
+        "it.ciber"
+       ]
+      },
+      {
+       "nombre": "calidad industrial o farmacéutica",
+       "peso": -3.0,
+       "patron": "\\bgmp\\b|farma|pharma|aliment|\\bfood\\b|manufactur|producci[óo]n|\\bplanta\\b|laboratori",
+       "choca_con": [
+        "industria.calidad",
+        "industria.laboratorio",
+        "sanidad.farmacia"
+       ]
+      }
+     ],
+     "descartes": [
+      {
+       "nombre": "Investigación académica",
+       "activa": true,
+       "patron": "research engineer|researcher|\\bphd\\b|postdoc|investigador|doctorand",
+       "excepcion": null
+      }
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    },
+    {
+     "id": "it.cloud",
+     "nombre": "cloud / DevOps",
+     "terminos": {
+      "es": [
+       "ingeniero devops",
+       "ingeniero cloud"
+      ],
+      "en": [
+       "devops engineer",
+       "cloud engineer"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [
+      "devops junior"
+     ],
+     "nucleo": "devsecops|\\bdevops\\b|\\bsre\\b|cloud engineer|ingenier[oa](?:/a)? cloud|site reliability|platform engineer|ingenier\\w*(?:/a)? de plataforma|cloud (?:architect|administrator|operations|support|specialist|technician|infrastructure)|t[ée]cnic\\w*(?:/a)? cloud|especialista cloud|\\baws\\b|\\bazure\\b|\\bgcp\\b|kubernetes|infraestructura cloud|administrador\\w*(?:/a)? cloud",
+     "senales": [
+      {
+       "nombre": "contenedores e IaC",
+       "peso": 1.0,
+       "patron": "kubernetes|\\bk8s\\b|docker|terraform|ansible"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "preventa, comercial o fraude",
+       "peso": -3.0,
+       "patron": "preventa|pre-?sales|comercial|\\bfraude?\\b|\\bfraud\\b",
+       "choca_con": [
+        "comercial",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [
+      {
+       "nombre": "Investigación académica",
+       "activa": true,
+       "patron": "research engineer|researcher|\\bphd\\b|postdoc|investigador|doctorand",
+       "excepcion": null
+      }
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    },
+    {
+     "id": "it.telecom",
+     "nombre": "telecom / NOC",
+     "terminos": {
+      "es": [
+       "técnico noc",
+       "técnico de telecomunicaciones",
+       "técnico de monitorización"
+      ],
+      "en": [
+       "noc engineer",
+       "noc technician"
+      ],
+      "ca": [
+       "tècnic de telecomunicacions"
+      ]
+     },
+     "terminos_junior": [
+      "técnico noc junior"
+     ],
+     "nucleo": "\\bnoc\\b|network operations|centro de (?:control|operaciones) de red|t[éèe]cnic\\w*(?:/a)? (?:j[úu]nior )?(?:de |en )?(?:telecomunicaci\\w*|telecom\\b|fibra|radiofrecuencia|transmisi[óo]n|redes m[óo]viles|monitori[zt]a\\w*|observabilidad)|(?:operador\\w*(?:/a)?|operator|technician|engineer|t[éèe]cnic\\w*(?:/a)?)\\W+(?:\\w+\\W+){0,2}(?:monitori[zt]a\\w*|monitoring)\\b|ingenier\\w*(?:/a)? (?:de )?telecomunicaci\\w*|telecom(?:munications)? (?:engineer|technician)|\\b(?:rf|5g|lte) (?:engineer|optimi[sz]ation)|fibra [óo]ptica|\\bftth\\b",
+     "senales": [
+      {
+       "nombre": "24x7",
+       "peso": 0.5,
+       "patron": "24x7|24/7|turnos"
+      },
+      {
+       "nombre": "redes",
+       "peso": 0.5,
+       "patron": "redes|network|xarxes|cisco|fortinet"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "preventa, comercial o fraude",
+       "peso": -3.0,
+       "patron": "preventa|pre-?sales|comercial|\\bfraude?\\b|\\bfraud\\b",
+       "choca_con": [
+        "comercial",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "instalación de campo",
+       "peso": -2.0,
+       "patron": "instalador|montador|de campo|\\bfield\\b|tendido",
+       "choca_con": [
+        "oficios.electricista",
+        "oficios.mantenimiento"
+       ]
+      }
+     ],
+     "descartes": [
+      {
+       "nombre": "Oficios no técnicos (sanidad, obra, PRL…)",
+       "activa": true,
+       "patron": "enfermer[ií]a|\\btcae\\b|auxiliar de cl[ií]nica|sanitari[oa]|gesti[óo]n sanitaria|hematolog|farmac[ié]|veterinari|fisioterap|odontolog|psicolog|aparcamiento|conductor|repartidor|camarer[oa]|cociner[oa]|limpieza|ascensor|fontaner|electricist|alba[ñn]il|soldador|carpinter|climatizaci[óo]n|refrigeraci[óo]n|calefacci[óo]n|obra civil|delineante|prevenci[óo]n de riesgos|\\bprl\\b|\\bcae\\b|nataci[óo]n|aquagym|monitor deportiv|socorrist|entrenador|peluquer|est[ée]tic|dependient[ae]|cajer[oa]|inmobiliari|real estate|estaciones de servicio|centros de mayores|\\btasoc\\b|\\btafad\\b|t[ée]cnic[oa][/ ]?a? de campo|t[ée]cnic[oa] itinerante|electromec[áa]nic|\\bclaims?\\b|siniestros?|suscripci[óo]n|underwrit|p[óo]lizas?|\\bsettlement\\b|liquidaci[óo]n|tesorer[ií]a|book ?keep|maintenance engineer|equipment service|sistemas de seguridad|seguridad electr[óo]nica|\\bcctv\\b|videovigilancia|alarmas|control de accesos|vigilante|fotovoltaic|\\bsolar\\b|renovable|guiado|maquinaria|topograf|bodeguer|baja it\\b|\\btpv\\b|\\bpos\\b",
+       "excepcion": "inform[áa]tic|software|\\bit\\b|helpdesk|help desk|service desk|ciber|cyber|\\bsoc\\b|\\berp\\b|sistemas inform",
+       "choca_con": [
+        "admin",
+        "atencion",
+        "comercial",
+        "marketing",
+        "finanzas",
+        "rrhh",
+        "sanidad",
+        "educacion",
+        "hosteleria",
+        "comercio",
+        "logistica",
+        "industria",
+        "oficios"
+       ]
+      },
+      {
+       "nombre": "Investigación académica",
+       "activa": true,
+       "patron": "research engineer|researcher|\\bphd\\b|postdoc|investigador|doctorand",
+       "excepcion": null
+      }
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble",
+      "tecnoempleo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "admin",
+   "emoji": "🗂️",
+   "nombre": "Administración y oficina",
+   "otro": {
+    "id": "admin.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "admin.administrativo",
+     "nombre": "administrativo/a",
+     "terminos": {
+      "es": [
+       "administrativo",
+       "administrativa"
+      ],
+      "en": [
+       "administrative assistant",
+       "office administrator"
+      ],
+      "ca": [
+       "administratiu"
+      ]
+     },
+     "terminos_junior": [
+      "administrativo junior"
+     ],
+     "nucleo": "\\badministrativ|\\badministratiu|auxiliar de oficina|office (?:assistant|administrator|clerk)|administrative (?:assistant|officer|clerk|coordinator|support)|gesti[óo]n administrativa|personal de administraci[óo]n\\b(?! de sistemas)",
+     "senales": [
+      {
+       "nombre": "contabilidad y facturación",
+       "peso": 1.0,
+       "patron": "contab|factura|comptab"
+      },
+      {
+       "nombre": "recepción o atención",
+       "peso": 0.5,
+       "patron": "recepci[óo]n|atenci[óo]n al cliente|centralita"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "abogacía y legal",
+       "peso": -3.0,
+       "patron": "abogad|letrad|contencioso|jur[íi]dic|\\blegal\\b|paralegal"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "admin.auxiliar",
+     "nombre": "auxiliar administrativo/a",
+     "terminos": {
+      "es": [
+       "auxiliar administrativo"
+      ],
+      "en": [],
+      "ca": [
+       "auxiliar administratiu"
+      ]
+     },
+     "terminos_junior": [
+      "auxiliar administrativo sin experiencia"
+     ],
+     "nucleo": "auxiliar\\w*(?:/a)? (?:de )?administra\\w*|auxiliar de oficina|\\baux\\.? administrativ\\w*|ayudante administrativ\\w*|administrative (?:assistant|clerk)|office (?:assistant|clerk)",
+     "senales": [
+      {
+       "nombre": "contabilidad y facturación",
+       "peso": 1.0,
+       "patron": "contab|factura|comptab"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "abogacía y legal",
+       "peso": -3.0,
+       "patron": "abogad|letrad|contencioso|jur[íi]dic|\\blegal\\b|paralegal"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "admin.recepcion",
+     "nombre": "recepcionista (oficina, clínica, gimnasio…)",
+     "terminos": {
+      "es": [
+       "recepcionista",
+       "recepcionista clínica",
+       "recepcionista centro médico"
+      ],
+      "en": [
+       "receptionist"
+      ],
+      "ca": [
+       "recepcionista"
+      ]
+     },
+     "terminos_junior": [
+      "recepcionista sin experiencia"
+     ],
+     "nucleo": "recepcionist|receptionist|\\brecepci[óo]n\\b|front desk|personal de acogida",
+     "senales": [
+      {
+       "nombre": "centralita y atención",
+       "peso": 0.5,
+       "patron": "centralita|telef[óo]n|atenci[óo]n|acogida"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "recepción de mercancía",
+       "peso": -4.0,
+       "patron": "mercanc|almac[ée]n|log[íi]stic|pedidos|materiales",
+       "choca_con": [
+        "logistica"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "tambien_en": [
+      "atencion",
+      "sanidad"
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "admin.direccion",
+     "nombre": "secretario/a y asistente de dirección",
+     "terminos": {
+      "es": [
+       "asistente de dirección",
+       "secretaria de dirección"
+      ],
+      "en": [
+       "executive assistant",
+       "personal assistant"
+      ],
+      "ca": [
+       "secretària de direcció"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "asistente (?:de|a la) direcci[óo]n|assistant (?:to|of) (?:the )?(?:ceo|director|management|md)|\\bsecretari[oa]\\w*|secret[àa]ri[ae]?\\b|executive assistant|personal assistant|\\bpa to\\b|office manager|asistente ejecutiv\\w*|asistente personal",
+     "senales": [
+      {
+       "nombre": "agenda y viajes",
+       "peso": 0.5,
+       "patron": "agenda|viajes|eventos|direcci[óo]n general"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "asistencia personal a dependientes",
+       "peso": -3.0,
+       "patron": "dependen|discapacidad|diversidad funcional|mayores|domicilio",
+       "choca_con": [
+        "sanidad.domicilio"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "admin.backoffice",
+     "nombre": "back office y grabación de datos",
+     "terminos": {
+      "es": [
+       "back office",
+       "grabador de datos",
+       "gestor administrativo"
+      ],
+      "en": [
+       "back office"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "back[- ]?office|grabador\\w*(?:/a)? de datos|grabaci[óo]n de datos|data entry|gestor\\w*(?:/a)? administrativ\\w*|gesti[óo]n documental|operador\\w*(?:/a)? de datos|digitalizaci[óo]n de documentos|middle office",
+     "senales": [
+      {
+       "nombre": "documental",
+       "peso": 0.5,
+       "patron": "document|archivo|digitaliz|expedientes"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "desarrollo de software",
+       "peso": -2.0,
+       "patron": "developer|desarrollador|programador",
+       "choca_con": [
+        "it.desarrollo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "admin.comercial",
+     "nombre": "administrativo/a comercial y de pedidos",
+     "terminos": {
+      "es": [
+       "administrativo comercial",
+       "gestión de pedidos",
+       "administrativo de ventas"
+      ],
+      "en": [
+       "sales administrator"
+      ],
+      "ca": [
+       "administratiu comercial"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "administrativ\\w*(?:/a)? (?:de )?(?:comercial|ventas|pedidos|exportaci[óo]n|importaci[óo]n|compras|clientes)|administratiu\\w*(?:/a)? comercial|gesti[óo]n de pedidos|gestor\\w*(?:/a)? de pedidos|sales (?:administrator|admin|coordinator|support)|order (?:management|entry|administrator)|asistente comercial|auxiliar comercial|soporte comercial|apoyo comercial",
+     "senales": [
+      {
+       "nombre": "exportación o importación",
+       "peso": 0.5,
+       "patron": "export|import|comercio exterior|internacional"
+      },
+      {
+       "nombre": "ERP",
+       "peso": 0.5,
+       "patron": "\\bsap\\b|\\berp\\b|navision|\\ba3\\b|oracle"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "venta de campo",
+       "peso": -2.0,
+       "patron": "comercial de (?:campo|calle|zona)|puerta a puerta|captaci[óo]n|aut[óo]nom[oa]|comisiones",
+       "choca_con": [
+        "comercial.campo",
+        "comercial.asesor"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "atencion",
+   "emoji": "🎧",
+   "nombre": "Atención al cliente",
+   "otro": {
+    "id": "atencion.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "atencion.teleoperador",
+     "nombre": "teleoperador/a",
+     "terminos": {
+      "es": [
+       "teleoperador",
+       "teleoperadora",
+       "atención telefónica"
+      ],
+      "en": [],
+      "ca": [
+       "teleoperador",
+       "atenció telefònica"
+      ]
+     },
+     "terminos_junior": [
+      "teleoperador sin experiencia"
+     ],
+     "nucleo": "teleoperador|tele-operador|operador\\w*(?:/a)? telef[óo]nic|agente telef[óo]nic|atenci[óo]n telef[óo]nica|atenci[óo] telef[òo]nica|call ?cent(?:er|re)|contact ?cent(?:er|re)|gestor\\w*(?:/a)? telef[óo]nic|teleasistencia",
+     "senales": [
+      {
+       "nombre": "atención al cliente",
+       "peso": 1.0,
+       "patron": "atenci[óo]n al cliente|customer|servicio al cliente|atenci[óo] al client"
+      },
+      {
+       "nombre": "llamadas entrantes",
+       "peso": 0.5,
+       "patron": "recepci[óo]n de llamadas|\\binbound\\b|entrantes"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "venta telefónica",
+       "peso": -2.0,
+       "patron": "\\bventas?\\b|televent|comercial|captaci[óo]n|\\bsales\\b",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente"
+       ]
+      },
+      {
+       "nombre": "soporte técnico informático",
+       "peso": -1.5,
+       "patron": "soporte t[ée]cnico|technical support|help ?desk|it support|inform[áa]tic|service desk|sistemas|\\bcloud\\b|workforce management|\\bwfm\\b",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "atencion.agente",
+     "nombre": "agente de atención al cliente",
+     "terminos": {
+      "es": [
+       "atención al cliente",
+       "agente de atención al cliente"
+      ],
+      "en": [
+       "customer service"
+      ],
+      "ca": [
+       "atenció al client"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "atenci[óo]n al (?:cliente|usuario|consumidor)|atenci[óo] al client|servicio al cliente|customer (?:service|care|support|experience)\\b|agente de (?:atenci[óo]n|servicio|clientes)|gestor\\w*(?:/a)? de clientes|customer (?:advisor|agent|representative|specialist)|asesor\\w*(?:/a)? de (?:atenci[óo]n|clientes)|guest (?:service|relations)",
+     "senales": [
+      {
+       "nombre": "teléfono, chat o email",
+       "peso": 0.5,
+       "patron": "telef[óo]n|\\bchat\\b|\\bemail\\b|omnicanal"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "venta telefónica",
+       "peso": -2.0,
+       "patron": "\\bventas?\\b|televent|comercial|captaci[óo]n|\\bsales\\b",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente"
+       ]
+      },
+      {
+       "nombre": "soporte técnico informático",
+       "peso": -1.5,
+       "patron": "soporte t[ée]cnico|technical support|help ?desk|it support|inform[áa]tic|service desk|sistemas|\\bcloud\\b|workforce management|\\bwfm\\b",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "customer success o cuentas",
+       "peso": -2.0,
+       "patron": "customer success|account|key account|cuentas",
+       "choca_con": [
+        "comercial.cuentas"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "atencion.idiomas",
+     "nombre": "atención al cliente con idiomas",
+     "terminos": {
+      "es": [
+       "atención al cliente inglés"
+      ],
+      "en": [
+       "customer service representative",
+       "customer support",
+       "customer care"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "(?:customer (?:service|care|support|experience)|atenci[óo]n al cliente|servicio al cliente|customer (?:advisor|agent|representative|specialist)|agente|asesor\\w*|teleoperador\\w*|call ?cent\\w*|contact ?cent\\w*)\\W+(?:\\w+\\W+){0,6}?(?:english|ingl[ée]s|french|franc[ée]s|german|alem[áa]n|italian\\w*|italiano|portugu\\w*|dutch|neerland[ée]s|nordic|swedish|danish|norwegian|finnish|polish|czech|greek|turkish|arabic|hebrew|japanese|korean|chinese|mandarin|russian|basque|catalan|galician|bilingual|biling[üu]e|native|speaking|speaker)|(?:english|french|german|italian|portuguese|dutch|swedish|danish|norwegian|finnish|polish|czech|greek|turkish|arabic|hebrew|japanese|korean|russian|basque|catalan|bilingual|nordic)[- ](?:speaking|speaker)\\W+(?:\\w+\\W+){0,4}?(?:customer|support|service|agent|advisor|representative)|customer (?:service|support|care) representative|multilingual (?:customer|support|agent|advisor|service)",
+     "senales": [
+      {
+       "nombre": "idioma en el título",
+       "peso": 1.0,
+       "patron": "english|ingl[ée]s|bilingual|biling|speaking|speaker"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "venta telefónica",
+       "peso": -2.0,
+       "patron": "\\bventas?\\b|televent|comercial|captaci[óo]n|\\bsales\\b",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente"
+       ]
+      },
+      {
+       "nombre": "soporte técnico informático",
+       "peso": -1.5,
+       "patron": "soporte t[ée]cnico|technical support|help ?desk|it support|inform[áa]tic|service desk|sistemas|\\bcloud\\b|workforce management|\\bwfm\\b",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "atencion.postventa",
+     "nombre": "postventa, incidencias y reclamaciones",
+     "terminos": {
+      "es": [
+       "postventa",
+       "gestor de reclamaciones",
+       "gestión de incidencias"
+      ],
+      "en": [],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "post-?venta|after-?sales|gestor\\w*(?:/a)? de (?:reclamaciones|incidencias|siniestros)|gesti[óo]n de (?:reclamaciones|incidencias|siniestros)|reclamaciones|claims (?:handler|specialist|agent|adjuster)|tramitador\\w*(?:/a)? de siniestros|devoluciones|returns (?:specialist|agent)",
+     "senales": [
+      {
+       "nombre": "seguros",
+       "peso": 0.5,
+       "patron": "seguro|siniestro|p[óo]liza"
+      },
+      {
+       "nombre": "ecommerce",
+       "peso": 0.5,
+       "patron": "e-?commerce|online|tienda"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "incidencias de IT",
+       "peso": -3.0,
+       "patron": "\\bit\\b|inform[áa]tic|\\bitil\\b|sistemas|soporte t[ée]cnico|service desk|help ?desk|ciber|security|seguridad",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "venta telefónica",
+       "peso": -2.0,
+       "patron": "\\bventas?\\b|televent|comercial|captaci[óo]n|\\bsales\\b",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente"
+       ]
+      },
+      {
+       "nombre": "servicio técnico postventa",
+       "peso": -2.0,
+       "patron": "t[ée]cnic|engineer|ingenier|automatizaci|mec[áa]nic|mantenimiento",
+       "choca_con": [
+        "industria",
+        "oficios"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "atencion.publico",
+     "nombre": "atención al público e información",
+     "terminos": {
+      "es": [
+       "atención al público",
+       "azafata",
+       "informador"
+      ],
+      "en": [],
+      "ca": [
+       "atenció al públic"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "atenci[óo]n? al p[úu]blic|atenci[óo] ciutadana|atenci[óo]n ciudadana|\\binformador\\w*|\\bazafat[oa]|\\bhostess\\b|personal de (?:informaci[óo]n|acogida)|auxiliar de informaci[óo]n|punto de informaci[óo]n|taquiller\\w*|personal de taquilla|acomodador\\w*",
+     "senales": [
+      {
+       "nombre": "eventos, ferias o museos",
+       "peso": 0.5,
+       "patron": "evento|feria|congreso|museo|fira"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "tripulante de cabina",
+       "peso": -3.0,
+       "patron": "de vuelo|cabin crew|flight attendant|tripulante|\\btcp\\b|auxiliar de vuelo|steward(?:ess)? de"
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "comercial",
+   "emoji": "💼",
+   "nombre": "Comercial y ventas",
+   "otro": {
+    "id": "comercial.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "comercial.campo",
+     "nombre": "comercial / técnico comercial",
+     "terminos": {
+      "es": [
+       "comercial",
+       "técnico comercial",
+       "delegado comercial"
+      ],
+      "en": [
+       "sales representative"
+      ],
+      "ca": [
+       "comercial"
+      ]
+     },
+     "terminos_junior": [
+      "comercial junior"
+     ],
+     "nucleo": "(?<!centros )(?<!centro )\\bcomercial(?:es)?\\b(?! de tienda)|t[ée]cnic\\w*(?:/a)? comercial|delegad\\w*(?:/a)? comercial|agente comercial|representante comercial|ejecutiv\\w*(?:/a)? comercial|sales (?:representative|executive|rep\\b|agent)|field sales|visitador\\w*(?:/a)? m[ée]dic",
+     "senales": [
+      {
+       "nombre": "B2B o cartera",
+       "peso": 0.5,
+       "patron": "\\bb2b\\b|cartera|grandes cuentas|distribuci[óo]n"
+      },
+      {
+       "nombre": "vehículo de empresa",
+       "peso": 0.5,
+       "patron": "coche|veh[íi]culo de empresa"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "administrativo comercial (oficina)",
+       "peso": -2.0,
+       "patron": "administrativ|back office|soporte comercial|apoyo comercial|asistente comercial|gesti[óo]n de pedidos",
+       "choca_con": [
+        "admin"
+       ]
+      },
+      {
+       "nombre": "venta por teléfono",
+       "peso": -1.5,
+       "patron": "tele-?(?:venta|operador|marketing)|telef[óo]nic|call ?cent",
+       "choca_con": [
+        "comercial.televenta",
+        "comercial.asesor",
+        "atencion.teleoperador"
+       ]
+      },
+      {
+       "nombre": "autónomo o solo a comisión",
+       "peso": -2.0,
+       "patron": "aut[óo]nom[oa]|\\bfreelance\\b|sin fijo|solo comisi[óo]n|100 ?% comisi|veh[íi]culo propio|furgoneta propia"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercial.televenta",
+     "nombre": "televenta",
+     "terminos": {
+      "es": [
+       "televenta",
+       "teleoperador ventas",
+       "televendedor"
+      ],
+      "en": [],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "tele-?venta|televendedor\\w*|venta telef[óo]nica|ventas telef[óo]nicas|teleoperador\\w*(?:/a)? (?:de )?(?:ventas|comercial|emisi[óo]n|outbound)|agente (?:de )?televenta|telemarketing|outbound sales|comercial telef[óo]nic\\w*|televenda|captaci[óo]n telef[óo]nica|venda telef[òo]nica",
+     "senales": [
+      {
+       "nombre": "emisión de llamadas",
+       "peso": 0.5,
+       "patron": "emisi[óo]n|outbound"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "autónomo o solo a comisión",
+       "peso": -2.0,
+       "patron": "aut[óo]nom[oa]|\\bfreelance\\b|sin fijo|solo comisi[óo]n|100 ?% comisi|veh[íi]culo propio|furgoneta propia"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercial.inside",
+     "nombre": "inside sales / SDR / BDR",
+     "terminos": {
+      "es": [],
+      "en": [
+       "sales development representative",
+       "business development representative",
+       "inside sales"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bsdr\\b|\\bbdr\\b|sales development|business development (?:representative|associate|executive)|inside sales|lead generation|account development|desarrollo de negocio|business developer|new business (?:representative|associate|executive)",
+     "senales": [
+      {
+       "nombre": "SaaS o tecnología",
+       "peso": 0.5,
+       "patron": "\\bsaas\\b|software|\\btech\\b|cloud"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "venta en la calle",
+       "peso": -2.0,
+       "patron": "puerta a puerta|\\bcalle\\b|de campo|field sales",
+       "choca_con": [
+        "comercial.campo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercial.cuentas",
+     "nombre": "gestor/a de cuentas (account / KAM)",
+     "terminos": {
+      "es": [
+       "gestor de cuentas",
+       "ejecutivo de cuentas"
+      ],
+      "en": [
+       "account executive",
+       "account manager",
+       "key account manager"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "account (?:executive|manager|management|director)|key account|\\bkam\\b|gestor\\w*(?:/a)? de cuentas|ejecutiv\\w*(?:/a)? de cuentas|gesti[óo]n de cuentas|customer success (?:manager|specialist|associate|advisor)|client (?:partner|executive)",
+     "senales": [
+      {
+       "nombre": "SaaS o tecnología",
+       "peso": 0.5,
+       "patron": "\\bsaas\\b|software|\\btech\\b|cloud"
+      },
+      {
+       "nombre": "cartera de clientes",
+       "peso": 0.5,
+       "patron": "cartera|portfolio"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "contabilidad",
+       "peso": -4.0,
+       "patron": "accountant|accounting|contab|accounts (?:payable|receivable)",
+       "choca_con": [
+        "finanzas"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercial.inmobiliario",
+     "nombre": "agente inmobiliario",
+     "terminos": {
+      "es": [
+       "agente inmobiliario",
+       "asesor inmobiliario",
+       "comercial inmobiliario"
+      ],
+      "en": [],
+      "ca": [
+       "agent immobiliari"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "inmobiliari|immobiliari|agente de la propiedad|real estate (?:agent|advisor|consultant|sales)|asesor\\w*(?:/a)? (?:de )?(?:la )?vivienda|captador\\w*(?:/a)? inmobiliari|comercial de (?:obra nueva|promociones|viviendas)|property (?:consultant|advisor)",
+     "senales": [
+      {
+       "nombre": "captación",
+       "peso": 0.5,
+       "patron": "captaci[óo]n|captador"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "administración de fincas o administrativo",
+       "peso": -2.0,
+       "patron": "administrativ|administraci[óo]n de fincas|contab|recepci",
+       "choca_con": [
+        "admin"
+       ]
+      },
+      {
+       "nombre": "autónomo o solo a comisión",
+       "peso": -2.0,
+       "patron": "aut[óo]nom[oa]|\\bfreelance\\b|sin fijo|solo comisi[óo]n|100 ?% comisi|veh[íi]culo propio|furgoneta propia"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercial.asesor",
+     "nombre": "asesor/a comercial (seguros, energía, banca)",
+     "terminos": {
+      "es": [
+       "asesor comercial",
+       "agente de seguros",
+       "asesor energético"
+      ],
+      "en": [],
+      "ca": [
+       "assessor comercial"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "asesor\\w*(?:/a)? comercial|assessor\\w*(?:/a)? comercial|agente (?:de )?seguros|agente exclusiv|asesor\\w*(?:/a)? (?:de )?seguros|mediador\\w*(?:/a)? de seguros|asesor\\w*(?:/a)? energ[ée]tic|comercial de (?:energ[íi]a|seguros|telecomunicaciones|fibra|telefon[íi]a|alarmas|placas|renovables)|gestor\\w*(?:/a)? comercial|insurance (?:agent|advisor|sales)",
+     "senales": [
+      {
+       "nombre": "seguros o banca",
+       "peso": 0.5,
+       "patron": "seguro|banc|financ"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "autónomo o solo a comisión",
+       "peso": -2.0,
+       "patron": "aut[óo]nom[oa]|\\bfreelance\\b|sin fijo|solo comisi[óo]n|100 ?% comisi|veh[íi]culo propio|furgoneta propia"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "marketing",
+   "emoji": "📣",
+   "nombre": "Marketing y comunicación",
+   "otro": {
+    "id": "marketing.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "marketing.digital",
+     "nombre": "marketing digital",
+     "terminos": {
+      "es": [
+       "marketing digital",
+       "técnico de marketing"
+      ],
+      "en": [
+       "digital marketing"
+      ],
+      "ca": [
+       "tècnic de màrqueting"
+      ]
+     },
+     "terminos_junior": [
+      "marketing junior"
+     ],
+     "nucleo": "\\bmarketing\\b|\\bm[àa]rqueting\\b|\\bgrowth (?:hacker|specialist|manager|marketer)|\\bmarketer\\b",
+     "senales": [
+      {
+       "nombre": "digital",
+       "peso": 1.0,
+       "patron": "digital|online|\\bads\\b|google|\\bmeta\\b|social|\\bseo\\b|\\bsem\\b|\\bcrm\\b|automation"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ventas",
+       "peso": -2.0,
+       "patron": "\\bsales\\b|\\bventas\\b|comercial|account executive|telemarketing|televent",
+       "choca_con": [
+        "comercial"
+       ]
+      },
+      {
+       "nombre": "desarrollo de software",
+       "peso": -2.0,
+       "patron": "developer|desarrollador|programador",
+       "choca_con": [
+        "it.desarrollo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "marketing.social",
+     "nombre": "community manager / redes sociales",
+     "terminos": {
+      "es": [
+       "community manager",
+       "social media"
+      ],
+      "en": [
+       "social media"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [
+      "social media junior"
+     ],
+     "nucleo": "community manager|social media|redes sociales|xarxes socials|\\bsmm\\b|content (?:creator|manager)|creador\\w*(?:/a)? de contenido|gestor\\w*(?:/a)? de (?:redes|comunidad)|tiktok|instagram|influencer marketing|social ads",
+     "senales": [
+      {
+       "nombre": "diseño o vídeo",
+       "peso": 0.5,
+       "patron": "dise[ñn]|v[íi]deo|fotograf|canva|adobe"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "moderación de contenidos",
+       "peso": -3.0,
+       "patron": "moderad|content moderat|revisor\\w* de contenido|content review|trust (?:and|&) safety"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "marketing.seo",
+     "nombre": "SEO / SEM / paid media",
+     "terminos": {
+      "es": [
+       "seo",
+       "sem",
+       "paid media"
+      ],
+      "en": [
+       "seo specialist",
+       "ppc"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [
+      "seo junior"
+     ],
+     "nucleo": "\\bseo\\b|\\bsem\\b|\\bppc\\b|paid (?:media|social|search)|performance marketing|google ads|\\bsearch engine|posicionamiento web|m[àa]rqueting en cercadors|traffic manager|media buyer|programmatic",
+     "senales": [
+      {
+       "nombre": "analítica web",
+       "peso": 0.5,
+       "patron": "analytics|anal[íi]tica|\\bga4\\b|looker"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "desarrollo de software",
+       "peso": -2.0,
+       "patron": "developer|desarrollador|programador",
+       "choca_con": [
+        "it.desarrollo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "marketing.contenidos",
+     "nombre": "contenidos y redacción",
+     "terminos": {
+      "es": [
+       "redactor",
+       "copywriter",
+       "creador de contenidos"
+      ],
+      "en": [
+       "content creator",
+       "copywriter"
+      ],
+      "ca": [
+       "redactor"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bredactor\\w*|copywriter|content (?:writer|creator|editor|specialist|strategist)|creador\\w*(?:/a)? de contenido|creaci[óo]n de contenido|editor\\w*(?:/a)? de contenido|gui[óo]nista|corrector\\w*(?:/a)? de (?:textos|estilo)|\\bescritor\\w*|\\bblogger\\b|ghostwriter|technical writer|redacci[óo]",
+     "senales": [
+      {
+       "nombre": "SEO",
+       "peso": 0.5,
+       "patron": "\\bseo\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "moderación de contenidos",
+       "peso": -3.0,
+       "patron": "moderad|content moderat|revisor\\w* de contenido|content review|trust (?:and|&) safety"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "marketing.comunicacion",
+     "nombre": "comunicación y prensa",
+     "terminos": {
+      "es": [
+       "técnico de comunicación",
+       "periodista",
+       "prensa"
+      ],
+      "en": [
+       "communications"
+      ],
+      "ca": [
+       "tècnic de comunicació"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bcomunicaci[óo]n\\b|\\bcomunicaci[óo]\\b|communications? (?:specialist|officer|manager|assistant|coordinator|executive|associate)|internal communications|relaciones p[úu]blicas|public relations|\\bpr (?:specialist|executive|assistant|manager)|\\bperiodist\\w*|\\bprensa\\b|gabinete de prensa|press (?:officer|office)|\\bportavoz\\b",
+     "senales": [
+      {
+       "nombre": "corporativa o institucional",
+       "peso": 0.5,
+       "patron": "corporativ|institucional|interna|externa"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "prensa industrial",
+       "peso": -4.0,
+       "patron": "operari|prensa (?:hidr|industrial|de inyecci|de estampaci)|estampaci|troquel|maquinista",
+       "choca_con": [
+        "industria.operario"
+       ]
+      },
+      {
+       "nombre": "telecomunicaciones, redes o IT",
+       "peso": -3.0,
+       "patron": "\\bredes\\b|sistemas|telecom|unificadas|ingenier|audiovisual|security|seguridad|infraestructur|infrastructure",
+       "choca_con": [
+        "it.telecom",
+        "it.sistemas"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "marketing.diseno",
+     "nombre": "diseño gráfico",
+     "terminos": {
+      "es": [
+       "diseñador gráfico",
+       "diseñador web"
+      ],
+      "en": [
+       "graphic designer"
+      ],
+      "ca": [
+       "dissenyador gràfic"
+      ]
+     },
+     "terminos_junior": [
+      "diseñador gráfico junior"
+     ],
+     "nucleo": "dise[ñn]ador\\w*(?:/a)? (?:gr[áa]fic|web|digital|visual|multimedia|ux|ui\\b|de interfaces|de producto digital|de packaging|editorial|de moda)|dise[ñn]o gr[áa]fico|graphic designer|visual designer|web designer|\\bux ?/ ?ui\\b|\\bui ?/ ?ux\\b|\\bux designer|\\bui designer|product designer|motion (?:designer|graphics)|dissenyador\\w*(?:/a)? gr[àa]fic|\\bilustrador\\w*|\\billustrator\\b(?! (?:cc|adobe))",
+     "senales": [
+      {
+       "nombre": "Adobe o Figma",
+       "peso": 0.5,
+       "patron": "adobe|figma|photoshop|illustrator|indesign|after effects"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "diseño industrial o técnico",
+       "peso": -3.0,
+       "patron": "industrial|mec[áa]nic|t[ée]cnic|\\bcad\\b|civil|fotovolt|estructur|el[ée]ctric|interiores|mueble|moldes",
+       "choca_con": [
+        "industria"
+       ]
+      },
+      {
+       "nombre": "desarrollo de software",
+       "peso": -2.0,
+       "patron": "developer|desarrollador|programador",
+       "choca_con": [
+        "it.desarrollo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "marketing.ecommerce",
+     "nombre": "e-commerce",
+     "terminos": {
+      "es": [
+       "ecommerce",
+       "tienda online"
+      ],
+      "en": [
+       "ecommerce specialist"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "e-?commerce|comercio electr[òóo]nic|tienda online|online store|(?<!cloud )marketplace|amazon (?:specialist|account|seller|vendor)|shopify|prestashop|magento|woocommerce",
+     "senales": [
+      {
+       "nombre": "marketplaces",
+       "peso": 0.5,
+       "patron": "amazon|marketplace|zalando|miravia"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "almacén de e-commerce",
+       "peso": -3.0,
+       "patron": "almac[ée]n|\\bmozo|picking|log[íi]stic|preparador|repartidor|warehouse",
+       "choca_con": [
+        "logistica"
+       ]
+      },
+      {
+       "nombre": "desarrollo de software",
+       "peso": -2.0,
+       "patron": "developer|desarrollador|programador",
+       "choca_con": [
+        "it.desarrollo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "marketing.traduccion",
+     "nombre": "traducción e interpretación",
+     "terminos": {
+      "es": [
+       "traductor",
+       "traductora",
+       "intérprete",
+       "localización"
+      ],
+      "en": [
+       "translator",
+       "interpreter",
+       "localization"
+      ],
+      "ca": [
+       "traductor",
+       "traductora"
+      ]
+     },
+     "terminos_junior": [
+      "traductor junior"
+     ],
+     "nucleo": "\\btraductor\\w*|\\btraducci[óo]n?\\b|translator|translation|\\bint[ée]rprete|\\bint[èe]rpret\\b|\\binterpreter|interpretaci[óo]n (?:simult[áa]nea|consecutiva|de lengua de signos|jurada)|locali[sz]ation|localizador\\w*(?:/a)? de (?:contenido|software|videojuegos)|transcreat\\w*|revisor\\w*(?:/a)? (?:ling[üu][íi]stic|de traducci)|subtitulad\\w*|post-?editor\\w*|\\blinguist\\b|\\bling[üu]ista\\b",
+     "senales": [
+      {
+       "nombre": "jurada o especializada",
+       "peso": 0.5,
+       "patron": "jurad|t[ée]cnic|legal|m[ée]dic|audiovisual|sworn"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "atención al cliente con idiomas",
+       "peso": -1.5,
+       "patron": "customer|atenci[óo]n al cliente|call ?cent|contact ?cent|support",
+       "choca_con": [
+        "atencion.idiomas",
+        "atencion.agente"
+       ]
+      }
+     ],
+     "descartes": [],
+     "tambien_en": [
+      "educacion"
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "finanzas",
+   "emoji": "💶",
+   "nombre": "Finanzas y contabilidad",
+   "otro": {
+    "id": "finanzas.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "finanzas.contable",
+     "nombre": "contable / auxiliar contable",
+     "terminos": {
+      "es": [
+       "contable",
+       "auxiliar contable",
+       "administrativo contable"
+      ],
+      "en": [
+       "accountant"
+      ],
+      "ca": [
+       "comptable"
+      ]
+     },
+     "terminos_junior": [
+      "contable junior"
+     ],
+     "nucleo": "\\bcontables?\\b|\\bcomptable|contabilidad|comptabilitat|accountant|bookkeep\\w*|accounting (?:assistant|clerk|specialist|analyst|associate|officer|manager)|general ledger|\\bgl (?:accountant|specialist)|cierre contable",
+     "senales": [
+      {
+       "nombre": "programa contable",
+       "peso": 0.5,
+       "patron": "\\ba3\\b|\\bsage\\b|\\bsap\\b|navision|holded|contaplus"
+      },
+      {
+       "nombre": "fiscal e impuestos",
+       "peso": 0.5,
+       "patron": "fiscal|impuest|\\biva\\b|\\btax\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "sistemas financieros (IT)",
+       "peso": -3.0,
+       "patron": "business analyst|\\bsystems?\\b|sistemas|software|developer|desarrollador|consultant|consultor|functional|funcional|\\bsap\\b|\\berp\\b|implementation|platform",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "finanzas.fiscal",
+     "nombre": "asesoría fiscal y gestoría",
+     "terminos": {
+      "es": [
+       "asesor fiscal",
+       "técnico fiscal",
+       "gestoría"
+      ],
+      "en": [
+       "tax"
+      ],
+      "ca": [
+       "assessor fiscal"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "asesor\\w*(?:/a)? (?:fiscal|contable|laboral|tributari)|assessor\\w*(?:/a)? fiscal|t[ée]cnic\\w*(?:/a)? (?:de |en )?(?:fiscal|tributari|impuestos)|fiscalista|\\btax\\b|gestor[íi]a|asesor[íi]a (?:fiscal|contable|laboral|de empresas)|departamento fiscal",
+     "senales": [
+      {
+       "nombre": "impuestos de sociedades o IRPF",
+       "peso": 0.5,
+       "patron": "sociedades|irpf|\\biva\\b|declaraci|renta|impuestos"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "sistemas financieros (IT)",
+       "peso": -3.0,
+       "patron": "business analyst|\\bsystems?\\b|sistemas|software|developer|desarrollador|consultant|consultor|functional|funcional|\\bsap\\b|\\berp\\b|implementation|platform",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "finanzas.apar",
+     "nombre": "cuentas a pagar / cobrar y facturación",
+     "terminos": {
+      "es": [
+       "facturación",
+       "cuentas a pagar",
+       "cuentas a cobrar"
+      ],
+      "en": [
+       "accounts payable",
+       "accounts receivable"
+      ],
+      "ca": [
+       "facturació"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "accounts? (?:payable|receivable)|\\bap ?(?:/|&) ?ar\\b|\\bar ?(?:/|&) ?ap\\b|\\b(?:ap|ar) specialist|cuentas (?:a|por) (?:pagar|cobrar)|\\bfacturaci[óo]n?\\b|billing (?:specialist|clerk|assistant|coordinator)|invoic\\w*|credit (?:controller|collection)|gesti[óo]n de cobros?|\\bcobros\\b|recobro|collections? (?:specialist|agent|analyst)|order to cash|procure to pay|purchase to pay|record to report|\\b(?:o2c|p2p|r2r)\\b",
+     "senales": [
+      {
+       "nombre": "ERP",
+       "peso": 0.5,
+       "patron": "\\bsap\\b|\\berp\\b|navision|\\ba3\\b|oracle"
+      },
+      {
+       "nombre": "centro de servicios compartidos",
+       "peso": 0.5,
+       "patron": "shared service|\\bssc\\b|\\bgbs\\b|\\bbpo\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "sistemas financieros (IT)",
+       "peso": -3.0,
+       "patron": "business analyst|\\bsystems?\\b|sistemas|software|developer|desarrollador|consultant|consultor|functional|funcional|\\bsap\\b|\\berp\\b|implementation|platform",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "finanzas.control",
+     "nombre": "controller y análisis financiero",
+     "terminos": {
+      "es": [
+       "controller",
+       "analista financiero",
+       "control de gestión"
+      ],
+      "en": [
+       "financial analyst",
+       "fp&a"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [
+      "controller junior"
+     ],
+     "nucleo": "\\bcontroller\\b|\\bcontrolling\\b|control de gesti[óo]n|analista financier\\w*|financial (?:analyst|controller|planning|reporting)|\\bfp ?& ?a\\b|planificaci[óo]n financiera|(?<!soporte )t[ée]cnic\\w*(?:/a)? (?:de |en )?(?:finanzas|financier\\w*)|analista de (?:costes|inversiones|riesgos financieros)|\\btesorer[íi]a|treasury (?:analyst|specialist)|cost (?:controller|analyst)|business controller|finance (?:analyst|associate|specialist|business partner)",
+     "senales": [
+      {
+       "nombre": "Excel o reporting",
+       "peso": 0.5,
+       "patron": "excel|power bi|reporting|\\bbi\\b"
+      },
+      {
+       "nombre": "costes y presupuestos",
+       "peso": 0.5,
+       "patron": "costes|\\bcost\\b|presupuest|budget"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "sistemas financieros (IT)",
+       "peso": -3.0,
+       "patron": "business analyst|\\bsystems?\\b|sistemas|software|developer|desarrollador|consultant|consultor|functional|funcional|\\bsap\\b|\\berp\\b|implementation|platform",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "finanzas.auditoria",
+     "nombre": "auditoría financiera",
+     "terminos": {
+      "es": [
+       "auditor",
+       "auditoría"
+      ],
+      "en": [
+       "audit associate"
+      ],
+      "ca": [
+       "auditor"
+      ]
+     },
+     "terminos_junior": [
+      "auditor junior"
+     ],
+     "nucleo": "\\bauditor\\w*|auditor[íi]a|\\baudit\\b|\\bassurance (?:associate|assistant)|revisor\\w*(?:/a)? de cuentas",
+     "senales": [
+      {
+       "nombre": "cuentas anuales",
+       "peso": 0.5,
+       "patron": "cuentas|financier|contable|financial"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "auditoría de sistemas o ciberseguridad",
+       "peso": -3.0,
+       "patron": "\\bit\\b|inform[áa]tic|sistemas|systems|ciber|cyber|security|seguridad inform|iso ?27001|\\bens\\b|hacking|pentest|tecnol[óo]gic",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "auditoría de calidad, ambiental o de PRL",
+       "peso": -3.0,
+       "patron": "calidad|quality|iso ?9001|energ[ée]tic|ambiental|medio ?ambiente|alimentari|\\bbrc\\b|\\bifs\\b|\\bprl\\b|\\blean\\b",
+       "choca_con": [
+        "industria.calidad",
+        "industria.prl"
+       ]
+      },
+      {
+       "nombre": "auditor nocturno de hotel",
+       "peso": -4.0,
+       "patron": "\\bnight\\b|nocturn|hotel|recepci",
+       "choca_con": [
+        "hosteleria.recepcion"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rrhh",
+   "emoji": "👥",
+   "nombre": "Recursos humanos",
+   "otro": {
+    "id": "rrhh.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "rrhh.seleccion",
+     "nombre": "selección / recruiter",
+     "terminos": {
+      "es": [
+       "técnico de selección",
+       "reclutador"
+      ],
+      "en": [
+       "recruiter",
+       "talent acquisition"
+      ],
+      "ca": [
+       "tècnic de selecció"
+      ]
+     },
+     "terminos_junior": [
+      "recruiter junior"
+     ],
+     "nucleo": "\\brecruit\\w*|reclutador\\w*|reclutamiento|talent acquisition|t[éèe]cnic\\w*(?:/a)? (?:de |en )?selecci[óo]n?\\b|consultor\\w*(?:/a)? de selecci[óo]n|selecci[óo]n de personal|headhunter|\\bsourcer\\b|talent (?:partner|sourcer|specialist)|captaci[óo]n de talento",
+     "senales": [
+      {
+       "nombre": "perfiles técnicos",
+       "peso": 0.5,
+       "patron": "\\bit\\b|\\btech\\b|t[ée]cnic|ingenier|engineering"
+      },
+      {
+       "nombre": "ETT o consultora",
+       "peso": 0.5,
+       "patron": "\\bett\\b|consultora|agencia|staffing"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial de ETT",
+       "peso": -2.0,
+       "patron": "comercial|ventas|\\bsales\\b|business development|key account",
+       "choca_con": [
+        "comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "rrhh.personal",
+     "nombre": "administración de personal y nóminas",
+     "terminos": {
+      "es": [
+       "técnico de nóminas",
+       "administración de personal"
+      ],
+      "en": [
+       "payroll"
+      ],
+      "ca": [
+       "tècnic de nòmines"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bn[óo]minas?\\b|\\bn[òo]mines\\b|payroll|administraci[óo]n? de personal|personnel administration|t[ée]cnic\\w*(?:/a)? laboral|gestor\\w*(?:/a)? laboral|asesor\\w*(?:/a)? laboral|graduad\\w*(?:/a)? social|compensation (?:and|&) benefits|\\bc ?& ?b\\b|compensaci[óo]n y beneficios",
+     "senales": [
+      {
+       "nombre": "programa de nóminas",
+       "peso": 0.5,
+       "patron": "\\ba3\\b|meta4|\\bsage\\b|sap hr|successfactors|workday|cegid"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "sistemas de RRHH (IT)",
+       "peso": -3.0,
+       "patron": "\\bsupport\\b|soporte|developer|desarrollador|consultant|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|software|\\bsystems?\\b|sistemas|\\bsap\\b|implementation|technical|\\bproduct\\b",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "rrhh.generalista",
+     "nombre": "técnico/a de RRHH",
+     "terminos": {
+      "es": [
+       "técnico de recursos humanos",
+       "técnico rrhh",
+       "administrativo rrhh"
+      ],
+      "en": [
+       "hr assistant",
+       "hr generalist"
+      ],
+      "ca": [
+       "tècnic de recursos humans"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "recursos humanos|recursos humans|\\brrhh\\b|\\brr\\.? ?hh\\b|human resources|(?<!/)\\bhr\\b|\\bhrbp\\b|people (?:partner|operations|specialist|coordinator)|personas y cultura|people (?:&|and) culture|employee experience",
+     "senales": [
+      {
+       "nombre": "relaciones laborales",
+       "peso": 0.5,
+       "patron": "laboral|relaciones|convenio|onboarding"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "sistemas de RRHH (IT)",
+       "peso": -3.0,
+       "patron": "\\bsupport\\b|soporte|developer|desarrollador|consultant|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|software|\\bsystems?\\b|sistemas|\\bsap\\b|implementation|technical|\\bproduct\\b",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "rrhh.formacion",
+     "nombre": "formación y desarrollo",
+     "terminos": {
+      "es": [
+       "técnico de formación"
+      ],
+      "en": [
+       "learning and development"
+      ],
+      "ca": [
+       "tècnic de formació"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[éèe]cnic\\w*(?:/a)? (?:de |en )?formaci[óo]n?\\b|learning (?:&|and) development|\\bl ?& ?d\\b|learning (?:specialist|partner|coordinator|designer)|instructional designer|dise[ñn]ador\\w*(?:/a)? instruccional|coordinador\\w*(?:/a)? de formaci[óo]n|gestor\\w*(?:/a)? de formaci[óo]n|training (?:coordinator|specialist|manager|partner)|formaci[óo]n (?:y|&) desarrollo|desarrollo de talento|talent development",
+     "senales": [
+      {
+       "nombre": "e-learning",
+       "peso": 0.5,
+       "patron": "e-?learning|moodle|\\blms\\b|online"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "rrhh.orientacion",
+     "nombre": "orientación laboral e inserción",
+     "terminos": {
+      "es": [
+       "orientador laboral",
+       "técnico de empleo",
+       "técnico de inserción"
+      ],
+      "en": [],
+      "ca": [
+       "orientador laboral",
+       "tècnic d'ocupació"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "orientador\\w*(?:/a)? (?:laboral|profesional|sociolaboral|professional)|orientaci[óo]n? (?:laboral|profesional|sociolaboral|professional)|t[éèe]cnic\\w*(?:/a)? (?:de |d'|en )?(?:empleo|ocupaci[óo]|inserci[óo]n|intermediaci[óo]n)|prospector\\w*(?:/a)? (?:laboral|de empresas)|\\binsertor\\w*|job coach|preparador\\w*(?:/a)? laboral|agente de (?:empleo|desarrollo local)|agent\\w* d'ocupaci[óo]|t[ée]cnic\\w*(?:/a)? de integraci[óo]n laboral",
+     "senales": [
+      {
+       "nombre": "colectivos vulnerables",
+       "peso": 0.5,
+       "patron": "vulnerab|discapacidad|juventud|j[óo]venes|inmigra|exclusi|garant[íi]a juvenil"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sanidad",
+   "emoji": "🏥",
+   "nombre": "Sanidad y cuidados",
+   "otro": {
+    "id": "sanidad.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "sanidad.enfermeria",
+     "nombre": "enfermero/a",
+     "terminos": {
+      "es": [
+       "enfermero",
+       "enfermera"
+      ],
+      "en": [],
+      "ca": [
+       "infermer",
+       "infermera"
+      ]
+     },
+     "terminos_junior": [
+      "enfermera sin experiencia"
+     ],
+     "nucleo": "\\benfermer[oa]s?\\b|\\benfermer[oa]s?/|\\benfermer[oa]\\(|(?<!auxiliar de )(?<!auxiliares de )(?<!aux\\. )(?<!aux )(?<!cuidados auxiliares de )\\benfermer[íi]a\\b|\\binfermer[ae]?s?\\b|grau en infermeria|graduad\\w*(?:/a)? en (?:enfermer[íi]a|infermeria)|\\bnurse\\b|\\bmatr[óo]n[ae]?s?\\b|\\bllevador[ae]?\\b",
+     "senales": [
+      {
+       "nombre": "hospital o especialidad",
+       "peso": 1.0,
+       "patron": "hospital|cl[íi]nic|centro (?:m[ée]dico|de salud)|residencia|quir[óo]fano|\\buci\\b|urgencias|pediatr|geriatr|salud mental"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "docencia",
+       "peso": -1.5,
+       "patron": "\\bprofesor|\\bdocente|\\bformador|\\bteacher\\b|\\btrainer\\b",
+       "choca_con": [
+        "educacion"
+       ]
+      },
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "sanidad.tcae",
+     "nombre": "TCAE / auxiliar de enfermería",
+     "terminos": {
+      "es": [
+       "tcae",
+       "auxiliar de enfermería"
+      ],
+      "en": [],
+      "ca": [
+       "tcai",
+       "auxiliar d'infermeria"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\btcae\\b|\\btcai\\b|auxiliar\\w*(?:/a)? de enfermer[íi]a|\\baux\\.? (?:de )?enfermer[íi]a|t[ée]cnic\\w*(?:/a)? (?:en |de )?cuidados (?:auxiliares )?(?:de )?enfermer[íi]a|t[èe]cnic\\w*(?:/a)? en cures auxiliars|auxiliar\\w*(?:/a)? d'infermeria|cures auxiliars d'infermeria|auxiliar de cl[íi]nica|auxiliar sanitari\\w*|nursing assistant",
+     "senales": [
+      {
+       "nombre": "hospital o residencia",
+       "peso": 1.0,
+       "patron": "hospital|cl[íi]nic|centro (?:m[ée]dico|de salud)|residencia|planta|urgencias"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "clínica dental",
+       "peso": -3.0,
+       "patron": "dental|odontol|bucodental",
+       "choca_con": [
+        "sanidad.dental"
+       ]
+      },
+      {
+       "nombre": "veterinaria",
+       "peso": -4.0,
+       "patron": "veterinari"
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "sanidad.gerocultor",
+     "nombre": "gerocultor/a",
+     "terminos": {
+      "es": [
+       "gerocultor",
+       "gerocultora"
+      ],
+      "en": [],
+      "ca": [
+       "gerocultor"
+      ]
+     },
+     "terminos_junior": [
+      "gerocultora sin experiencia"
+     ],
+     "nucleo": "gerocultor|auxiliar\\w*(?:/a)? (?:de )?geriatr[íi]a|\\baux\\.? geriatr|auxiliar\\w*(?:/a)? de (?:residencia|atenci[óo]n sociosanitaria)|atenci[óo]n sociosanitaria|atenci[óo] sociosanit[àa]ria|cuidador\\w*(?:/a)? (?:de )?(?:residencia|centro de d[íi]a)",
+     "senales": [
+      {
+       "nombre": "residencia o centro de día",
+       "peso": 1.0,
+       "patron": "residencia|resid[èe]ncia|centro de d[íi]a|centre de|mayores|gent gran"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "sanidad.domicilio",
+     "nombre": "ayuda a domicilio y cuidados",
+     "terminos": {
+      "es": [
+       "auxiliar ayuda a domicilio",
+       "cuidadora"
+      ],
+      "en": [],
+      "ca": [
+       "treballadora familiar"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "ayuda a domicilio|\\bsad\\b|auxiliar\\w*(?:/a)? (?:de )?(?:ayuda a )?domicilio|\\bcuidador\\w*|\\bcuidadora|atenci[óo]n domiciliaria|asistente personal|asistencia personal|treballador\\w*(?:/a)? familiar|auxiliar de la llar|(?:cuidador\\w*|empleada|auxiliar)\\w*(?:/a)? interna|acompa[ñn]ante de (?:personas|mayores)|caregiver|\\bhome care\\b|cuidado de (?:personas?|mayores)|interna para (?:cuidado|cuidar)",
+     "senales": [
+      {
+       "nombre": "personas dependientes",
+       "peso": 0.5,
+       "patron": "dependen|mayores|discapacidad|alzheimer"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "cuidado de animales",
+       "peso": -4.0,
+       "patron": "animal|\\bperros?\\b|mascota|canin|veterinari|\\bzoo"
+      },
+      {
+       "nombre": "cuidado de niños",
+       "peso": -2.0,
+       "patron": "ni[ñn][oa]s|infantil|beb[ée]|canguro|ni[ñn]er",
+       "choca_con": [
+        "educacion.ninera",
+        "educacion.infantil"
+       ]
+      },
+      {
+       "nombre": "asistente de dirección",
+       "peso": -3.0,
+       "patron": "direcci[óo]n|executive|\\bceo\\b|director|ejecutiv",
+       "choca_con": [
+        "admin.direccion"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "sanidad.farmacia",
+     "nombre": "farmacia (técnico/a y farmacéutico/a)",
+     "terminos": {
+      "es": [
+       "técnico de farmacia",
+       "auxiliar de farmacia",
+       "farmacéutico"
+      ],
+      "en": [],
+      "ca": [
+       "tècnic de farmàcia"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[ée]cnic\\w*(?:/a)? (?:en |de )?farmacia|t[èe]cnic\\w*(?:/a)? de farm[àa]cia|auxiliar\\w*(?:/a)? de farmacia|farmac[ée]utic\\w*|farmac[èe]utic\\w*|\\bpharmacist\\b|pharmacy (?:technician|assistant)|farmacia (?:hospitalaria|comunitaria)|parafarmacia|dependient\\w*(?:/a)? de (?:para)?farmacia|\\bmancebo\\b",
+     "senales": [
+      {
+       "nombre": "oficina de farmacia",
+       "peso": 0.5,
+       "patron": "oficina de farmacia|parafarmacia|dermo|ortopedia"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "industria farmacéutica",
+       "peso": -3.0,
+       "patron": "industria|calidad|producci[óo]n|\\bplanta\\b|\\bgmp\\b|validaci|regulatory|qa\\b|quality|manufactur",
+       "choca_con": [
+        "industria"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "sanidad.fisio",
+     "nombre": "fisioterapeuta",
+     "terminos": {
+      "es": [
+       "fisioterapeuta"
+      ],
+      "en": [],
+      "ca": [
+       "fisioterapeuta"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "fisioterapeut|fisioterapia|physiotherap\\w*|physical therapist|\\bfisio\\b|oste[óo]pat|kinesi[óo]log|readaptador",
+     "senales": [
+      {
+       "nombre": "especialidad",
+       "peso": 0.5,
+       "patron": "deportiv|suelo p[ée]lvico|neurol|respiratori|pedi[áa]tric|traumatol"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "docencia",
+       "peso": -1.5,
+       "patron": "\\bprofesor|\\bdocente|\\bformador|\\bteacher\\b|\\btrainer\\b",
+       "choca_con": [
+        "educacion"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "sanidad.tecnicos",
+     "nombre": "laboratorio clínico y radiología",
+     "terminos": {
+      "es": [
+       "técnico de laboratorio",
+       "técnico de radiodiagnóstico"
+      ],
+      "en": [],
+      "ca": [
+       "tècnic de laboratori"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[ée]cnic\\w*(?:/a)? (?:superior )?(?:de |en )?(?:laboratorio|radiodiagn[óo]stico|radiolog[íi]a|radioterapia|imagen para el diagn[óo]stico|anatom[íi]a patol[óo]gica|medicina nuclear|rayos|rx\\b|tac\\b|resonancia)|\\btsid\\b|t[èe]cnic\\w*(?:/a)? (?:superior )?(?:de |en )?(?:laboratori|radiodiagn[òo]stic|imatge)|\\bradi[óo]graf|radiographer|analista cl[íi]nic|\\bflebotom\\w*",
+     "senales": [
+      {
+       "nombre": "hospital o centro médico",
+       "peso": 0.5,
+       "patron": "hospital|cl[íi]nic|centro m[ée]dico|sanitari"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "laboratorio industrial o químico",
+       "peso": -3.0,
+       "patron": "qu[íi]mic|alimentari|industri|calidad|producci[óo]n|materiales|medioambient|\\bagua\\b|petro|cosm[ée]t|pharma|farmac[ée]utic|i\\+d|microbiolog[íi]a de alimentos|el[ée]ctric|iluminaci",
+       "choca_con": [
+        "industria"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "sanidad.dental",
+     "nombre": "clínica dental",
+     "terminos": {
+      "es": [
+       "auxiliar de clínica dental",
+       "higienista dental"
+      ],
+      "en": [],
+      "ca": [
+       "auxiliar dental"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "auxiliar\\w*(?:/a)? (?:de )?(?:cl[íi]nica )?dental|higienista (?:dental|bucodental)|\\bhigienista\\b(?! industrial)|higiene (?:bucodental|dental)|t[ée]cnic\\w*(?:/a)? (?:superior )?(?:en |de )?(?:higiene bucodental|pr[óo]tesis dental)|prot[ée]sico dental|dental (?:assistant|hygienist|nurse)|\\bodont[óo]log\\w*|\\bdentista|ortodoncista|recepcionista (?:de )?(?:cl[íi]nica )?dental|cl[íi]nica dental",
+     "senales": [
+      {
+       "nombre": "ortodoncia o implantes",
+       "peso": 0.5,
+       "patron": "ortodon|implant|cirug"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      },
+      {
+       "nombre": "higiene industrial",
+       "peso": -4.0,
+       "patron": "industrial|\\bprl\\b|prevenci|ocupacional|laboral",
+       "choca_con": [
+        "industria.prl"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "educacion",
+   "emoji": "🎓",
+   "nombre": "Educación y formación",
+   "otro": {
+    "id": "educacion.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "educacion.profesor",
+     "nombre": "profesor/a (secundaria, FP, academia)",
+     "terminos": {
+      "es": [
+       "profesor",
+       "docente",
+       "profesor academia"
+      ],
+      "en": [],
+      "ca": [
+       "professor"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bprofesor\\w*|\\bprofessor\\w*|(?<!no )\\bdocentes?\\b|\\bdocent\\b|\\bteacher\\b|profesorado|tutor\\w*(?:/a)? (?:acad[ée]mic|escolar|de refuerzo)|\\blecturer\\b|maestr[oa]\\w*(?:/a)? (?:de )?(?:primaria|secundaria|educaci[óo]n (?:f[íi]sica|primaria|especial|musical)|m[úu]sica|ingl[ée]s)|\\bmestr[ae]s? (?:de |d')?(?:prim[àa]ria|m[úu]sica|angl[èe]s)|clases (?:particulares|de refuerzo)|refuerzo escolar",
+     "senales": [
+      {
+       "nombre": "FP, academia o secundaria",
+       "peso": 0.5,
+       "patron": "\\bfp\\b|formaci[óo]n profesional|academia|bachillerato|secundaria|\\beso\\b|ciclo"
+      },
+      {
+       "nombre": "asignatura",
+       "peso": 0.5,
+       "patron": "matem[áa]tic|f[íi]sica|qu[íi]mica|lengua|historia|inform[áa]tic|tecnolog|ciencias"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial de formación",
+       "peso": -3.0,
+       "patron": "comercial|ventas|asesor\\w*(?:/a)? (?:de )?formaci|captaci|\\bsales\\b|admisiones",
+       "choca_con": [
+        "comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "educacion.infantil",
+     "nombre": "educador/a infantil",
+     "terminos": {
+      "es": [
+       "educadora infantil",
+       "técnico educación infantil",
+       "maestra infantil"
+      ],
+      "en": [],
+      "ca": [
+       "educadora infantil",
+       "mestra"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "educador\\w*(?:/a)? (?:de )?(?:infantil|0-3|guarder[íi]a|escuela infantil)|t[éèe]cnic\\w*(?:/a)? (?:superior )?(?:en |de |d')?educaci[óo]n? infantil|maestr[oa]\\w*(?:/a)? (?:de )?(?:educaci[óo]n )?infantil|mestr[ae]\\w* (?:d'|de )?(?:educaci[óo] )?infantil|escuela infantil|escola bressol|guarder[íi]a|auxiliar\\w*(?:/a)? (?:de )?(?:educaci[óo]n )?infantil|early years|nursery (?:teacher|practitioner)|preschool teacher|\\bludoteca",
+     "senales": [
+      {
+       "nombre": "0-3 años",
+       "peso": 0.5,
+       "patron": "0-3|0 a 3|bressol|guarder|beb[ée]s"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "niñera en domicilio",
+       "peso": -1.5,
+       "patron": "ni[ñn]era|canguro|au pair|nanny|domicilio|familia",
+       "choca_con": [
+        "educacion.ninera"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "educacion.idiomas",
+     "nombre": "profesor/a de idiomas",
+     "terminos": {
+      "es": [
+       "profesor de inglés"
+      ],
+      "en": [
+       "english teacher"
+      ],
+      "ca": [
+       "professor d'anglès"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "profesor\\w*(?:/a)? (?:de |nativ\\w* de )?(?:ingl[ée]s|franc[ée]s|alem[áa]n|italiano|portugu[ée]s|chino|espa[ñn]ol|idiomas|lengua extranjera|\\bele\\b)|professor\\w*(?:/a)? d'(?:angl[èe]s|franc[èe]s|alemany|idiomes)|(?:english|french|german|spanish|\\besl|\\befl|language) teacher|teacher of english|\\btefl\\b|\\bcelta\\b|auxiliar de conversaci[óo]n|language assistant|english tutor|profesor\\w*(?:/a)? nativ|conversation (?:teacher|assistant)",
+     "senales": [
+      {
+       "nombre": "certificación docente",
+       "peso": 0.5,
+       "patron": "celta|tefl|tesol|delta|cambridge|nativ"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "atención al cliente o ventas con idiomas",
+       "peso": -3.0,
+       "patron": "customer|atenci[óo]n al cliente|call ?cent|\\bsales\\b|ventas",
+       "choca_con": [
+        "atencion",
+        "comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "educacion.formador",
+     "nombre": "formador/a",
+     "terminos": {
+      "es": [
+       "formador",
+       "formadora"
+      ],
+      "en": [
+       "trainer"
+      ],
+      "ca": [
+       "formador"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bformador\\w*|\\bformadora|\\btrainer\\b|\\binstructor\\w*|monitor\\w*(?:/a)? de formaci[óo]n|docente de (?:formaci[óo]n|certificados|cursos)|\\bfacilitador\\w*",
+     "senales": [
+      {
+       "nombre": "formación para el empleo",
+       "peso": 0.5,
+       "patron": "certificado de profesionalidad|\\bsepe\\b|formaci[óo]n para el empleo|\\bfpe\\b|ocupacional|bonificad"
+      },
+      {
+       "nombre": "e-learning",
+       "peso": 0.5,
+       "patron": "e-?learning|moodle|\\blms\\b|online"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "monitor o entrenador deportivo",
+       "peso": -2.0,
+       "patron": "deportiv|nataci[óo]n|aquagym|fitness|gimnasio|socorrist|p[áa]del|tenis|f[úu]tbol|esqu[íi]|yoga|pilates|personal trainer|entrenador"
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "educacion.monitor",
+     "nombre": "monitor/a de ocio y comedor",
+     "terminos": {
+      "es": [
+       "monitor de comedor",
+       "monitor de tiempo libre"
+      ],
+      "en": [],
+      "ca": [
+       "monitor de menjador",
+       "monitor de lleure"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bmonitor(?:a|es|as|@)?\\b|educador\\w*(?:/a)? de (?:tiempo libre|ocio|lleure)|animador\\w*(?:/a)? (?:sociocultural|infantil|de ocio|juvenil)|\\btasoc\\b|director\\w*(?:/a)? de (?:tiempo libre|ocio|campamento|casal)|casal d'estiu|\\bcampamento|\\bcolonias\\b|\\besplai\\b|\\blleure\\b|ocio (?:educativo|infantil)|comedor escolar|auxiliar de comedor",
+     "senales": [
+      {
+       "nombre": "comedor o tiempo libre",
+       "peso": 0.5,
+       "patron": "comedor|menjador|lleure|tiempo libre|casal|colonias|campamento|extraescolar"
+      },
+      {
+       "nombre": "título de monitor",
+       "peso": 0.5,
+       "patron": "t[íi]tulo|t[íi]tol|\\bmtl\\b|\\bdtl\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "monitor o entrenador deportivo",
+       "peso": -2.0,
+       "patron": "deportiv|nataci[óo]n|aquagym|fitness|gimnasio|socorrist|p[áa]del|tenis|f[úu]tbol|esqu[íi]|yoga|pilates|personal trainer|entrenador"
+      },
+      {
+       "nombre": "monitorización de sistemas",
+       "peso": -4.0,
+       "patron": "sistemas|\\bredes\\b|\\bnoc\\b|24x7|seguridad|\\bcctv\\b|alarmas|\\bit\\b",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "educacion.social",
+     "nombre": "educación e integración social",
+     "terminos": {
+      "es": [
+       "educador social",
+       "integrador social"
+      ],
+      "en": [],
+      "ca": [
+       "educador social",
+       "vetllador"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "educador\\w*(?:/a)? socials?\\b|educadora social|educadors socials|integrador\\w*(?:/a)? social|t[éèe]cnic\\w*(?:/a)? (?:superior )?(?:en |de |d')?integraci[óo] social|t[ée]cnic\\w*(?:/a)? (?:superior )?(?:en |de )?integraci[óo]n social|trabajador\\w*(?:/a)? social|treballador\\w*(?:/a)? social|auxiliar t[ée]cnic\\w*(?:/a)? educativ\\w*|\\bvetllador\\w*|educador\\w*(?:/a)? (?:de )?(?:centro|piso|residencia|menores|medio abierto)|t[ée]cnic\\w*(?:/a)? de intervenci[óo]n social|\\bpsicopedagog\\w*",
+     "senales": [
+      {
+       "nombre": "menores, discapacidad o inclusión",
+       "peso": 0.5,
+       "patron": "menores|discapacidad|diversidad|j[óo]venes|adolescen|inmigra|exclusi|inclusi"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "educacion.civico",
+     "nombre": "agente cívico, mediación y convivencia",
+     "terminos": {
+      "es": [
+       "agente cívico",
+       "agente de convivencia",
+       "educador de calle",
+       "mediador comunitario",
+       "mediador intercultural",
+       "informador cívico"
+      ],
+      "en": [],
+      "ca": [
+       "agent cívic",
+       "agent de convivència",
+       "educador de carrer",
+       "mediador comunitari"
+      ]
+     },
+     "terminos_junior": [
+      "agente cívico sin experiencia"
+     ],
+     "nucleo": "agente\\w*(?:/a)? c[íi]vic\\w*|agents? c[íi]vics?|agent\\w*(?:/a)? c[íi]vic\\w*|agente\\w*(?:/a)? de (?:convivencia|proximidad|civismo)|agent\\w*(?:/a)? de conviv[èe]ncia|educador\\w*(?:/a)? de (?:calle|carrer|medio abierto)|mediador\\w*(?:/a)? (?:comunitari|intercultural|social|vecinal|de conflictos|cultural|de convivencia)|mediaci[óo]n? (?:comunit[àa]ria|comunitaria|intercultural|vecinal|social)|informador\\w*(?:/a)? c[íi]vic|dinamizador\\w*(?:/a)? (?:comunitari|vecinal|social|de barrio|juvenil)|servicio de convivencia|convivencia (?:nocturna|ciudadana)|conviv[èe]ncia (?:nocturna|ciutadana)|agentes? de movilidad|agent\\w* de mobilitat|t[ée]cnic\\w*(?:/a)? de (?:convivencia|civismo|participaci[óo]n ciudadana)",
+     "senales": [
+      {
+       "nombre": "nocturno o espacio público",
+       "peso": 0.5,
+       "patron": "noct|\\bnit\\b|\\bcalle\\b|carrer|espacio p[úu]blico|barrio|\\bbarri\\b|ayuntamiento|ajuntament"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "tambien_en": [
+      "atencion",
+      "oficios"
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "educacion.ninera",
+     "nombre": "niñera y cuidado infantil",
+     "terminos": {
+      "es": [
+       "niñera",
+       "canguro",
+       "cuidadora de niños",
+       "au pair"
+      ],
+      "en": [
+       "nanny",
+       "babysitter"
+      ],
+      "ca": [
+       "cangur",
+       "mainadera"
+      ]
+     },
+     "terminos_junior": [
+      "niñera sin experiencia"
+     ],
+     "nucleo": "\\bni[ñn]er[oa]s?\\b|\\bcanguros?\\b|\\bcangur\\b|mainader|\\bau[ -]?pair\\b|\\bnann(?:y|ies)\\b|baby ?sitter|cuidador\\w*(?:/a)? (?:de )?(?:ni[ñn]|beb[ée]|menores)|cuidado (?:de )?(?:ni[ñn]|beb[ée])|cuidar (?:de )?(?:ni[ñn]|beb[ée])|recogida (?:de ni[ñn]|escolar)|interna con ni[ñn]|childcare|child ?minder|governess|institutriz",
+     "senales": [
+      {
+       "nombre": "recogida escolar o tardes",
+       "peso": 0.5,
+       "patron": "recogida|tardes|colegio|escolar|deberes"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "limpieza del hogar",
+       "peso": -1.0,
+       "patron": "limpieza|plancha|tareas del hogar",
+       "choca_con": [
+        "oficios.limpieza"
+       ]
+      }
+     ],
+     "descartes": [],
+     "tambien_en": [
+      "sanidad"
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hosteleria",
+   "emoji": "🏨",
+   "nombre": "Hostelería y turismo",
+   "otro": {
+    "id": "hosteleria.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "hosteleria.camarero",
+     "nombre": "camarero/a",
+     "terminos": {
+      "es": [
+       "camarero",
+       "camarera",
+       "camarero de sala"
+      ],
+      "en": [
+       "waiter"
+      ],
+      "ca": [
+       "cambrer"
+      ]
+     },
+     "terminos_junior": [
+      "camarero sin experiencia"
+     ],
+     "nucleo": "\\bcamarer[oa@]s?(?!(?:/as?|\\(a\\))? de (?:pisos|planta|habitaciones))(?:/as?|\\(a\\))?(?!\\w)|\\bcambrer[ae]?s?(?!(?:/a|/es)? de pisos)(?:/a|/es)?(?!\\w)|\\bwait(?:er|ress)\\b|waiting staff|\\bmesero|ayudante de (?:camarero|sala|barra)|auxiliar de sala|\\bbartender|\\bbarman\\b|barmaid|\\bcocteler\\w*|\\bsumiller|sommelier|jefe de rango|personal de sala|extras? (?:de )?(?:hosteler|banquetes)",
+     "senales": [
+      {
+       "nombre": "sala, eventos o banquetes",
+       "peso": 0.5,
+       "patron": "extra|evento|banquete|terraza|hotel|restaurante|sala"
+      },
+      {
+       "nombre": "temporada",
+       "peso": 0.5,
+       "patron": "temporada|verano|fines? de semana"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "tripulante de cabina",
+       "peso": -3.0,
+       "patron": "de vuelo|cabin crew|flight attendant|tripulante|\\btcp\\b|auxiliar de vuelo|steward(?:ess)? de"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "hosteleria.cocinero",
+     "nombre": "cocinero/a",
+     "terminos": {
+      "es": [
+       "cocinero",
+       "cocinera"
+      ],
+      "en": [
+       "cook",
+       "chef"
+      ],
+      "ca": [
+       "cuiner"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bcociner[oa@]s?(?:/as?|\\(a\\))?(?!\\w)|\\bcuiner[ae]?s?\\b|\\bchef\\b|sous[- ]?chef|jef[ea](?:/a)? de (?:cocina|partida)|cap de cuina|\\bcook\\b|line cook|\\bcommis\\b(?! de cocina)|cocina (?:caliente|fr[íi]a)|\\bpizzer[oa]\\b|parrillero|pastelero de restaurante",
+     "senales": [
+      {
+       "nombre": "tipo de cocina",
+       "peso": 0.5,
+       "patron": "mediterr|italian|japon|sushi|pasteler|reposter|colectividad|restaurante|hotel"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "cocinas (mobiliario)",
+       "peso": -4.0,
+       "patron": "montador|instalador|mueble|comercial de cocinas|dise[ñn]ador de cocinas|showroom",
+       "choca_con": [
+        "oficios.acabados",
+        "comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "hosteleria.ayudante",
+     "nombre": "ayudante de cocina y office",
+     "terminos": {
+      "es": [
+       "ayudante de cocina",
+       "friegaplatos",
+       "auxiliar de cocina"
+      ],
+      "en": [
+       "kitchen porter"
+      ],
+      "ca": [
+       "ajudant de cuina"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "ayudante\\w*(?:/a)? de cocina|ajudant\\w*(?:/a)? de cuina|auxiliar\\w*(?:/a)? de cocina|\\bpinche\\b|friega ?platos|rentaplats|marmit[óo]n|personal de office|office de cocina|kitchen (?:porter|assistant|helper)|dishwasher|commis de cocina|preparador\\w*(?:/a)? de (?:alimentos|comidas)|manipulador\\w*(?:/a)? de alimentos",
+     "senales": [
+      {
+       "nombre": "hotel o restaurante",
+       "peso": 0.5,
+       "patron": "hotel|restaurante|colectividad|catering"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "industria alimentaria",
+       "peso": -1.5,
+       "patron": "f[áa]brica|\\bplanta\\b|industria|producci[óo]n|envasad",
+       "choca_con": [
+        "industria.operario"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "hosteleria.recepcion",
+     "nombre": "recepción de hotel",
+     "terminos": {
+      "es": [
+       "recepcionista de hotel"
+      ],
+      "en": [
+       "front desk agent",
+       "hotel receptionist"
+      ],
+      "ca": [
+       "recepcionista d'hotel"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "recepcionist\\w*(?:/a)? (?:de |d')?(?:hotel|hostal|apartamentos|camping|alberg\\w*|nocturn\\w*|de noche)|recepci[óo]n (?:de |del )?hotel|front ?desk|front office (?:agent|clerk)|recepcionist\\w*[^.\\n]{0,40}\\bhotel|night auditor|auditor\\w*(?:/a)? nocturn\\w*|guest (?:service|experience|relations) agent|conserje de hotel|\\bconcierge\\b|jef[ea](?:/a)? de recepci[óo]n",
+     "senales": [
+      {
+       "nombre": "reservas",
+       "peso": 0.5,
+       "patron": "reservas|booking|\\bopera\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "hosteleria.pisos",
+     "nombre": "camarero/a de pisos",
+     "terminos": {
+      "es": [
+       "camarera de pisos"
+      ],
+      "en": [
+       "housekeeping"
+      ],
+      "ca": [
+       "cambrera de pisos"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "camarer[oa@]s?(?:/as?|\\(a\\))? de (?:pisos|planta|habitaciones)|cambrer[ae]?s?(?:/a)? de pisos|\\bgobernant[ae]s?\\b|subgobernant|housekeeping|hotel housekeeper|room attendant|valet de (?:pisos|habitaciones)|limpieza de habitaciones|auxiliar de pisos|\\blencer[íi]a de hotel",
+     "senales": [
+      {
+       "nombre": "hotel",
+       "peso": 0.5,
+       "patron": "hotel|apartament|resort|hostal"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "hosteleria.cafeteria",
+     "nombre": "barista, cafetería y restauración rápida",
+     "terminos": {
+      "es": [
+       "barista",
+       "dependiente cafetería",
+       "equipo restaurante"
+      ],
+      "en": [
+       "barista"
+      ],
+      "ca": []
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bbarista|dependient\\w*(?:/a)? (?:de )?(?:cafeter[íi]a|restaurante|comida r[áa]pida|boller[íi]a)|\\bcafeter[íi]a|restauraci[óo]n (?:r[áa]pida|moderna|organizada)|comida r[áa]pida|fast[- ]?food|equipo de (?:restaurante|restauraci[óo]n)|team member (?:de )?restaurante|restaurant (?:team member|crew)|empleado\\w*(?:/a)? de (?:restaurante|cafeter)|\\bheladeri?[oa]\\b|helader[íi]a|auxiliar de restauraci[óo]n",
+     "senales": [
+      {
+       "nombre": "horario flexible",
+       "peso": 0.5,
+       "patron": "parcial|fines? de semana|estudiantes|flexible"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "tripulante de cabina",
+       "peso": -3.0,
+       "patron": "de vuelo|cabin crew|flight attendant|tripulante|\\btcp\\b|auxiliar de vuelo|steward(?:ess)? de"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "hosteleria.turismo",
+     "nombre": "agencia de viajes y turismo",
+     "terminos": {
+      "es": [
+       "agente de viajes",
+       "guía turístico",
+       "informador turístico"
+      ],
+      "en": [
+       "travel agent"
+      ],
+      "ca": [
+       "agent de viatges"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "agente\\w*(?:/a)? de viajes|agent\\w*(?:/a)? de viatges|agencia de viajes|travel (?:agent|consultant|advisor|counsel\\w*)|gu[íi]a tur[íi]stic\\w*|gu[íi]a (?:de )?(?:museo|turismo|local|acompa[ñn]ante)|tour (?:guide|leader|operator)|informador\\w*(?:/a)? tur[íi]stic\\w*|t[ée]cnic\\w*(?:/a)? (?:de |en )?turismo|t[èe]cnic\\w*(?:/a)? de turisme|oficina de turismo|reservas (?:de )?(?:viajes|hotel|grupos)|reservations? (?:agent|specialist)|booking (?:agent|specialist)|t[ée]cnic\\w*(?:/a)? de reservas|gestor\\w*(?:/a)? de reservas|animador\\w*(?:/a)? tur[íi]stic\\w*|corporate travel|distribuci[óo]n hotelera",
+     "senales": [
+      {
+       "nombre": "idiomas o grupos",
+       "peso": 0.5,
+       "patron": "grupos|incoming|receptivo|mice|eventos"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "informática o software",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|software|\\bit\\b|\\bsistemas\\b|\\bsap\\b|\\berp\\b|developer|desarrollador|programador|soporte t[ée]cnico|technical support|help ?desk|service desk|ciber|cyber|\\bpms\\b|\\bsaas\\b|business analyst|consultor\\w*(?:/a)? (?:sap|funcional|t[ée]cnic)|functional consultant",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "comercio",
+   "emoji": "🛒",
+   "nombre": "Comercio y tiendas",
+   "otro": {
+    "id": "comercio.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "comercio.dependiente",
+     "nombre": "dependiente/a / vendedor/a de tienda",
+     "terminos": {
+      "es": [
+       "dependiente",
+       "dependienta",
+       "vendedor tienda",
+       "asesor de ventas"
+      ],
+      "en": [
+       "sales assistant",
+       "retail"
+      ],
+      "ca": [
+       "dependent",
+       "dependenta"
+      ]
+     },
+     "terminos_junior": [
+      "dependiente sin experiencia"
+     ],
+     "nucleo": "(?<!personas )(?<!persones )\\bdependient[ae]s?\\b|\\bdependient[ae]s?/|\\bdependent[ae]?s?(?:/a)?\\b(?! (?:on|upon|of))|vendedor\\w*(?:/a)? (?:de )?(?:tienda|textil|moda|calzado|perfumer[íi]a|joyer[íi]a|electr[óo]nica|muebles|retail)|asesor\\w*(?:/a)? de ventas|asesor\\w*(?:/a)? (?:comercial )?de tienda|comercial de tienda|personal de tienda|sales (?:assistant|associate|advisor|consultant)|retail (?:assistant|associate|sales)|shop assistant|store (?:associate|assistant)|beauty advisor|consejer\\w*(?:/a)? de belleza|auxiliar de tienda|venta en tienda",
+     "senales": [
+      {
+       "nombre": "tienda o centro comercial",
+       "peso": 0.5,
+       "patron": "tienda|botiga|\\bstore\\b|centro comercial|outlet|retail"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "atención a personas dependientes",
+       "peso": -4.0,
+       "patron": "personas dependientes|dependencia|cuidad|domicilio|atenci[óo]n a (?:personas|mayores)",
+       "choca_con": [
+        "sanidad"
+       ]
+      },
+      {
+       "nombre": "venta fuera de tienda",
+       "peso": -1.5,
+       "patron": "comercial de (?:campo|zona|calle)|aut[óo]nom[oa]|puerta a puerta",
+       "choca_con": [
+        "comercial.campo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercio.cajero",
+     "nombre": "cajero/a",
+     "terminos": {
+      "es": [
+       "cajero",
+       "cajera",
+       "cajero reponedor"
+      ],
+      "en": [
+       "cashier"
+      ],
+      "ca": [
+       "caixer",
+       "caixera"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bcajer[oa@]s?(?:/as?|\\(a\\))?(?! autom)(?!\\w)|\\bcaixer[ae]?s?\\b|\\bcashier|personal de caja|auxiliar de caja|checkout operator",
+     "senales": [
+      {
+       "nombre": "supermercado o tienda",
+       "peso": 0.5,
+       "patron": "supermercad|hipermercad|alimentaci|tienda|mercado"
+      }
+     ],
+     "negativos": [],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercio.reponedor",
+     "nombre": "reponedor/a",
+     "terminos": {
+      "es": [
+       "reponedor",
+       "reponedora",
+       "auxiliar de supermercado"
+      ],
+      "en": [],
+      "ca": [
+       "reposador"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\breponedor\\w*|\\breposador\\w*|reposici[óo]n (?:de )?(?:tienda|lineales|producto|supermercado)|auxiliar de supermercado|personal de supermercado|mozo de tienda|(?<!visual )merchandiser|merchandising (?:de )?(?:punto de venta|pdv)|promotor\\w*(?:/a)? de (?:ventas|punto de venta)|gondoler\\w*|shelf stacker|stock (?:assistant|associate)",
+     "senales": [
+      {
+       "nombre": "supermercado o tienda",
+       "peso": 0.5,
+       "patron": "supermercad|hipermercad|alimentaci|tienda|mercado"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "almacén logístico",
+       "peso": -1.0,
+       "patron": "almac[ée]n log|plataforma log|centro log[íi]stic|\\bpicking\\b",
+       "choca_con": [
+        "logistica.mozo"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercio.frescos",
+     "nombre": "frescos (carnicería, pescadería, charcutería, panadería)",
+     "terminos": {
+      "es": [
+       "carnicero",
+       "pescadero",
+       "charcutero",
+       "panadero"
+      ],
+      "en": [],
+      "ca": [
+       "carnisser",
+       "peixater",
+       "forner"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bcarnicer[oa@íi]|\\bcarnisser|\\bpescader[oa@íi]|\\bpeixater|\\bcharcuter|\\bxarcuter|\\bpanader[oa@íi]|\\bforner[ae]?s?\\b|\\bfruter[oa@íi]|\\bpasteler[oa@íi]|secci[óo]n de frescos|profesional de (?:frescos|carnicer|pescader|charcuter|panader)|\\bfrescos\\b|\\bbutcher\\b|fishmonger|\\bbaker\\b|deli (?:assistant|counter)|\\bobrador\\b",
+     "senales": [
+      {
+       "nombre": "supermercado o tienda",
+       "peso": 0.5,
+       "patron": "supermercad|hipermercad|alimentaci|tienda|mercado"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "industria cárnica o alimentaria",
+       "peso": -1.5,
+       "patron": "industria|f[áa]brica|\\bplanta\\b|producci[óo]n|matadero|envasad",
+       "choca_con": [
+        "industria.operario"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercio.encargado",
+     "nombre": "encargado/a de tienda",
+     "terminos": {
+      "es": [
+       "encargado de tienda",
+       "responsable de tienda",
+       "subdirector de tienda"
+      ],
+      "en": [
+       "store manager"
+      ],
+      "ca": [
+       "encarregat de botiga"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "encargad\\w*(?:/a)? (?:de )?(?:tienda|secci[óo]n|turno|botiga|establecimiento|supermercado)|encarregat\\w*(?:/d?a)? de botiga|responsable de (?:tienda|secci[óo]n|turno|establecimiento)|subdirector\\w*(?:/a)? de tienda|director\\w*(?:/a)? de tienda|(?:assistant )?store manager|shop manager|jef[ea](?:/a)? de (?:tienda|secci[óo]n)|coordinador\\w*(?:/a)? de tienda|gerente de tienda|segund[oa] de tienda|store supervisor|supervisor\\w*(?:/a)? de tienda",
+     "senales": [
+      {
+       "nombre": "equipo y ventas",
+       "peso": 0.5,
+       "patron": "equipo|\\bkpi|ventas|apertura"
+      }
+     ],
+     "negativos": [],
+     "descartes": [],
+     "nota": "Puesto de mando: con menos de 6 años solo llegan los que no dicen «responsable», «manager» o «jefe».",
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "comercio.visual",
+     "nombre": "visual merchandiser / escaparatista",
+     "terminos": {
+      "es": [
+       "visual merchandiser",
+       "escaparatista"
+      ],
+      "en": [
+       "visual merchandiser"
+      ],
+      "ca": [
+       "aparadorista"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "visual merchandis\\w*|\\bescaparatista|\\baparadorista|\\bvm (?:specialist|coordinator|assistant)|montaje de escaparates|merchandising visual|visual (?:coordinator|specialist) (?:retail|store)",
+     "senales": [
+      {
+       "nombre": "moda o lujo",
+       "peso": 0.5,
+       "patron": "\\bmoda\\b|fashion|lujo|luxury|textil"
+      }
+     ],
+     "negativos": [],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "logistica",
+   "emoji": "📦",
+   "nombre": "Logística y transporte",
+   "otro": {
+    "id": "logistica.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "logistica.mozo",
+     "nombre": "mozo/a de almacén y preparador/a de pedidos",
+     "terminos": {
+      "es": [
+       "mozo de almacén",
+       "operario de almacén",
+       "preparador de pedidos"
+      ],
+      "en": [
+       "warehouse operative"
+      ],
+      "ca": [
+       "mosso de magatzem"
+      ]
+     },
+     "terminos_junior": [
+      "mozo de almacén sin experiencia"
+     ],
+     "nucleo": "moz[oa@]s?(?:/as?)? (?:de )?(?:almac[ée]n\\b|carga|descarga|log[íi]stic|reparto)|moss[oa]s?(?:/as?)? de magatzem|operari\\w*(?:/a)? (?:de )?(?:almac[ée]n\\b|log[íi]stic\\w*|magatzem)|preparador\\w*(?:/a)? de (?:pedidos|comandes)|preparaci[óo]n de pedidos|\\bpicking\\b|\\bpicker\\b|\\bpacking\\b|carga y descarga|warehouse (?:operative|operator|associate|worker|assistant)|auxiliar de almac[ée]n\\b|personal de almac[ée]n\\b|pe[óo]n\\w* de almac[ée]n\\b",
+     "senales": [
+      {
+       "nombre": "carretilla",
+       "peso": 1.0,
+       "patron": "carretill|forklift|transpalet|apilador"
+      },
+      {
+       "nombre": "logística",
+       "peso": 0.5,
+       "patron": "log[íi]stic|plataforma|centro de distribuci[óo]n"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "repartidor autónomo",
+       "peso": -3.0,
+       "patron": "aut[óo]nom[oa]|repartidor",
+       "choca_con": [
+        "logistica.reparto"
+       ]
+      },
+      {
+       "nombre": "sistemas logísticos (IT)",
+       "peso": -3.0,
+       "patron": "\\bsap\\b|consultor|consultant|\\bsystems?\\b|sistemas|software|\\bit\\b|developer|\\bbi\\b|almacenamiento|storage",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "logistica.carretillero",
+     "nombre": "carretillero/a",
+     "terminos": {
+      "es": [
+       "carretillero",
+       "carretillera"
+      ],
+      "en": [
+       "forklift"
+      ],
+      "ca": [
+       "carretoner"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "carretiller\\w*|carretoner\\w*|(?:operador|conductor)\\w*(?:/a)? de carretilla|carretilla (?:elevadora|frontal|retr[áa]ctil|trilateral)|forklift|reach truck|transpaletista",
+     "senales": [
+      {
+       "nombre": "retráctil o trilateral",
+       "peso": 0.5,
+       "patron": "retr[áa]ctil|trilateral|frontal|\\bvna\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "autónomo o solo a comisión",
+       "peso": -2.0,
+       "patron": "aut[óo]nom[oa]|\\bfreelance\\b|sin fijo|solo comisi[óo]n|100 ?% comisi|veh[íi]culo propio|furgoneta propia"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "logistica.conductor",
+     "nombre": "conductor/a de camión",
+     "terminos": {
+      "es": [
+       "conductor camión",
+       "chófer c+e",
+       "conductor carnet c"
+      ],
+      "en": [
+       "truck driver"
+      ],
+      "ca": [
+       "conductor de camió",
+       "xofer"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "conductor\\w*(?:/a)? (?:de )?(?:cami[óo]n\\w*|camions?|tr[áa]iler|ba[ñn]era|cisterna|autob[úu]s|autocar|ruta|carnet c|permiso c|c ?\\+ ?e\\b|c1\\b|profesional|\\btir\\b|internacional|nacional|gr[úu]a|hormigonera|g[óo]ndola|furgoneta|veh[íi]culos pesados)|ch[óo]fer\\w*|\\bxofer|camioner[oa]|(?:truck|lorry|hgv|bus|coach) driver|\\btransportista\\b|cami[óo]n r[íi]gido",
+     "senales": [
+      {
+       "nombre": "CAP o tacógrafo",
+       "peso": 0.5,
+       "patron": "\\bcap\\b|tac[óo]grafo|\\badr\\b"
+      },
+      {
+       "nombre": "ruta",
+       "peso": 0.5,
+       "patron": "nacional|internacional|regional|local|\\bruta\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "autónomo o solo a comisión",
+       "peso": -2.0,
+       "patron": "aut[óo]nom[oa]|\\bfreelance\\b|sin fijo|solo comisi[óo]n|100 ?% comisi|veh[íi]culo propio|furgoneta propia"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "logistica.reparto",
+     "nombre": "repartidor/a (furgoneta, última milla)",
+     "terminos": {
+      "es": [
+       "repartidor",
+       "conductor reparto",
+       "repartidor furgoneta"
+      ],
+      "en": [
+       "delivery driver"
+      ],
+      "ca": [
+       "repartidor"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\brepartidor\\w*|\\brepartidora|personal de reparto|conductor\\w*(?:/a)? (?:de )?reparto|reparto (?:de |a domicilio|con furgoneta|en furgoneta|urbano)|\\brepartiment|delivery (?:driver|rider|associate)|\\brider\\b|\\bcourier\\b|\\bmensajer[oa@]|\\bmissatger|[úu]ltima milla|last mile",
+     "senales": [
+      {
+       "nombre": "furgoneta de empresa",
+       "peso": 0.5,
+       "patron": "furgoneta de empresa|veh[íi]culo de empresa"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "autónomo o solo a comisión",
+       "peso": -2.0,
+       "patron": "aut[óo]nom[oa]|\\bfreelance\\b|sin fijo|solo comisi[óo]n|100 ?% comisi|veh[íi]culo propio|furgoneta propia"
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "logistica.tecnico",
+     "nombre": "técnico/a de logística y tráfico",
+     "terminos": {
+      "es": [
+       "técnico de logística",
+       "administrativo de logística",
+       "técnico de tráfico"
+      ],
+      "en": [
+       "logistics coordinator"
+      ],
+      "ca": [
+       "tècnic de logística"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[éèe]cnic\\w*(?:/a)? (?:de |en )?(?:control de )?(?:log[íi]stica|tr[áa]fico|transporte|aduanas|comercio exterior|exportaci[óo]n|importaci[óo]n|operaciones log[íi]sticas|supply chain)|administrativ\\w*(?:/a)? (?:de )?(?:log[íi]stica|tr[áa]fico|transporte|almac[ée]n\\b|aduanas)|gestor\\w*(?:/a)? de (?:tr[áa]fico|transporte|flotas|aduanas)|planificador\\w*(?:/a)? (?:de )?(?:transporte|rutas|log[íi]stic\\w*|tr[áa]fico)|coordinador\\w*(?:/a)? (?:de )?(?:log[íi]stica|transporte|tr[áa]fico)|logistics (?:coordinator|specialist|analyst|technician|assistant|executive|officer)|supply chain (?:analyst|specialist|coordinator|planner|assistant)|demand planner|analista log[íi]stic\\w*|optimizaci[óo]n de transporte|freight forwarder|\\btransitario|customs (?:broker|specialist|agent)|operador\\w*(?:/a)? log[íi]stic\\w*|jefe de tr[áa]fico|(?:traffic|transport) (?:coordinator|planner)|especialista en (?:\\w+ ){0,4}log[íi]stica",
+     "senales": [
+      {
+       "nombre": "aduanas o internacional",
+       "peso": 0.5,
+       "patron": "aduan|incoterm|internacional"
+      },
+      {
+       "nombre": "SGA o ERP",
+       "peso": 0.5,
+       "patron": "\\bsga\\b|\\bwms\\b|\\bsap\\b|\\btms\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "sistemas logísticos (IT)",
+       "peso": -3.0,
+       "patron": "\\bsap\\b|consultor|consultant|\\bsystems?\\b|sistemas|software|\\bit\\b|developer|\\bbi\\b|almacenamiento|storage",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "logistica.compras",
+     "nombre": "compras y aprovisionamiento",
+     "terminos": {
+      "es": [
+       "técnico de compras",
+       "comprador",
+       "aprovisionamiento"
+      ],
+      "en": [
+       "buyer",
+       "procurement"
+      ],
+      "ca": [
+       "tècnic de compres"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[éèe]cnic\\w*(?:/a)? (?:de |en )?(?:compras|compres)|\\bcomprador\\w*|(?<!media )\\bbuyer\\b|purchas(?:ing|e) (?:assistant|specialist|agent|analyst|officer|coordinator)|procurement (?:specialist|analyst|assistant|officer|coordinator|buyer)|aprovisionamiento|aprovisionador\\w*|gestor\\w*(?:/a)? de (?:compras|aprovisionamiento)|administrativ\\w*(?:/a)? de compras|sourcing (?:specialist|analyst)|category (?:buyer|analyst)",
+     "senales": [
+      {
+       "nombre": "proveedores y negociación",
+       "peso": 0.5,
+       "patron": "proveedor|negociaci|supplier|sourcing"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "compra de medios (marketing)",
+       "peso": -4.0,
+       "patron": "media buyer|\\bmedios\\b|paid media|programmatic",
+       "choca_con": [
+        "marketing.seo"
+       ]
+      },
+      {
+       "nombre": "sistemas logísticos (IT)",
+       "peso": -3.0,
+       "patron": "\\bsap\\b|consultor|consultant|\\bsystems?\\b|sistemas|software|\\bit\\b|developer|\\bbi\\b|almacenamiento|storage",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "industria",
+   "emoji": "🏭",
+   "nombre": "Industria e ingeniería",
+   "otro": {
+    "id": "industria.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "industria.operario",
+     "nombre": "operario/a de producción",
+     "terminos": {
+      "es": [
+       "operario de producción",
+       "operaria de producción",
+       "peón industrial"
+      ],
+      "en": [
+       "production operator"
+      ],
+      "ca": [
+       "operari de producció"
+      ]
+     },
+     "terminos_junior": [
+      "operario sin experiencia"
+     ],
+     "nucleo": "operari\\w*(?:/\\w+)? (?:de )?(?:producci[óo]n?|f[áa]brica|planta|l[íi]nea|montaje|envasado|m[áa]quina|industrial|cadena|fabricaci[óo]n|ensamblaje|manipulado|extrusi[óo]n|inyecci[óo]n|prensa|torno|cnc|alimentari\\w*|c[áa]rnic\\w*|qu[íi]mic\\w*|metal\\w*|pl[áa]stic\\w*|textil|automoci[óo]n)|pe[óo]n\\w* (?:industrial|de producci[óo]n|de f[áa]brica)|production (?:operator|operative|worker|associate)|machine operator|assembly (?:worker|operator)|operador\\w*(?:/a)? de (?:m[áa]quina|producci[óo]n|planta|l[íi]nea)|conductor\\w*(?:/a)? de (?:l[íi]nea|m[áa]quina)|montador\\w*(?:/a)? (?:industrial|de cuadros|electromec\\w*|de componentes)|\\benvasador\\w*|\\bsoldador\\w*|\\btorner[oa]\\b|\\bfresador\\w*",
+     "senales": [
+      {
+       "nombre": "turnos rotativos",
+       "peso": 0.5,
+       "patron": "turnos|rotativ|noche"
+      },
+      {
+       "nombre": "sector industrial",
+       "peso": 0.5,
+       "patron": "alimentari|automoci|qu[íi]mic|farmac|metal|pl[áa]stic"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ingeniería de producción",
+       "peso": -2.0,
+       "patron": "ingenier|engineer|t[ée]cnic\\w*(?:/a)? (?:de )?(?:procesos|producci[óo]n)",
+       "choca_con": [
+        "industria.ingenieria"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "industria.calidad",
+     "nombre": "técnico/a de calidad",
+     "terminos": {
+      "es": [
+       "técnico de calidad",
+       "inspector de calidad",
+       "control de calidad"
+      ],
+      "en": [
+       "quality technician"
+      ],
+      "ca": [
+       "tècnic de qualitat"
+      ]
+     },
+     "terminos_junior": [
+      "técnico de calidad junior"
+     ],
+     "nucleo": "t[éèe]cnic\\w*(?:/a)? (?:de |en )?(?:control de )?(?:calidad|qualitat)|inspector\\w*(?:/a)? de calidad|control de calidad|controlador\\w*(?:/a)? de calidad|quality (?:technician|inspector|control|engineer|specialist|assurance (?:technician|specialist|associate))|auditor\\w*(?:/a)? de calidad|ingenier\\w*(?:/a)? de calidad|calidad (?:y|e) (?:medio ambiente|seguridad alimentaria)|seguridad alimentaria|food safety|t[ée]cnic\\w*(?:/a)? de validaci[óo]n|validation (?:specialist|engineer|technician)|metr[óo]log",
+     "senales": [
+      {
+       "nombre": "normas ISO, GMP o IFS",
+       "peso": 0.5,
+       "patron": "\\biso\\b|\\bgmp\\b|\\bifs\\b|\\bbrc\\b|appcc|haccp|iatf"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "calidad de software",
+       "peso": -3.0,
+       "patron": "software|testing|tester|automati[zs]aci[óo]n de pruebas|selenium|developer|\\bqa engineer",
+       "choca_con": [
+        "it.qa"
+       ]
+      },
+      {
+       "nombre": "calidad de servicio o de llamadas",
+       "peso": -3.0,
+       "patron": "llamadas|call ?cent|atenci[óo]n al cliente|customer|contenido|content",
+       "choca_con": [
+        "atencion"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "industria.mantenimiento",
+     "nombre": "mantenimiento industrial",
+     "terminos": {
+      "es": [
+       "técnico de mantenimiento industrial",
+       "electromecánico",
+       "mecánico de mantenimiento"
+      ],
+      "en": [
+       "maintenance technician"
+      ],
+      "ca": [
+       "tècnic de manteniment industrial"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[éèe]cnic\\w*(?:/a)? (?:de |en )?mantenimiento (?:industrial|de planta|el[ée]ctrico|mec[áa]nico|electromec[áa]nico|de maquinaria|preventivo|correctivo|de l[íi]neas|de equipos)|t[èe]cnic\\w*(?:/a)? de manteniment industrial|mantenimiento industrial|manteniment industrial|\\belectromec[áa]nic\\w*|mec[áa]nic\\w*(?:/a)? (?:de )?(?:mantenimiento|industrial|ajustador|de maquinaria)|maintenance (?:engineer|mechanic|electrician)|industrial (?:maintenance|electrician|mechanic)|oficial (?:de )?mantenimiento (?:industrial|de planta)|electricista (?:industrial|de mantenimiento)|\\bautomatista|t[ée]cnic\\w*(?:/a)? (?:de )?(?:automatismos|automatizaci[óo]n industrial|plc)|mecatr[óo]nic\\w*",
+     "senales": [
+      {
+       "nombre": "PLC y automatismos",
+       "peso": 0.5,
+       "patron": "\\bplc|automat|siemens|neum[áa]tic|hidr[áa]ulic"
+      },
+      {
+       "nombre": "electromecánica",
+       "peso": 0.5,
+       "patron": "electromec|mecatr|el[ée]ctric"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "mantenimiento informático",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|sistemas|software|\\bit\\b|\\bredes\\b|ordenadores|microinform",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "industria.ingenieria",
+     "nombre": "ingeniero/a de procesos y producción",
+     "terminos": {
+      "es": [
+       "ingeniero de procesos",
+       "ingeniero industrial",
+       "ingeniero de producción"
+      ],
+      "en": [
+       "process engineer",
+       "manufacturing engineer"
+      ],
+      "ca": [
+       "enginyer de processos"
+      ]
+     },
+     "terminos_junior": [
+      "ingeniero junior"
+     ],
+     "nucleo": "ingenier\\w*(?:/a)? (?:de |en )?(?:procesos|producci[óo]n|fabricaci[óo]n|industrial|mec[áa]nic\\w*|el[ée]ctric\\w*|electr[óo]nic\\w*|organizaci[óo]n industrial|mejora continua|m[ée]todos|lean|planta|materiales|qu[íi]mic\\w*|i\\+d|dise[ñn]o mec\\w*|proyectos industriales|automatizaci[óo]n)|enginyer\\w*(?:/a)? (?:de |en )?(?:processos|producci[óo]|industrial)|(?:process|production|manufacturing|industrial|mechanical|electrical|electronics|chemical|controls|continuous improvement|lean|r&d|design|methods) engineer|t[ée]cnic\\w*(?:/a)? (?:de |en )?(?:procesos|m[ée]todos|mejora continua|i\\+d)\\b|ingenier\\w* t[ée]cnic\\w* industrial",
+     "senales": [
+      {
+       "nombre": "lean y mejora continua",
+       "peso": 0.5,
+       "patron": "\\blean\\b|kaizen|six sigma|mejora continua|\\bsmed\\b"
+      },
+      {
+       "nombre": "CAD",
+       "peso": 0.5,
+       "patron": "\\bcad\\b|solidworks|catia|autocad|inventor"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ingeniería de software o IT",
+       "peso": -3.0,
+       "patron": "software|sistemas|\\bsystems?\\b|\\bredes\\b|network|cloud|devops|\\bdata\\b|datos|ciber|cyber|security|seguridad inform|\\bit\\b|telecomunicaci|\\bai\\b|\\bia\\b",
+       "choca_con": [
+        "it"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "industria.oficina_tecnica",
+     "nombre": "delineante / oficina técnica",
+     "terminos": {
+      "es": [
+       "delineante",
+       "proyectista",
+       "oficina técnica"
+      ],
+      "en": [
+       "cad designer"
+      ],
+      "ca": [
+       "delineant"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bdelineante|\\bdelineant\\b|\\bproyectista|oficina t[éèe]cnica|dibujante (?:t[ée]cnic|cad|proyectista)|\\bcad (?:designer|technician|operator|drafter)|drafts?(?:man|person)|draughtsman|t[ée]cnic\\w*(?:/a)? (?:de |en )?(?:oficina t[ée]cnica|dise[ñn]o (?:mec[áa]nic\\w*|industrial|t[ée]cnic\\w*|cad))|dise[ñn]ador\\w*(?:/a)? (?:t[ée]cnic\\w*|industrial|mec[áa]nic\\w*|cad|de producto|de moldes|de utillajes|el[ée]ctric\\w*)|bim (?:modell?er|technician|coordinator)|modelador\\w*(?:/a)? bim|t[ée]cnic\\w*(?:/a)? bim|\\bcalculista|t[ée]cnic\\w*(?:/a)? de c[áa]lculo",
+     "senales": [
+      {
+       "nombre": "CAD o BIM",
+       "peso": 1.0,
+       "patron": "autocad|\\bcad\\b|solidworks|revit|\\bbim\\b|catia|inventor|microstation"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "diseño gráfico o web",
+       "peso": -3.0,
+       "patron": "gr[áa]fic|\\bweb\\b|\\bux\\b|\\bui\\b|digital|\\bmoda\\b",
+       "choca_con": [
+        "marketing.diseno"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "industria.prl",
+     "nombre": "PRL y medio ambiente",
+     "terminos": {
+      "es": [
+       "técnico prl",
+       "técnico de prevención de riesgos laborales",
+       "técnico de medio ambiente"
+      ],
+      "en": [
+       "hse technician"
+      ],
+      "ca": [
+       "tècnic de prevenció"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bprl\\b|prevenci[óo]n de riesgos|prevenci[óo] de riscos|t[ée]cnic\\w*(?:/a)? (?:superior )?(?:de |en )?(?:prevenci[óo]n|seguridad (?:y|e) salud|seguridad laboral|medio ?ambiente|\\bhse\\b|\\behs\\b|gesti[óo]n ambiental)|t[èe]cnic\\w*(?:/a)? (?:de )?(?:prevenci[óo]|medi ambient)|\\bhse\\b|\\behs\\b|health (?:and|&) safety|safety (?:officer|technician|specialist|coordinator)|environmental (?:technician|specialist|officer|engineer)|coordinador\\w*(?:/a)? de seguridad (?:y salud|en obra)|recurso preventivo|higienista industrial|\\bmedio ?ambiente\\b",
+     "senales": [
+      {
+       "nombre": "nivel superior",
+       "peso": 0.5,
+       "patron": "superior|intermedio|m[áa]ster|tres especialidades"
+      },
+      {
+       "nombre": "ISO 14001 o 45001",
+       "peso": 0.5,
+       "patron": "14001|45001|ohsas|\\biso\\b"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ciberseguridad",
+       "peso": -4.0,
+       "patron": "ciber|cyber|inform[áa]tic|\\bit\\b|security analyst",
+       "choca_con": [
+        "it.ciber"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "industria.laboratorio",
+     "nombre": "laboratorio (químico, alimentario)",
+     "terminos": {
+      "es": [
+       "técnico de laboratorio",
+       "analista de laboratorio"
+      ],
+      "en": [
+       "laboratory technician"
+      ],
+      "ca": [
+       "tècnic de laboratori"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[éèe]cnic\\w*(?:/a)? (?:superior )?(?:de |en )?(?:laboratori\\w*|an[áa]lisis qu[íi]mico|qu[íi]mica|i\\+d|microbiolog\\w*|bioqu[íi]mic\\w*|biotecnolog\\w*|formulaci[óo]n|cosm[ée]tic\\w*)|analista (?:de laboratorio|qu[íi]mic\\w*|microbiol\\w*)|\\bqu[íi]mic[oa]s?\\b|\\bchemist\\b|(?:laboratory|lab) (?:technician|analyst|assistant)|auxiliar de laboratorio|\\bmicrobi[óo]log[oa]s?\\b",
+     "senales": [
+      {
+       "nombre": "técnicas analíticas",
+       "peso": 0.5,
+       "patron": "hplc|cromatograf|\\bgmp\\b|\\bglp\\b|espectro|microbiol"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "laboratorio clínico",
+       "peso": -3.0,
+       "patron": "cl[íi]nic|centro m[ée]dico|hospital|an[áa]lisis cl[íi]nicos|sanitari|extracci",
+       "choca_con": [
+        "sanidad.tecnicos"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "industria.civil",
+     "nombre": "ingeniería civil y obra civil",
+     "terminos": {
+      "es": [
+       "ingeniero civil",
+       "ingeniero de caminos",
+       "técnico de obra civil",
+       "ingeniero técnico de obras públicas"
+      ],
+      "en": [
+       "civil engineer"
+      ],
+      "ca": [
+       "enginyer civil",
+       "enginyer de camins"
+      ]
+     },
+     "terminos_junior": [
+      "ingeniero civil junior"
+     ],
+     "nucleo": "ingenier\\w*(?:/a)? (?:de )?(?:caminos|civil|obra civil|obras p[úu]blicas|estructuras|geot[ée]cnic\\w*|hidr[áa]ulic\\w*|edificaci[óo]n|la edificaci[óo]n)|enginyer\\w*(?:/a)? (?:de )?(?:camins|civil|obra p[úu]blica)|civil (?:engineer|engineering|(?:&|and|y) structural)|structural engineer|t[ée]cnic\\w*(?:/a)? (?:de |en )?(?:obra civil|obras|obra|edificaci[óo]n|topograf[íi]a|estructuras)\\b|\\btop[óo]graf[oa]s?\\b|ingenier\\w* t[ée]cnic\\w* de obras p[úu]blicas|\\bitop\\b|\\bicc?p\\b|jefe de (?:obra|producci[óo]n de obra)|encargad\\w*(?:/a)? de obra|arquitect\\w*(?:/a)? t[ée]cnic\\w*|aparejador\\w*|construction (?:engineer|manager)|dise[ñn]ador\\w*(?:/a)? civil|calculista de estructuras",
+     "senales": [
+      {
+       "nombre": "BIM o estructuras",
+       "peso": 0.5,
+       "patron": "\\bbim\\b|revit|civil 3d|estructur|cype"
+      },
+      {
+       "nombre": "obra pública",
+       "peso": 0.5,
+       "patron": "obra p[úu]blica|infraestructur|carreteras|ferrocarril|hidr[áa]ulic|fotovolt"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "otro «civil»",
+       "peso": -4.0,
+       "patron": "aviaci[óo]n civil|protecci[óo]n civil|guardia civil|registro civil|responsabilidad civil|derecho civil|abogad"
+      },
+      {
+       "nombre": "ingeniería de software o IT",
+       "peso": -3.0,
+       "patron": "software|sistemas|\\bsystems?\\b|\\bredes\\b|network|cloud|devops|\\bdata\\b|datos|ciber|cyber|security|seguridad inform|\\bit\\b|telecomunicaci|\\bai\\b|\\bia\\b",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "tambien_en": [
+      "oficios"
+     ],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "oficios",
+   "emoji": "🔧",
+   "nombre": "Oficios, mantenimiento y construcción",
+   "otro": {
+    "id": "oficios.otro",
+    "nombre": "Otro (escribirlo)"
+   },
+   "puestos": [
+    {
+     "id": "oficios.electricista",
+     "nombre": "electricista",
+     "terminos": {
+      "es": [
+       "electricista",
+       "oficial electricista",
+       "ayudante electricista"
+      ],
+      "en": [
+       "electrician"
+      ],
+      "ca": [
+       "electricista"
+      ]
+     },
+     "terminos_junior": [
+      "ayudante electricista"
+     ],
+     "nucleo": "electricist\\w*|electrician|instalador\\w*(?:/a)? el[ée]ctric\\w*|instal·lador\\w*(?:/a)? el[èe]ctric\\w*|t[ée]cnic\\w*(?:/a)? (?:de |en )?instalaciones el[ée]ctricas|montador\\w*(?:/a)? el[ée]ctric\\w*|t[ée]cnic\\w*(?:/a)? electricista|electricidad (?:industrial|y fontaner[íi]a)",
+     "senales": [
+      {
+       "nombre": "carnet o REBT",
+       "peso": 0.5,
+       "patron": "carnet|\\brebt\\b|instalador autorizado|baja tensi"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ingeniería eléctrica",
+       "peso": -1.5,
+       "patron": "ingenier|engineer",
+       "choca_con": [
+        "industria.ingenieria"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "oficios.fontaneria",
+     "nombre": "fontanería y climatización",
+     "terminos": {
+      "es": [
+       "fontanero",
+       "técnico de climatización",
+       "frigorista"
+      ],
+      "en": [],
+      "ca": [
+       "lampista",
+       "frigorista"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bfontaner\\w*|\\blampist\\w*|\\bplumber|t[ée]cnic\\w*(?:/a)? (?:de |en )?(?:climatizaci[óo]n|calefacci[óo]n|fr[íi]o|refrigeraci[óo]n|hvac|calderas|aire acondicionado|gas)\\b|\\bfrigorist\\w*|instalador\\w*(?:/a)? (?:de )?(?:climatizaci[óo]n|calefacci[óo]n|fontaner[íi]a|gas|aire acondicionado|aerotermia|calderas)|hvac (?:technician|engineer)|t[èe]cnic\\w*(?:/a)? de climatitzaci[óo]|\\bcalefactor\\b|\\bcalderista|oficial de fontaner",
+     "senales": [
+      {
+       "nombre": "carnet RITE o de gas",
+       "peso": 0.5,
+       "patron": "\\brite\\b|carnet|\\bgas\\b|frigorista"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ingeniería",
+       "peso": -1.5,
+       "patron": "ingenier|engineer",
+       "choca_con": [
+        "industria.ingenieria"
+       ]
+      },
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "oficios.mantenimiento",
+     "nombre": "mantenimiento de edificios",
+     "terminos": {
+      "es": [
+       "técnico de mantenimiento",
+       "oficial de mantenimiento",
+       "mantenimiento de edificios"
+      ],
+      "en": [
+       "maintenance technician"
+      ],
+      "ca": [
+       "tècnic de manteniment"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "t[éèe]cnic\\w*(?:/a)? (?:de |en )?mantenimiento(?! (?:industrial|de planta|de sistemas|de software|de aplicaciones|de maquinaria|de l[íi]neas))|t[èe]cnic\\w*(?:/a)? de manteniment(?! industrial)|oficial (?:de )?mantenimiento(?! industrial)|operari\\w*(?:/a)? (?:de )?mantenimiento(?! industrial)|mantenimiento (?:de edificios|integral|general|de instalaciones|polivalente|de hotel|de comunidades)|manteniment d'edificis|maintenance (?:technician|operative|handyman)|\\bhandyman\\b|\\bmanitas\\b|personal de mantenimiento|encargad\\w*(?:/a)? de mantenimiento|t[ée]cnic\\w*(?:/a)? polivalente",
+     "senales": [
+      {
+       "nombre": "polivalente",
+       "peso": 0.5,
+       "patron": "polivalent|electricidad|fontaner|pintura|climatizaci|carpinter"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "mantenimiento informático",
+       "peso": -3.0,
+       "patron": "inform[áa]tic|sistemas|software|\\bit\\b|\\bredes\\b|ordenadores|microinform",
+       "choca_con": [
+        "it"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "oficios.construccion",
+     "nombre": "construcción (albañil, peón)",
+     "terminos": {
+      "es": [
+       "albañil",
+       "peón de obra",
+       "oficial de primera construcción"
+      ],
+      "en": [],
+      "ca": [
+       "paleta",
+       "manobre"
+      ]
+     },
+     "terminos_junior": [
+      "peón sin experiencia"
+     ],
+     "nucleo": "alba[ñn]il\\w*|\\bpaleta\\b|pe[óo]n\\w* (?:de )?(?:obra|construcci[óo]n|alba[ñn]il\\w*|la construcci[óo]n)|\\bmanobre|oficial (?:de )?(?:1[ªa]|primera|2[ªa]|segunda)? ?(?:de )?(?:alba[ñn]iler[íi]a|construcci[óo]n|obra)|operari\\w*(?:/a)? (?:de )?(?:obra|construcci[óo]n)|\\bencofrador|ferrallista|\\byesero|alicatador|\\bsolador|\\bgruista|construction (?:worker|labou?rer)|bricklayer|oficial de reformas|operari\\w*(?:/a)? de reformas",
+     "senales": [
+      {
+       "nombre": "PRL de obra o TPC",
+       "peso": 0.5,
+       "patron": "\\bprl\\b|20 ?h|60 ?h|\\btpc\\b|tarjeta profesional"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ingeniería o arquitectura",
+       "peso": -1.5,
+       "patron": "ingenier|arquitect|aparejador|t[ée]cnic",
+       "choca_con": [
+        "industria.civil"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "oficios.acabados",
+     "nombre": "acabados (pintor/a, pladur, carpintería)",
+     "terminos": {
+      "es": [
+       "pintor",
+       "pladurista",
+       "carpintero"
+      ],
+      "en": [],
+      "ca": [
+       "pintor",
+       "fuster"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\bpintor(?:a|es|as)?\\b|pintura (?:industrial|decorativa)|\\bpladur\\w*|yeso laminado|\\bcarpinter\\w*|\\bfuster\\w*|\\bebanist\\w*|montador\\w*(?:/a)? (?:de )?(?:muebles|cocinas|mobiliario|ventanas|puertas|aluminio|pvc|stands|tarima|parquet)|instalador\\w*(?:/a)? de (?:pladur|ventanas|cocinas|suelos|parquet|tarima|puertas|persianas)|parquetista|tarimador|\\bcristaler[oa]s?\\b|\\bvidrier[oa]s?\\b|\\btapicer\\w*|\\bcerrajer\\w*|\\bpainter\\b|\\bcarpenter|\\bjoiner\\b",
+     "senales": [
+      {
+       "nombre": "oficial",
+       "peso": 0.5,
+       "patron": "oficial|1[ªa]|primera"
+      }
+     ],
+     "negativos": [],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "oficios.mecanico",
+     "nombre": "mecánico/a de automoción",
+     "terminos": {
+      "es": [
+       "mecánico",
+       "mecánico de automoción",
+       "chapista"
+      ],
+      "en": [
+       "mechanic"
+      ],
+      "ca": [
+       "mecànic"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "mec[áàa]nic\\w*(?:/a)? (?:de |d')?(?:automoci[óo]n?|veh[íi]cul\\w*|coches|camiones|motos|turismos|taller|autom[óo]vil\\w*|electromec\\w*|primera|oficial|flota|agr[íi]cola|naval|maquinaria pesada|campo|1[ªa])|electromec[áa]nic\\w*(?:/a)? (?:de )?(?:automoci[óo]n|veh[íi]culos)|\\bchapist\\w*|pintor\\w*(?:/a)? (?:de )?(?:carrocer[íi]a|autom[óo]vil|veh[íi]culos)|(?<!soporte )t[ée]cnic\\w*(?:/a)? (?:de |en )?(?:automoci[óo]n|electromec[áa]nica de veh[íi]culos|diagnosis)|(?:car|auto|motor) mechanic|vehicle technician",
+     "senales": [
+      {
+       "nombre": "taller o diagnosis",
+       "peso": 0.5,
+       "patron": "taller|diagnosis|concesionari"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "ingeniería mecánica",
+       "peso": -2.0,
+       "patron": "ingenier|engineer|dise[ñn]",
+       "choca_con": [
+        "industria.ingenieria"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "oficios.limpieza",
+     "nombre": "limpieza",
+     "terminos": {
+      "es": [
+       "limpiador",
+       "limpiadora",
+       "personal de limpieza"
+      ],
+      "en": [
+       "cleaner"
+      ],
+      "ca": [
+       "netejador",
+       "netejadora"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "\\blimpiador\\w*|\\blimpiadora|\\bnetejador\\w*|personal de (?:limpieza|neteja)|operari\\w*(?:/a)? (?:de )?(?:limpieza|neteja)|auxiliar de limpieza|limpieza (?:de |en )?(?:oficinas|hogar|hospital\\w*|comunidades|edificios|industrial|hoteles|cristales|portales|colegios|tiendas|centros)|empleada de (?:hogar|limpieza)|empleado\\w*(?:/a)? de hogar|pe[óo]n de limpieza|\\bcleaner\\b|cleaning (?:operative|staff|technician)|\\bhousekeeper\\b|especialista (?:en|de) limpieza|t[ée]cnic\\w*(?:/a)? de limpieza",
+     "senales": [
+      {
+       "nombre": "tipo de centro",
+       "peso": 0.5,
+       "patron": "oficinas|hospital|hotel|comunidades|colegio|industrial"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "comercial o ventas",
+       "peso": -2.0,
+       "patron": "\\bcomercial(?:es)?\\b|\\bventas\\b|\\bsales\\b|captaci[óo]n|\\bdelegad[oa]|visitador|key account",
+       "choca_con": [
+        "comercial",
+        "comercio.dependiente",
+        "comercio.encargado",
+        "admin.comercial"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    },
+    {
+     "id": "oficios.vigilancia",
+     "nombre": "vigilancia y conserjería",
+     "terminos": {
+      "es": [
+       "vigilante de seguridad",
+       "auxiliar de servicios",
+       "conserje"
+      ],
+      "en": [
+       "security guard"
+      ],
+      "ca": [
+       "vigilant de seguretat",
+       "conserge"
+      ]
+     },
+     "terminos_junior": [],
+     "nucleo": "vigilante\\w*(?:/a)? (?:de )?seguridad|vigilant\\w*(?:/a)? de seguretat|\\bvigilantes?\\b|(?<!system )(?<!systems )(?<!information )(?<!it )(?<!cyber )security (?:guard|officer|agent|supervisor)|auxiliar\\w*(?:/a)? de (?:servicios|seguridad|control)|controlador\\w*(?:/a)? de acceso|\\bconserje\\w*|\\bconserge\\w*|\\bporter[oa@]s?\\b|\\bescolta\\b|guarda (?:de seguridad|rural|jurado)|operador\\w*(?:/a)? de (?:cra|central receptora)|vigilancia (?:nocturna|de seguridad)",
+     "senales": [
+      {
+       "nombre": "habilitación de vigilante",
+       "peso": 0.5,
+       "patron": "\\btip\\b|habilitad|vigilante de seguridad"
+      }
+     ],
+     "negativos": [
+      {
+       "nombre": "instalación de sistemas de seguridad",
+       "peso": -3.0,
+       "patron": "t[ée]cnic|instalador|\\bcctv\\b|alarmas|electr[óo]nic|mantenimiento",
+       "choca_con": [
+        "oficios.electricista",
+        "oficios.mantenimiento"
+       ]
+      }
+     ],
+     "descartes": [],
+     "fuentes": [
+      "linkedin",
+      "indeed",
+      "infojobs",
+      "eures",
+      "jooble"
+     ]
+    }
+   ]
+  }
+ ]
+}

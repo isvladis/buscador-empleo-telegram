@@ -1,0 +1,7 @@
+# El código se ejecuta en Linux (contenedor Docker en el Toshiba): los finales de
+# línea se guardan y se restauran como LF, aunque se edite desde Windows. Sin esto,
+# git convierte a CRLF al hacer checkout y los ficheros que se despliegan al
+# servidor salen con finales de línea de Windows.
+* text=auto eol=lf
+*.png binary
+*.gz binary

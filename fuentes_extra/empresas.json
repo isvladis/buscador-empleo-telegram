@@ -1,0 +1,47 @@
+{
+  "_comentario": [
+    "Registro EDITABLE de páginas de empleo de empresas consultadas directamente,",
+    "sin pasar por ningún agregador. Para añadir una empresa nueva basta con añadir",
+    "una entrada aquí: no hay que tocar código.",
+    "",
+    "Campos: nombre (informativo, sale en los logs), ats (uno de los soportados en",
+    "fuentes_extra/empresas.py: greenhouse, lever, ashby, recruitee, smartrecruiters),",
+    "token (el identificador de la empresa en ese ATS) y activa (true/false).",
+    "",
+    "Cómo averiguar el token de una empresa nueva: mira a qué URL lleva el botón de",
+    "'Aplicar' de una oferta suya. jobs.lever.co/TOKEN/..., boards.greenhouse.io/TOKEN,",
+    "jobs.ashbyhq.com/TOKEN/..., TOKEN.recruitee.com, jobs.smartrecruiters.com/TOKEN/...",
+    "Después compruébalo: los tokens genéricos suelen ser de OTRA empresa con el mismo",
+    "nombre corto (pasó con 'iris', 'axiom' y 'archer' al montar esto).",
+    "",
+    "patron_perfil es un cortafuegos de VOLUMEN, no un filtro de calidad: un tablón de",
+    "empresa devuelve TODAS sus vacantes (SumUp: 378), y meterlas enteras en el pipeline",
+    "dispararía el geocodificado (1 petición/segundo a Nominatim) sin aportar nada. Las",
+    "reglas de descarte y el orden por relevancia de buscador.py siguen decidiendo",
+    "después, igual que con el resto de fuentes."
+  ],
+  "patron_perfil": "help ?desk|service desk|soporte|support|\\bsoc\\b|\\bsiem\\b|security|seguridad|ciberseg|cybersec|sysadmin|sistemas|systems|\\bit\\b|\\bict\\b|infraestructur|infrastructure|t[ée]cnic|technician|network|redes|\\berp\\b|\\bqa\\b|operations analyst|noc\\b",
+  "empresas": [
+    {"nombre": "SumUp", "ats": "greenhouse", "token": "sumup", "activa": true},
+    {"nombre": "Fever", "ats": "greenhouse", "token": "feverup", "activa": true},
+    {"nombre": "Geotab", "ats": "greenhouse", "token": "geotab", "activa": true},
+    {"nombre": "RTB House", "ats": "greenhouse", "token": "rtbhouse", "activa": true},
+    {"nombre": "N26", "ats": "greenhouse", "token": "n26", "activa": true},
+    {"nombre": "Typeform", "ats": "greenhouse", "token": "typeform", "activa": true},
+    {"nombre": "Cabify", "ats": "greenhouse", "token": "cabify", "activa": true},
+
+    {"nombre": "Veepee", "ats": "lever", "token": "veepee", "activa": true},
+    {"nombre": "Jobandtalent", "ats": "lever", "token": "jobandtalent", "activa": true},
+    {"nombre": "BizAway", "ats": "lever", "token": "bizaway", "activa": true},
+    {"nombre": "Aircall", "ats": "lever", "token": "aircall", "activa": true},
+
+    {"nombre": "Glintt Global", "ats": "ashby", "token": "glinttglobal", "activa": true},
+    {"nombre": "Docplanner", "ats": "ashby", "token": "docplanner", "activa": true},
+    {"nombre": "Preply", "ats": "ashby", "token": "preply", "activa": true},
+    {"nombre": "Amenitiz", "ats": "ashby", "token": "amenitiz", "activa": true},
+
+    {"nombre": "Qualifyze", "ats": "recruitee", "token": "qualifyzegmbh", "activa": true},
+
+    {"nombre": "Delivery Hero", "ats": "smartrecruiters", "token": "deliveryhero", "activa": true}
+  ]
+}

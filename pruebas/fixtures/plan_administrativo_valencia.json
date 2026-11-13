@@ -1,0 +1,59 @@
+{
+  "v": 1,
+  "puestos": [
+    {
+      "id": "admin.administrativo",
+      "nombre": "administrativo/a",
+      "nucleo": "administrativ[oa]|auxiliar de oficina|back ?office|gesti[óo]n administrativa|office (?:assistant|administrator)",
+      "senales": [
+        {"nombre": "contabilidad", "peso": 1.0, "patron": "contab|factura"},
+        {"nombre": "recepción", "peso": 0.5, "patron": "recepci[óo]n"}
+      ],
+      "negativos": [
+        {"nombre": "comercial encubierto", "peso": -2.0, "patron": "comercial|ventas|captaci[óo]n"}
+      ]
+    },
+    {
+      "id": "admin.contable",
+      "nombre": "administrativo/a contable",
+      "nucleo": "administrativ[oa](?:/a)? contable|auxiliar contable",
+      "senales": [
+        {"nombre": "contabilidad", "peso": 1.0, "patron": "contab|factura"}
+      ],
+      "negativos": []
+    }
+  ],
+  "descartes": [
+    {
+      "nombre": "Sanidad y oficios",
+      "activa": true,
+      "patron": "enfermer|auxiliar de cl[ií]nica|alba[ñn]il|electricist|camarer",
+      "excepcion": "administrativ"
+    }
+  ],
+  "terminos": ["administrativo", "auxiliar administrativo", "administrativo contable"],
+  "ambitos": {
+    "local": {
+      "etiqueta": "Valencia (hasta 25 km)",
+      "activo": true,
+      "sitios": ["indeed", "linkedin", "eures"],
+      "location": "Valencia, Spain",
+      "usar_distancia": true,
+      "is_remote": false,
+      "usar_country_indeed": true
+    }
+  },
+  "area": {"modo": "distancia", "nombre": "Valencia", "lat": 39.47, "lon": -0.38, "radio_km": 25},
+  "experiencia_anos": 4,
+  "experiencia_max_exigida": 5,
+  "experiencia_estricta": true,
+  "practicas": false,
+  "idiomas_permitidos": ["es", "ca", "en"],
+  "ingles": "medio",
+  "jornada": ["completa"],
+  "salario_min": 18000,
+  "claves_mas": ["contabilidad", "a3"],
+  "claves_menos": ["comercial", "ett"],
+  "empresas_excluidas": ["Asesoría Ejemplo"],
+  "umbral": 5.0
+}

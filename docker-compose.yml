@@ -1,0 +1,46 @@
+services:
+  jobspy:
+    build: .
+    container_name: jobspy-buscador
+    # Sin `ports` desde MP5: no queda nada escuchando en la red. Todo se hace por el bot de
+    # Telegram, que sale hacia api.telegram.org y no necesita que nadie entre (D7, §7 del plan).
+    volumes:
+      # Todo lo que debe sobrevivir a "docker compose down"/recrear el contenedor:
+      # perfiles.db, config.json, geocode_cache.json y el modelo entrenado
+      # (modelo_relevancia.json). Un único volumen de directorio (en vez de
+      # montar cada archivo suelto) evita el problema típico de Docker de crear una
+      # carpeta en el sitio de un archivo que todavía no existe en el host.
+      - ./data:/app/data
+    # Secretos (token del bot de Telegram y chat_id) desde un fichero .env con permisos
+    # 600 que NO está en git, en vez de dentro de config.json, que la web de antes de MP5 servía
+    # entero por GET /api/config a cualquiera de la red local (ver .env.example).
+    # required: false -> si todavía no existe el .env, el contenedor arranca igual y
+    # config.py sigue leyendo el token de config.json con un aviso en el log, en vez de
+    # quedarse sin avisos de golpe.
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # Ver Dockerfile: redirige los datos persistentes a /app/data (el volumen de arriba).
+      - JOBSPY_DATA_DIR=/app/data
+    restart: unless-stopped
+    # Límites añadidos el 2026-10-21 al reactivar el servicio (antes no tenía ninguno: Memory=0,
+    # sin PidsLimit ni no-new-privileges), con el mismo criterio que el resto de contenedores del host.
+    security_opt:
+      - no-new-privileges:true
+    # Techo de RAM: el servidor donde nació esto tiene 2 GB y más servicios, y un pico de
+    # pandas/scraping no debe arrastrarlos. Medido con tres perfiles: ~265 MiB tras una corrida.
+    # Si el contenedor muere con 137 y OOMKilled=true en `docker inspect`, este es el número que
+    # hay que subir; en una máquina con memoria de sobra se puede quitar.
+    mem_limit: 512m
+    pids_limit: 150
+    # Rotación del log (MP10). Si el daemon de Docker ya la pone para todos los contenedores
+    # (/etc/docker/daemon.json), esto no cambia nada: deja escrito en el proyecto lo que necesita,
+    # por si el daemon cambia o el servicio se muda. 30 MB son días de log a este ritmo; recrear
+    # el contenedor lo borra entero, así que lo que haga falta medir de un log (las fases de la
+    # corrida) se guarda ANTES de desplegar.
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

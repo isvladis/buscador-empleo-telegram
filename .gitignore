@@ -1,0 +1,72 @@
+# ---------------------------------------------------------------------------
+# SECRETOS. Nada de esto entra en git jamás.
+# config.json lleva el token del bot de Telegram y los chat_id en claro (ver
+# AUDIT.md §0.2). El objetivo de la Fase 2 es sacarlos a variables de entorno,
+# pero hasta que eso esté hecho y verificado en el servidor, el fichero sigue
+# teniéndolos: se queda fuera del repositorio en cualquier caso.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+config.json
+data/config.json
+backups_toshiba/
+backups/
+backups_ui/
+
+# ---------------------------------------------------------------------------
+# DATOS PERSONALES Y ESTADO. Son tuyos y pesan: no son código.
+# ---------------------------------------------------------------------------
+data/
+perfiles.db
+perfiles.db-*
+perfiles.db.*
+*.pre-mp1
+*.pre-mp1-*
+ofertas.json
+estado.json
+descripciones_vistas.json
+descripciones_vistas.db
+descripciones_vistas.db-*
+descripciones_vistas.db.*
+descripciones_podadas.json.gz
+geocode_cache.json
+modelo_relevancia.json
+salud_fuentes.json
+reporte_ofertas.html
+
+# ---------------------------------------------------------------------------
+# COPIAS DE SEGURIDAD que deja el despliegue en el servidor
+# ---------------------------------------------------------------------------
+*.bak-*
+*.orig
+*.rej
+
+# ---------------------------------------------------------------------------
+# PYTHON
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# EDITOR Y SISTEMA
+# ---------------------------------------------------------------------------
+.vscode/
+.claude/
+Thumbs.db
+desktop.ini
+
+# Hoja de revision de etiquetas: lleva enlaces y es personal
+revision_etiquetas*.csv
+
+# Paginas guardadas a mano de portales de terceros (contenido ajeno, no son fixtures)
+pruebas/muestras/
+
+# Claves de API del usuario: nunca a git.
+API keys/
+
+# Términos propios que el control de la copia pública busca además de los que deduce (operacion/publicar.py)
+terminos_privados.txt
